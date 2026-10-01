@@ -89,3 +89,22 @@ export function getPddBoundaryCount(provinceCode?: string) {
   if (!provinceCode) return Object.keys(DATA).length;
   return Object.values(DATA).filter((row) => row.p === provinceCode).length;
 }
+
+
+export function listPddBoundaries(provinceCode?: string) {
+  return Object.entries(DATA)
+    .filter(([, row]) => !provinceCode || row.p === provinceCode)
+    .map(([plotCode, row]) => {
+      const decoded = getPddBoundary(plotCode);
+      return {
+        plotCode,
+        provinceCode: row.p,
+        geometry: decoded?.geometry || null,
+        geometryAreaRai: row.a,
+        declaredAreaRai: row.d,
+        sourceDate: SOURCE_DATE,
+        sourceSha256: SOURCE_SHA256
+      };
+    })
+    .sort((a, b) => a.plotCode.localeCompare(b.plotCode, "en", { numeric: true }));
+}

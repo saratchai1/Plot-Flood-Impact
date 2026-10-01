@@ -9,6 +9,7 @@ import {
   FLOOD_EVENT_SPRITE_BASE64,
   FLOOD_EVENT_SPRITE_SIZE
 } from "./worker/uploadedFloodSprite";
+import { FLOOD_EVENT_TARGET_BOUNDS } from "./worker/uploadedFloodGeometry";
 
 const app = new Hono();
 
@@ -54,6 +55,7 @@ app.get("/api/uploaded-flood/:plotCode", (c) => {
   const noCoverage = NO_COVERAGE.has(plotCode);
   const cell = (FLOOD_EVENT_CELLS as Record<string, readonly [number,number,number,number]>)[plotCode] || null;
   const sourceWindow = (FLOOD_EVENT_SOURCE_WINDOWS as Record<string, readonly [number,number,number,number]>)[plotCode] || null;
+  const targetBoundsWgs84 = (FLOOD_EVENT_TARGET_BOUNDS as Record<string, readonly [number,number,number,number]>)[plotCode] || null;
 
   if (!noCoverage && !cell) {
     return c.json({ error: "RAYONG_PLOT_NOT_FOUND" }, 404);
@@ -65,6 +67,7 @@ app.get("/api/uploaded-flood/:plotCode", (c) => {
     imageAvailable: !noCoverage,
     cell,
     sourceWindow,
+    targetBoundsWgs84,
     sourceValidFraction: noCoverage ? 0 : 1,
     spriteUrl: noCoverage ? null : "/api/uploaded-flood/sprite"
   });

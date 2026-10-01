@@ -6,6 +6,7 @@ import { app as apiApp } from "./worker/index";
 const app = new Hono();
 
 function spriteBase64() {
+  if (process.env.FLOOD_EVENT_SPRITE) return process.env.FLOOD_EVENT_SPRITE;
   return [
     process.env.FLOOD_EVENT_SPRITE_1 || "",
     process.env.FLOOD_EVENT_SPRITE_2 || "",

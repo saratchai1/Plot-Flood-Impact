@@ -1,7 +1,8 @@
 import type {
   DroneRecord,
   PlotRecord,
-  SatelliteSearchResult
+  SatelliteSearchResult,
+  UploadedFloodEvent
 } from "./types";
 
 async function request<T>(url: string): Promise<T> {
@@ -52,5 +53,11 @@ export async function getSatellite(
   const suffix = params.toString() ? "?" + params.toString() : "";
   return request<SatelliteSearchResult>(
     "/api/satellite/" + encodeURIComponent(plotCode) + suffix
+  );
+}
+
+export async function getUploadedFlood(plotCode: string) {
+  return request<UploadedFloodEvent>(
+    "/api/uploaded-flood/" + encodeURIComponent(plotCode)
   );
 }

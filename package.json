@@ -14,7 +14,8 @@
     "hono": "^4.9.7",
     "maplibre-gl": "^5.7.1",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "geotiff": "^3.0.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260918.1",

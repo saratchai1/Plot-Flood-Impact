@@ -99,27 +99,42 @@ export function App() {
     if (!plotCode) return;
     setLoadingPlotData(true);
     setError("");
-    try {
-      const [droneData, satelliteData] = await Promise.all([
-        getDrone(plotCode),
-        getSatellite(plotCode)
-      ]);
-      setDrone(droneData);
-      setSatellite(satelliteData);
-      setSelectedSceneId((current) => {
-        if (current && satelliteData.scenes.some((scene) => scene.id === current)) {
-          return current;
-        }
-        return satelliteData.scenes[0]?.id || null;
-      });
-    } catch (reason) {
-      setError(reason instanceof Error ? reason.message : String(reason));
-      setDrone(null);
-      setSatellite(null);
-      setSelectedSceneId(null);
-    } finally {
-      setLoadingPlotData(false);
+    setDrone(null);
+    setSatellite(null);
+    setSelectedSceneId(null);
+
+    const [droneResult, satelliteResult] = await Promise.allSettled([
+      getDrone(plotCode),
+      getSatellite(plotCode)
+    ]);
+
+    const errors: string[] = [];
+
+    if (droneResult.status === "fulfilled") {
+      setDrone(droneResult.value);
+    } else {
+      errors.push(
+        "Drone: " +
+          (droneResult.reason instanceof Error
+            ? droneResult.reason.message
+            : String(droneResult.reason))
+      );
     }
+
+    if (satelliteResult.status === "fulfilled") {
+      setSatellite(satelliteResult.value);
+      setSelectedSceneId(satelliteResult.value.scenes[0]?.id || null);
+    } else {
+      errors.push(
+        "Satellite: " +
+          (satelliteResult.reason instanceof Error
+            ? satelliteResult.reason.message
+            : String(satelliteResult.reason))
+      );
+    }
+
+    setError(errors.join(" · "));
+    setLoadingPlotData(false);
   }
 
   useEffect(() => {

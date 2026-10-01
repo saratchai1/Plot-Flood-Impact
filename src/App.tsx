@@ -1,62 +1,15 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { getDrone, getSatellite, listPlots } from "./api";
+import { getDrone, getUploadedFlood, listPlots } from "./api";
 import { PlotMap } from "./PlotMap";
-import { SatellitePreview } from "./SatellitePreview";
-import type {
-  DroneRecord,
-  PlotRecord,
-  SatelliteScene,
-  SatelliteSearchResult
-} from "./types";
+import type { DroneRecord, PlotRecord, UploadedFloodEvent } from "./types";
 
-const SENSOR_OPTIONS = [
-  { id: "sentinel-1", label: "Sentinel-1 SAR" },
-  { id: "sentinel-2-l2a", label: "Sentinel-2 L2A" },
-  { id: "landsat-c2-l2", label: "Landsat C2 L2" }
-] as const;
+const NO_COVERAGE = new Set(["15-STC", "21-STC", "22(1)-STC", "22-STC"]);
 
-type SensorId = (typeof SENSOR_OPTIONS)[number]["id"];
-
-function formatDateTime(value: string) {
-  if (!value) return "—";
+function formatDate(value: string) {
   return new Intl.DateTimeFormat("th-TH", {
     timeZone: "Asia/Bangkok",
-    dateStyle: "medium",
-    timeStyle: "short"
+    dateStyle: "long"
   }).format(new Date(value));
-}
-
-function formatDay(value: string) {
-  if (!value) return "ไม่ทราบวันที่";
-  return new Intl.DateTimeFormat("th-TH", {
-    timeZone: "Asia/Bangkok",
-    weekday: "short",
-    day: "2-digit",
-    month: "short",
-    year: "numeric"
-  }).format(new Date(value));
-}
-
-function localDayKey(value: string) {
-  return new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Asia/Bangkok",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-  }).format(new Date(value));
-}
-
-function sceneMeta(scene: SatelliteScene) {
-  if (scene.collection === "sentinel-1") {
-    const parts = [
-      scene.orbitState ? scene.orbitState.toUpperCase() : null,
-      scene.polarizations.length ? scene.polarizations.join("/") : null
-    ].filter(Boolean);
-    return parts.join(" · ") || "SAR";
-  }
-  return scene.cloudCover == null
-    ? "Cloud metadata —"
-    : "Cloud " + scene.cloudCover.toFixed(1) + "%";
 }
 
 export function App() {
@@ -64,13 +17,8 @@ export function App() {
   const [plots, setPlots] = useState<PlotRecord[]>([]);
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [query, setQuery] = useState("");
-  const [floodEventStart, setFloodEventStart] = useState("");
   const [drone, setDrone] = useState<DroneRecord | null>(null);
-  const [satellite, setSatellite] = useState<SatelliteSearchResult | null>(null);
-  const [selectedSceneId, setSelectedSceneId] = useState<string | null>(null);
-  const [enabledSensors, setEnabledSensors] = useState<Set<SensorId>>(
-    new Set(SENSOR_OPTIONS.map((option) => option.id))
-  );
+  const [event, setEvent] = useState<UploadedFloodEvent | null>(null);
   const [loadingPlots, setLoadingPlots] = useState(true);
   const [loadingPlotData, setLoadingPlotData] = useState(false);
   const [error, setError] = useState("");
@@ -81,8 +29,7 @@ export function App() {
       .then((data) => {
         if (cancelled) return;
         setPlots(data.items);
-        setFloodEventStart(data.floodEventStart);
-        setSelectedCode((current) => current || data.items[0]?.plotCode || null);
+        setSelectedCode(data.items[0]?.plotCode || null);
       })
       .catch((reason) => {
         if (!cancelled) setError(reason instanceof Error ? reason.message : String(reason));
@@ -90,60 +37,36 @@ export function App() {
       .finally(() => {
         if (!cancelled) setLoadingPlots(false);
       });
-
-    return () => {
-      cancelled = true;
-    };
+    return () => { cancelled = true; };
   }, []);
 
   async function refreshSelected(plotCode = selectedCode) {
     if (!plotCode) return;
+    const version = ++loadVersionRef.current;
     setLoadingPlotData(true);
     setError("");
     setDrone(null);
-    setSatellite(null);
-    setSelectedSceneId(null);
-    const loadVersion = ++loadVersionRef.current;
+    setEvent(null);
 
-    const [droneResult, satelliteResult] = await Promise.allSettled([
+    const [droneResult, eventResult] = await Promise.allSettled([
       getDrone(plotCode),
-      getSatellite(plotCode)
+      getUploadedFlood(plotCode)
     ]);
-
-    if (loadVersion !== loadVersionRef.current) return;
+    if (version !== loadVersionRef.current) return;
 
     const errors: string[] = [];
+    if (droneResult.status === "fulfilled") setDrone(droneResult.value);
+    else errors.push("Drone: " + String(droneResult.reason));
 
-    if (droneResult.status === "fulfilled") {
-      setDrone(droneResult.value);
-    } else {
-      errors.push(
-        "Drone: " +
-          (droneResult.reason instanceof Error
-            ? droneResult.reason.message
-            : String(droneResult.reason))
-      );
-    }
-
-    if (satelliteResult.status === "fulfilled") {
-      setSatellite(satelliteResult.value);
-      setSelectedSceneId(satelliteResult.value.scenes[0]?.id || null);
-    } else {
-      errors.push(
-        "Satellite: " +
-          (satelliteResult.reason instanceof Error
-            ? satelliteResult.reason.message
-            : String(satelliteResult.reason))
-      );
-    }
+    if (eventResult.status === "fulfilled") setEvent(eventResult.value);
+    else errors.push("Flood image: " + String(eventResult.reason));
 
     setError(errors.join(" · "));
     setLoadingPlotData(false);
   }
 
   useEffect(() => {
-    if (!selectedCode) return;
-    void refreshSelected(selectedCode);
+    if (selectedCode) void refreshSelected(selectedCode);
   }, [selectedCode]);
 
   const selectedPlot = useMemo(
@@ -153,77 +76,30 @@ export function App() {
 
   const filteredPlots = useMemo(() => {
     const value = query.trim().toLowerCase();
-    if (!value) return plots;
-    return plots.filter((plot) => plot.plotCode.toLowerCase().includes(value));
+    return value
+      ? plots.filter((plot) => plot.plotCode.toLowerCase().includes(value))
+      : plots;
   }, [plots, query]);
-
-  const visibleScenes = useMemo(
-    () =>
-      (satellite?.scenes || []).filter((scene) =>
-        enabledSensors.has(scene.collection as SensorId)
-      ),
-    [satellite, enabledSensors]
-  );
-
-  const groupedScenes = useMemo(() => {
-    const groups = new Map<string, SatelliteScene[]>();
-    for (const scene of visibleScenes) {
-      const key = localDayKey(scene.datetime);
-      const rows = groups.get(key) || [];
-      rows.push(scene);
-      groups.set(key, rows);
-    }
-    return [...groups.entries()].sort(([a], [b]) => b.localeCompare(a));
-  }, [visibleScenes]);
-
-  const selectedScene = useMemo(
-    () =>
-      visibleScenes.find((scene) => scene.id === selectedSceneId) ||
-      visibleScenes[0] ||
-      null,
-    [visibleScenes, selectedSceneId]
-  );
-
-  const sensorCounts = useMemo(() => {
-    const counts = new Map<string, number>();
-    for (const scene of satellite?.scenes || []) {
-      counts.set(scene.collection, (counts.get(scene.collection) || 0) + 1);
-    }
-    return counts;
-  }, [satellite]);
-
-  const eventLabel = floodEventStart
-    ? formatDateTime(floodEventStart)
-    : "27 ก.ย. 2569";
-
-  function toggleSensor(id: SensorId) {
-    setEnabledSensors((current) => {
-      const next = new Set(current);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
-    });
-  }
 
   return (
     <div className="app-shell">
       <header className="topbar">
         <div>
-          <p className="eyebrow">Rayong · Prasae Flood Event</p>
+          <p className="eyebrow">V2 · Local uploaded imagery</p>
           <h1>Plot Flood Impact</h1>
           <p className="subtitle">
-            เทียบภาพโดรน baseline กับ Sentinel/Landsat ทุก scene หลังเหตุการณ์น้ำท่วม
+            เทียบภาพโดรนกับภาพน้ำท่วมระยองที่อัปโหลดแล้ว โดยไม่โหลด GeoTIFF จาก satellite provider ตอนเปิดหน้า
           </p>
         </div>
         <div className="topbar-badges">
-          <span className="badge critical">Cloud filter OFF</span>
-          <span className="badge">เริ่ม {eventLabel}</span>
+          <span className="badge critical">29/09/2026</span>
+          <span className="badge">15 / 19 plots covered</span>
           <button
             className="refresh-button"
             onClick={() => void refreshSelected()}
             disabled={!selectedCode || loadingPlotData}
           >
-            {loadingPlotData ? "กำลังอัปเดต…" : "ดึงข้อมูลล่าสุด"}
+            {loadingPlotData ? "กำลังโหลด…" : "รีเฟรช"}
           </button>
         </div>
       </header>
@@ -255,7 +131,7 @@ export function App() {
               >
                 <span>
                   <strong>{plot.plotCode}</strong>
-                  <small>PDD 21/09/2026</small>
+                  <small>{NO_COVERAGE.has(plot.plotCode) ? "NO_COVERAGE · 29/09" : "COVERED · 29/09"}</small>
                 </span>
                 <span className="plot-area">
                   {(plot.declaredAreaRai ?? plot.geometryAreaRai).toFixed(2)} ไร่
@@ -277,7 +153,7 @@ export function App() {
                 </div>
                 {selectedPlot && (
                   <span className="source-pill">
-                    PDD boundary · {selectedPlot.declaredAreaRai?.toFixed(2) || selectedPlot.geometryAreaRai.toFixed(2)} ไร่
+                    PDD · {(selectedPlot.declaredAreaRai ?? selectedPlot.geometryAreaRai).toFixed(2)} ไร่
                   </span>
                 )}
               </div>
@@ -285,43 +161,17 @@ export function App() {
             </div>
 
             <div className="summary-card">
-              <p className="eyebrow">Event coverage</p>
+              <p className="eyebrow">Uploaded event image</p>
               <div className="metric-grid">
-                <div>
-                  <span>Satellite scenes</span>
-                  <strong>{satellite?.count ?? "—"}</strong>
-                </div>
-                <div>
-                  <span>วันที่มีภาพ</span>
-                  <strong>{groupedScenes.length || "—"}</strong>
-                </div>
-                <div>
-                  <span>Drone baseline</span>
-                  <strong>{drone?.available ? "มี" : "ไม่มี"}</strong>
-                </div>
-                <div>
-                  <span>Cloud filter</span>
-                  <strong>OFF</strong>
-                </div>
+                <div><span>Coverage</span><strong>{event?.coverage || "—"}</strong></div>
+                <div><span>Resolution</span><strong>{event ? event.pixelSizeM + " m" : "—"}</strong></div>
+                <div><span>Drone baseline</span><strong>{drone?.available ? "มี" : "—"}</strong></div>
+                <div><span>Bands</span><strong>{event?.bandInterpretation || "—"}</strong></div>
               </div>
-
-              <div className="sensor-filter">
-                {SENSOR_OPTIONS.map((sensor) => (
-                  <label key={sensor.id}>
-                    <input
-                      type="checkbox"
-                      checked={enabledSensors.has(sensor.id)}
-                      onChange={() => toggleSensor(sensor.id)}
-                    />
-                    <span>{sensor.label}</span>
-                    <b>{sensorCounts.get(sensor.id) || 0}</b>
-                  </label>
-                ))}
-              </div>
-
               <p className="summary-note">
-                ระบบเก็บทุก scene ที่ STAC ระบุว่าตัดกับขอบเขตแปลงหลังเหตุการณ์
-                ค่าเมฆถูกแสดงเป็น metadata เท่านั้นและไม่ใช้คัดภาพออก
+                Source: {event?.sourceFileName || "Flood_Rayong_20260929.tif"}<br />
+                EPSG:32647 · 3-band RGB · 10 m/pixel<br />
+                SHA-256: {event?.sourceSha256?.slice(0, 16) || "a5c575e2cbfe57fa"}…
               </p>
             </div>
           </section>
@@ -329,50 +179,41 @@ export function App() {
           <section className="comparison-section">
             <div className="section-heading">
               <div>
-                <p className="eyebrow">Side-by-side evidence</p>
-                <h2>Drone baseline ↔ Satellite scene</h2>
+                <p className="eyebrow">Fast local comparison</p>
+                <h2>Drone baseline ↔ Flood image 29/09/2026</h2>
               </div>
-              {selectedScene && (
-                <div className="scene-stamp">
-                  <strong>{selectedScene.sensor}</strong>
-                  <span>{formatDateTime(selectedScene.datetime)}</span>
-                  <span>{sceneMeta(selectedScene)}</span>
-                </div>
-              )}
+              {event && <span className="source-pill">{event.coverage}</span>}
             </div>
 
             <div className="comparison-grid">
               <article className="comparison-card">
-                <header>
-                  <span>DRONE</span>
-                  <strong>{selectedCode || "—"}</strong>
-                </header>
+                <header><span>DRONE</span><strong>{selectedCode || "—"}</strong></header>
                 {drone?.available && drone.previewUrl ? (
-                  <img
-                    src={drone.previewUrl}
-                    className="comparison-image"
-                    alt={"Drone orthomosaic " + selectedCode}
-                  />
+                  <img src={drone.previewUrl} className="comparison-image" alt={"Drone " + selectedCode} />
                 ) : (
                   <div className="preview-empty">
                     {loadingPlotData ? "กำลังโหลดภาพโดรน…" : drone?.reason || "ยังไม่มีภาพโดรน"}
                   </div>
                 )}
-                <footer>
-                  <span>Baseline orthomosaic</span>
-                  <span>{drone?.mosaicSource || drone?.source || "—"}</span>
-                </footer>
+                <footer><span>Baseline orthomosaic</span><span>{drone?.mosaicSource || "read-only source"}</span></footer>
               </article>
 
               <article className="comparison-card">
-                <header>
-                  <span>SATELLITE</span>
-                  <strong>{selectedScene?.sensor || "เลือก scene"}</strong>
-                </header>
-                <SatellitePreview scene={selectedScene} />
+                <header><span>UPLOADED FLOOD IMAGE</span><strong>29/09/2026</strong></header>
+                {event?.coverage === "NO_COVERAGE" ? (
+                  <div className="preview-empty">
+                    ภาพ Flood_Rayong_20260929.tif ไม่ครอบคลุมแปลง {selectedCode}
+                  </div>
+                ) : event?.imageAvailable && event.imageUrl ? (
+                  <img src={event.imageUrl} className="comparison-image" alt={"Flood image " + selectedCode} />
+                ) : (
+                  <div className="preview-empty">
+                    {loadingPlotData ? "กำลังโหลด crop…" : "crop ยังไม่ถูกตั้งค่าใน deployment"}
+                  </div>
+                )}
                 <footer>
-                  <span>{selectedScene ? formatDateTime(selectedScene.datetime) : "—"}</span>
-                  <span>{selectedScene ? sceneMeta(selectedScene) : "—"}</span>
+                  <span>{event ? formatDate(event.acquiredAt) : "29 กันยายน 2569"}</span>
+                  <span>250 m context crop</span>
                 </footer>
               </article>
             </div>
@@ -381,49 +222,28 @@ export function App() {
           <section className="timeline-section">
             <div className="section-heading">
               <div>
-                <p className="eyebrow">Post-flood acquisition timeline</p>
-                <h2>ทุกวันที่มีภาพหลังน้ำท่วม</h2>
+                <p className="eyebrow">Event timeline</p>
+                <h2>ภาพที่ใส่ไว้ใน V2</h2>
               </div>
-              <span className="source-pill">
-                Earth Search STAC · {visibleScenes.length} scene
-              </span>
+              <span className="source-pill">Local deployment asset</span>
             </div>
-
-            {loadingPlotData && !satellite && (
-              <div className="timeline-empty">กำลังค้นหา Sentinel และ Landsat…</div>
-            )}
-
-            {!loadingPlotData && satellite && visibleScenes.length === 0 && (
-              <div className="timeline-empty">
-                ไม่พบ scene ใน sensor ที่เลือกสำหรับช่วงเหตุการณ์นี้
-              </div>
-            )}
-
             <div className="timeline-days">
-              {groupedScenes.map(([day, scenes]) => (
-                <div className="day-block" key={day}>
-                  <div className="day-label">
-                    <strong>{formatDay(scenes[0].datetime)}</strong>
-                    <span>{scenes.length} scene</span>
-                  </div>
-                  <div className="scene-list">
-                    {scenes.map((scene) => (
-                      <button
-                        key={scene.collection + ":" + scene.id}
-                        className={"scene-row " + (selectedScene?.id === scene.id ? "active" : "")}
-                        onClick={() => setSelectedSceneId(scene.id)}
-                      >
-                        <span className={"sensor-dot " + scene.collection} />
-                        <span className="scene-main">
-                          <strong>{scene.sensor}</strong>
-                          <small>{formatDateTime(scene.datetime)}</small>
-                        </span>
-                        <span className="scene-meta">{sceneMeta(scene)}</span>
-                      </button>
-                    ))}
+              <div className="day-block">
+                <div className="day-label">
+                  <strong>29 ก.ย. 2569</strong>
+                  <span>1 uploaded raster</span>
+                </div>
+                <div className="scene-list">
+                  <div className="scene-row active">
+                    <span className="sensor-dot sentinel-2-l2a" />
+                    <span className="scene-main">
+                      <strong>Flood_Rayong_20260929.tif</strong>
+                      <small>RGB GeoTIFF · EPSG:32647 · 10 m/pixel · เวลา acquisition ไม่ได้ระบุในไฟล์</small>
+                    </span>
+                    <span className="scene-meta">{event?.coverage || "—"}</span>
                   </div>
                 </div>
-              ))}
+              </div>
             </div>
           </section>
         </main>

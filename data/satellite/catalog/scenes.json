@@ -17,7 +17,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.122726Z"
+    "generatedAt": "2026-10-01T06:39:08.122726Z",
+    "bounds": [
+      101.68341700384488,
+      12.702960234542987,
+      101.69995963419895,
+      12.715766992985403
+    ]
   },
   {
     "plotCode": "14-STC",
@@ -37,7 +43,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.132444Z"
+    "generatedAt": "2026-10-01T06:39:08.132444Z",
+    "bounds": [
+      101.69719412125094,
+      12.707719699784805,
+      101.7033752187002,
+      12.71352987259815
+    ]
   },
   {
     "plotCode": "14-VSD",
@@ -57,7 +69,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.148760Z"
+    "generatedAt": "2026-10-01T06:39:08.148760Z",
+    "bounds": [
+      101.70214990780515,
+      12.71590230627755,
+      101.71191199984729,
+      12.72345277961734
+    ]
   },
   {
     "plotCode": "14(1)-STC",
@@ -77,7 +95,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.158509Z"
+    "generatedAt": "2026-10-01T06:39:08.158509Z",
+    "bounds": [
+      101.66923462507229,
+      12.688182680092543,
+      101.67623998089196,
+      12.695105982093091
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -97,7 +121,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.169819Z"
+    "generatedAt": "2026-10-01T06:39:08.169819Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "15-VSD",
@@ -117,7 +147,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.184380Z"
+    "generatedAt": "2026-10-01T06:39:08.184380Z",
+    "bounds": [
+      101.70221200703764,
+      12.723126105109325,
+      101.7118757539538,
+      12.73147846410567
+    ]
   },
   {
     "plotCode": "16-STC",
@@ -137,7 +173,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.194030Z"
+    "generatedAt": "2026-10-01T06:39:08.194030Z",
+    "bounds": [
+      101.7133771877049,
+      12.725506342135484,
+      101.72111752021637,
+      12.733531821492292
+    ]
   },
   {
     "plotCode": "16-VSD",
@@ -157,7 +199,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.206653Z"
+    "generatedAt": "2026-10-01T06:39:08.206653Z",
+    "bounds": [
+      101.69650327956373,
+      12.726514021043492,
+      101.70461199770054,
+      12.73414176832689
+    ]
   },
   {
     "plotCode": "17-STC",
@@ -177,7 +225,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.222361Z"
+    "generatedAt": "2026-10-01T06:39:08.222361Z",
+    "bounds": [
+      101.66850455226808,
+      12.717825447709059,
+      101.68479572310471,
+      12.729939991677243
+    ]
   },
   {
     "plotCode": "17-VSD",
@@ -197,7 +251,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.232706Z"
+    "generatedAt": "2026-10-01T06:39:08.232706Z",
+    "bounds": [
+      101.69723828038414,
+      12.726975868041002,
+      101.70530856345673,
+      12.734391980578303
+    ]
   },
   {
     "plotCode": "18-STC",
@@ -217,7 +277,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.243802Z"
+    "generatedAt": "2026-10-01T06:39:08.243802Z",
+    "bounds": [
+      101.68343715735115,
+      12.72441974129598,
+      101.69234828508641,
+      12.734222177094138
+    ]
   },
   {
     "plotCode": "18(1)-STC",
@@ -237,7 +303,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.253646Z"
+    "generatedAt": "2026-10-01T06:39:08.253646Z",
+    "bounds": [
+      101.6612743239535,
+      12.723379338312014,
+      101.66938257777072,
+      12.730671793195535
+    ]
   },
   {
     "plotCode": "19-STC",
@@ -257,7 +329,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.280788Z"
+    "generatedAt": "2026-10-01T06:39:08.280788Z",
+    "bounds": [
+      101.65663645238533,
+      12.722940772208444,
+      101.6643605121575,
+      12.72995664588969
+    ]
   },
   {
     "plotCode": "20-STC",
@@ -277,7 +355,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.298891Z"
+    "generatedAt": "2026-10-01T06:39:08.298891Z",
+    "bounds": [
+      101.65933007228925,
+      12.719425063233475,
+      101.66800789004611,
+      12.728403998362452
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -297,7 +381,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.318551Z"
+    "generatedAt": "2026-10-01T06:39:08.318551Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -317,7 +407,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.327969Z"
+    "generatedAt": "2026-10-01T06:39:08.327969Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -337,7 +433,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.337216Z"
+    "generatedAt": "2026-10-01T06:39:08.337216Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   },
   {
     "plotCode": "23-STC",
@@ -357,7 +459,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.348077Z"
+    "generatedAt": "2026-10-01T06:39:08.348077Z",
+    "bounds": [
+      101.7190603214845,
+      12.711327122586123,
+      101.728880026381,
+      12.718677500720545
+    ]
   },
   {
     "plotCode": "23(1)-STC",
@@ -377,7 +485,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.361101Z"
+    "generatedAt": "2026-10-01T06:39:08.361101Z",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ]
   },
   {
     "plotCode": "13-STC",
@@ -397,7 +511,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.383706Z"
+    "generatedAt": "2026-10-01T06:39:08.383706Z",
+    "bounds": [
+      101.68341700384488,
+      12.702960234542987,
+      101.69995963419895,
+      12.715766992985403
+    ]
   },
   {
     "plotCode": "14-STC",
@@ -417,7 +537,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.392343Z"
+    "generatedAt": "2026-10-01T06:39:08.392343Z",
+    "bounds": [
+      101.69719412125094,
+      12.707719699784805,
+      101.7033752187002,
+      12.71352987259815
+    ]
   },
   {
     "plotCode": "14-VSD",
@@ -437,7 +563,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.406713Z"
+    "generatedAt": "2026-10-01T06:39:08.406713Z",
+    "bounds": [
+      101.70214990780515,
+      12.71590230627755,
+      101.71191199984729,
+      12.72345277961734
+    ]
   },
   {
     "plotCode": "14(1)-STC",
@@ -457,7 +589,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.416450Z"
+    "generatedAt": "2026-10-01T06:39:08.416450Z",
+    "bounds": [
+      101.66923462507229,
+      12.688182680092543,
+      101.67623998089196,
+      12.695105982093091
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -477,7 +615,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.427995Z"
+    "generatedAt": "2026-10-01T06:39:08.427995Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "15-VSD",
@@ -497,7 +641,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.442307Z"
+    "generatedAt": "2026-10-01T06:39:08.442307Z",
+    "bounds": [
+      101.70221200703764,
+      12.723126105109325,
+      101.7118757539538,
+      12.73147846410567
+    ]
   },
   {
     "plotCode": "16-STC",
@@ -517,7 +667,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.452225Z"
+    "generatedAt": "2026-10-01T06:39:08.452225Z",
+    "bounds": [
+      101.7133771877049,
+      12.725506342135484,
+      101.72111752021637,
+      12.733531821492292
+    ]
   },
   {
     "plotCode": "16-VSD",
@@ -537,7 +693,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.462224Z"
+    "generatedAt": "2026-10-01T06:39:08.462224Z",
+    "bounds": [
+      101.69650327956373,
+      12.726514021043492,
+      101.70461199770054,
+      12.73414176832689
+    ]
   },
   {
     "plotCode": "17-STC",
@@ -557,7 +719,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.477650Z"
+    "generatedAt": "2026-10-01T06:39:08.477650Z",
+    "bounds": [
+      101.66850455226808,
+      12.717825447709059,
+      101.68479572310471,
+      12.729939991677243
+    ]
   },
   {
     "plotCode": "17-VSD",
@@ -577,7 +745,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.487447Z"
+    "generatedAt": "2026-10-01T06:39:08.487447Z",
+    "bounds": [
+      101.69723828038414,
+      12.726975868041002,
+      101.70530856345673,
+      12.734391980578303
+    ]
   },
   {
     "plotCode": "18-STC",
@@ -597,7 +771,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.497857Z"
+    "generatedAt": "2026-10-01T06:39:08.497857Z",
+    "bounds": [
+      101.68343715735115,
+      12.72441974129598,
+      101.69234828508641,
+      12.734222177094138
+    ]
   },
   {
     "plotCode": "18(1)-STC",
@@ -617,7 +797,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.510367Z"
+    "generatedAt": "2026-10-01T06:39:08.510367Z",
+    "bounds": [
+      101.6612743239535,
+      12.723379338312014,
+      101.66938257777072,
+      12.730671793195535
+    ]
   },
   {
     "plotCode": "19-STC",
@@ -637,7 +823,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.520176Z"
+    "generatedAt": "2026-10-01T06:39:08.520176Z",
+    "bounds": [
+      101.65663645238533,
+      12.722940772208444,
+      101.6643605121575,
+      12.72995664588969
+    ]
   },
   {
     "plotCode": "20-STC",
@@ -657,7 +849,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.530676Z"
+    "generatedAt": "2026-10-01T06:39:08.530676Z",
+    "bounds": [
+      101.65933007228925,
+      12.719425063233475,
+      101.66800789004611,
+      12.728403998362452
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -677,7 +875,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.551054Z"
+    "generatedAt": "2026-10-01T06:39:08.551054Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -697,7 +901,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.559992Z"
+    "generatedAt": "2026-10-01T06:39:08.559992Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -717,7 +927,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.568889Z"
+    "generatedAt": "2026-10-01T06:39:08.568889Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   },
   {
     "plotCode": "23-STC",
@@ -737,7 +953,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.578333Z"
+    "generatedAt": "2026-10-01T06:39:08.578333Z",
+    "bounds": [
+      101.7190603214845,
+      12.711327122586123,
+      101.728880026381,
+      12.718677500720545
+    ]
   },
   {
     "plotCode": "23(1)-STC",
@@ -757,7 +979,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.590685Z"
+    "generatedAt": "2026-10-01T06:39:08.590685Z",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ]
   },
   {
     "plotCode": "13-STC",
@@ -774,7 +1002,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.591281Z"
+    "generatedAt": "2026-10-01T06:39:08.591281Z",
+    "bounds": [
+      101.68341700384488,
+      12.702960234542987,
+      101.69995963419895,
+      12.715766992985403
+    ]
   },
   {
     "plotCode": "14-STC",
@@ -791,7 +1025,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.591526Z"
+    "generatedAt": "2026-10-01T06:39:08.591526Z",
+    "bounds": [
+      101.69719412125094,
+      12.707719699784805,
+      101.7033752187002,
+      12.71352987259815
+    ]
   },
   {
     "plotCode": "14-VSD",
@@ -808,7 +1048,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.592147Z"
+    "generatedAt": "2026-10-01T06:39:08.592147Z",
+    "bounds": [
+      101.70214990780515,
+      12.71590230627755,
+      101.71191199984729,
+      12.72345277961734
+    ]
   },
   {
     "plotCode": "14(1)-STC",
@@ -825,7 +1071,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.592331Z"
+    "generatedAt": "2026-10-01T06:39:08.592331Z",
+    "bounds": [
+      101.66923462507229,
+      12.688182680092543,
+      101.67623998089196,
+      12.695105982093091
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -842,7 +1094,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.592560Z"
+    "generatedAt": "2026-10-01T06:39:08.592560Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "15-VSD",
@@ -859,7 +1117,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.592958Z"
+    "generatedAt": "2026-10-01T06:39:08.592958Z",
+    "bounds": [
+      101.70221200703764,
+      12.723126105109325,
+      101.7118757539538,
+      12.73147846410567
+    ]
   },
   {
     "plotCode": "16-STC",
@@ -876,7 +1140,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.593170Z"
+    "generatedAt": "2026-10-01T06:39:08.593170Z",
+    "bounds": [
+      101.7133771877049,
+      12.725506342135484,
+      101.72111752021637,
+      12.733531821492292
+    ]
   },
   {
     "plotCode": "16-VSD",
@@ -893,7 +1163,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.593623Z"
+    "generatedAt": "2026-10-01T06:39:08.593623Z",
+    "bounds": [
+      101.69650327956373,
+      12.726514021043492,
+      101.70461199770054,
+      12.73414176832689
+    ]
   },
   {
     "plotCode": "17-STC",
@@ -910,7 +1186,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.594055Z"
+    "generatedAt": "2026-10-01T06:39:08.594055Z",
+    "bounds": [
+      101.66850455226808,
+      12.717825447709059,
+      101.68479572310471,
+      12.729939991677243
+    ]
   },
   {
     "plotCode": "17-VSD",
@@ -927,7 +1209,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.594989Z"
+    "generatedAt": "2026-10-01T06:39:08.594989Z",
+    "bounds": [
+      101.69723828038414,
+      12.726975868041002,
+      101.70530856345673,
+      12.734391980578303
+    ]
   },
   {
     "plotCode": "18-STC",
@@ -944,7 +1232,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.595593Z"
+    "generatedAt": "2026-10-01T06:39:08.595593Z",
+    "bounds": [
+      101.68343715735115,
+      12.72441974129598,
+      101.69234828508641,
+      12.734222177094138
+    ]
   },
   {
     "plotCode": "18(1)-STC",
@@ -961,7 +1255,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.596056Z"
+    "generatedAt": "2026-10-01T06:39:08.596056Z",
+    "bounds": [
+      101.6612743239535,
+      12.723379338312014,
+      101.66938257777072,
+      12.730671793195535
+    ]
   },
   {
     "plotCode": "19-STC",
@@ -978,7 +1278,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.596413Z"
+    "generatedAt": "2026-10-01T06:39:08.596413Z",
+    "bounds": [
+      101.65663645238533,
+      12.722940772208444,
+      101.6643605121575,
+      12.72995664588969
+    ]
   },
   {
     "plotCode": "20-STC",
@@ -995,7 +1301,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.596869Z"
+    "generatedAt": "2026-10-01T06:39:08.596869Z",
+    "bounds": [
+      101.65933007228925,
+      12.719425063233475,
+      101.66800789004611,
+      12.728403998362452
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -1012,7 +1324,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.597538Z"
+    "generatedAt": "2026-10-01T06:39:08.597538Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -1029,7 +1347,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.597809Z"
+    "generatedAt": "2026-10-01T06:39:08.597809Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -1046,7 +1370,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.598060Z"
+    "generatedAt": "2026-10-01T06:39:08.598060Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   },
   {
     "plotCode": "23-STC",
@@ -1063,7 +1393,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.598377Z"
+    "generatedAt": "2026-10-01T06:39:08.598377Z",
+    "bounds": [
+      101.7190603214845,
+      12.711327122586123,
+      101.728880026381,
+      12.718677500720545
+    ]
   },
   {
     "plotCode": "23(1)-STC",
@@ -1080,7 +1416,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.598583Z"
+    "generatedAt": "2026-10-01T06:39:08.598583Z",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ]
   },
   {
     "plotCode": "13-STC",
@@ -1100,7 +1442,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.646081Z"
+    "generatedAt": "2026-10-01T06:39:08.646081Z",
+    "bounds": [
+      101.68341700384488,
+      12.702960234542987,
+      101.69995963419895,
+      12.715766992985403
+    ]
   },
   {
     "plotCode": "14-STC",
@@ -1120,7 +1468,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.654051Z"
+    "generatedAt": "2026-10-01T06:39:08.654051Z",
+    "bounds": [
+      101.69719412125094,
+      12.707719699784805,
+      101.7033752187002,
+      12.71352987259815
+    ]
   },
   {
     "plotCode": "14-VSD",
@@ -1140,7 +1494,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.668003Z"
+    "generatedAt": "2026-10-01T06:39:08.668003Z",
+    "bounds": [
+      101.70214990780515,
+      12.71590230627755,
+      101.71191199984729,
+      12.72345277961734
+    ]
   },
   {
     "plotCode": "14(1)-STC",
@@ -1160,7 +1520,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.677058Z"
+    "generatedAt": "2026-10-01T06:39:08.677058Z",
+    "bounds": [
+      101.66923462507229,
+      12.688182680092543,
+      101.67623998089196,
+      12.695105982093091
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -1180,7 +1546,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.689141Z"
+    "generatedAt": "2026-10-01T06:39:08.689141Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "15-VSD",
@@ -1200,7 +1572,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.701540Z"
+    "generatedAt": "2026-10-01T06:39:08.701540Z",
+    "bounds": [
+      101.70221200703764,
+      12.723126105109325,
+      101.7118757539538,
+      12.73147846410567
+    ]
   },
   {
     "plotCode": "16-STC",
@@ -1220,7 +1598,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.710348Z"
+    "generatedAt": "2026-10-01T06:39:08.710348Z",
+    "bounds": [
+      101.7133771877049,
+      12.725506342135484,
+      101.72111752021637,
+      12.733531821492292
+    ]
   },
   {
     "plotCode": "16-VSD",
@@ -1240,7 +1624,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.720089Z"
+    "generatedAt": "2026-10-01T06:39:08.720089Z",
+    "bounds": [
+      101.69650327956373,
+      12.726514021043492,
+      101.70461199770054,
+      12.73414176832689
+    ]
   },
   {
     "plotCode": "17-STC",
@@ -1260,7 +1650,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.733285Z"
+    "generatedAt": "2026-10-01T06:39:08.733285Z",
+    "bounds": [
+      101.66850455226808,
+      12.717825447709059,
+      101.68479572310471,
+      12.729939991677243
+    ]
   },
   {
     "plotCode": "17-VSD",
@@ -1280,7 +1676,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.742100Z"
+    "generatedAt": "2026-10-01T06:39:08.742100Z",
+    "bounds": [
+      101.69723828038414,
+      12.726975868041002,
+      101.70530856345673,
+      12.734391980578303
+    ]
   },
   {
     "plotCode": "18-STC",
@@ -1300,7 +1702,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.751952Z"
+    "generatedAt": "2026-10-01T06:39:08.751952Z",
+    "bounds": [
+      101.68343715735115,
+      12.72441974129598,
+      101.69234828508641,
+      12.734222177094138
+    ]
   },
   {
     "plotCode": "18(1)-STC",
@@ -1320,7 +1728,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.767542Z"
+    "generatedAt": "2026-10-01T06:39:08.767542Z",
+    "bounds": [
+      101.6612743239535,
+      12.723379338312014,
+      101.66938257777072,
+      12.730671793195535
+    ]
   },
   {
     "plotCode": "19-STC",
@@ -1340,7 +1754,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.777848Z"
+    "generatedAt": "2026-10-01T06:39:08.777848Z",
+    "bounds": [
+      101.65663645238533,
+      12.722940772208444,
+      101.6643605121575,
+      12.72995664588969
+    ]
   },
   {
     "plotCode": "20-STC",
@@ -1360,7 +1780,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.787911Z"
+    "generatedAt": "2026-10-01T06:39:08.787911Z",
+    "bounds": [
+      101.65933007228925,
+      12.719425063233475,
+      101.66800789004611,
+      12.728403998362452
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -1380,7 +1806,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.805434Z"
+    "generatedAt": "2026-10-01T06:39:08.805434Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -1400,7 +1832,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.813969Z"
+    "generatedAt": "2026-10-01T06:39:08.813969Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -1420,7 +1858,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.822216Z"
+    "generatedAt": "2026-10-01T06:39:08.822216Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   },
   {
     "plotCode": "23-STC",
@@ -1440,7 +1884,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.830962Z"
+    "generatedAt": "2026-10-01T06:39:08.830962Z",
+    "bounds": [
+      101.7190603214845,
+      12.711327122586123,
+      101.728880026381,
+      12.718677500720545
+    ]
   },
   {
     "plotCode": "23(1)-STC",
@@ -1460,7 +1910,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.847553Z"
+    "generatedAt": "2026-10-01T06:39:08.847553Z",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ]
   },
   {
     "plotCode": "13-STC",
@@ -1480,7 +1936,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.866708Z"
+    "generatedAt": "2026-10-01T06:39:08.866708Z",
+    "bounds": [
+      101.68341700384488,
+      12.702960234542987,
+      101.69995963419895,
+      12.715766992985403
+    ]
   },
   {
     "plotCode": "14-STC",
@@ -1500,7 +1962,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.874398Z"
+    "generatedAt": "2026-10-01T06:39:08.874398Z",
+    "bounds": [
+      101.69719412125094,
+      12.707719699784805,
+      101.7033752187002,
+      12.71352987259815
+    ]
   },
   {
     "plotCode": "14-VSD",
@@ -1520,7 +1988,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.888112Z"
+    "generatedAt": "2026-10-01T06:39:08.888112Z",
+    "bounds": [
+      101.70214990780515,
+      12.71590230627755,
+      101.71191199984729,
+      12.72345277961734
+    ]
   },
   {
     "plotCode": "14(1)-STC",
@@ -1540,7 +2014,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.897398Z"
+    "generatedAt": "2026-10-01T06:39:08.897398Z",
+    "bounds": [
+      101.66923462507229,
+      12.688182680092543,
+      101.67623998089196,
+      12.695105982093091
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -1560,7 +2040,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.909279Z"
+    "generatedAt": "2026-10-01T06:39:08.909279Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "15-VSD",
@@ -1580,7 +2066,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.922495Z"
+    "generatedAt": "2026-10-01T06:39:08.922495Z",
+    "bounds": [
+      101.70221200703764,
+      12.723126105109325,
+      101.7118757539538,
+      12.73147846410567
+    ]
   },
   {
     "plotCode": "16-STC",
@@ -1600,7 +2092,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.930665Z"
+    "generatedAt": "2026-10-01T06:39:08.930665Z",
+    "bounds": [
+      101.7133771877049,
+      12.725506342135484,
+      101.72111752021637,
+      12.733531821492292
+    ]
   },
   {
     "plotCode": "16-VSD",
@@ -1620,7 +2118,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.939601Z"
+    "generatedAt": "2026-10-01T06:39:08.939601Z",
+    "bounds": [
+      101.69650327956373,
+      12.726514021043492,
+      101.70461199770054,
+      12.73414176832689
+    ]
   },
   {
     "plotCode": "17-STC",
@@ -1640,7 +2144,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.952363Z"
+    "generatedAt": "2026-10-01T06:39:08.952363Z",
+    "bounds": [
+      101.66850455226808,
+      12.717825447709059,
+      101.68479572310471,
+      12.729939991677243
+    ]
   },
   {
     "plotCode": "17-VSD",
@@ -1660,7 +2170,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.965245Z"
+    "generatedAt": "2026-10-01T06:39:08.965245Z",
+    "bounds": [
+      101.69723828038414,
+      12.726975868041002,
+      101.70530856345673,
+      12.734391980578303
+    ]
   },
   {
     "plotCode": "18-STC",
@@ -1680,7 +2196,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:08.989817Z"
+    "generatedAt": "2026-10-01T06:39:08.989817Z",
+    "bounds": [
+      101.68343715735115,
+      12.72441974129598,
+      101.69234828508641,
+      12.734222177094138
+    ]
   },
   {
     "plotCode": "18(1)-STC",
@@ -1700,7 +2222,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.003722Z"
+    "generatedAt": "2026-10-01T06:39:09.003722Z",
+    "bounds": [
+      101.6612743239535,
+      12.723379338312014,
+      101.66938257777072,
+      12.730671793195535
+    ]
   },
   {
     "plotCode": "19-STC",
@@ -1720,7 +2248,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.011474Z"
+    "generatedAt": "2026-10-01T06:39:09.011474Z",
+    "bounds": [
+      101.65663645238533,
+      12.722940772208444,
+      101.6643605121575,
+      12.72995664588969
+    ]
   },
   {
     "plotCode": "20-STC",
@@ -1740,7 +2274,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.021266Z"
+    "generatedAt": "2026-10-01T06:39:09.021266Z",
+    "bounds": [
+      101.65933007228925,
+      12.719425063233475,
+      101.66800789004611,
+      12.728403998362452
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -1760,7 +2300,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.045459Z"
+    "generatedAt": "2026-10-01T06:39:09.045459Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -1780,7 +2326,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.054291Z"
+    "generatedAt": "2026-10-01T06:39:09.054291Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -1800,7 +2352,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.062856Z"
+    "generatedAt": "2026-10-01T06:39:09.062856Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   },
   {
     "plotCode": "23-STC",
@@ -1820,7 +2378,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.074434Z"
+    "generatedAt": "2026-10-01T06:39:09.074434Z",
+    "bounds": [
+      101.7190603214845,
+      12.711327122586123,
+      101.728880026381,
+      12.718677500720545
+    ]
   },
   {
     "plotCode": "23(1)-STC",
@@ -1840,7 +2404,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.086386Z"
+    "generatedAt": "2026-10-01T06:39:09.086386Z",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ]
   },
   {
     "plotCode": "13-STC",
@@ -1857,7 +2427,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.086980Z"
+    "generatedAt": "2026-10-01T06:39:09.086980Z",
+    "bounds": [
+      101.68341700384488,
+      12.702960234542987,
+      101.69995963419895,
+      12.715766992985403
+    ]
   },
   {
     "plotCode": "14-STC",
@@ -1874,7 +2450,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.087207Z"
+    "generatedAt": "2026-10-01T06:39:09.087207Z",
+    "bounds": [
+      101.69719412125094,
+      12.707719699784805,
+      101.7033752187002,
+      12.71352987259815
+    ]
   },
   {
     "plotCode": "14-VSD",
@@ -1891,7 +2473,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.087670Z"
+    "generatedAt": "2026-10-01T06:39:09.087670Z",
+    "bounds": [
+      101.70214990780515,
+      12.71590230627755,
+      101.71191199984729,
+      12.72345277961734
+    ]
   },
   {
     "plotCode": "14(1)-STC",
@@ -1908,7 +2496,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.087833Z"
+    "generatedAt": "2026-10-01T06:39:09.087833Z",
+    "bounds": [
+      101.66923462507229,
+      12.688182680092543,
+      101.67623998089196,
+      12.695105982093091
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -1925,7 +2519,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.088046Z"
+    "generatedAt": "2026-10-01T06:39:09.088046Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "15-VSD",
@@ -1942,7 +2542,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.088499Z"
+    "generatedAt": "2026-10-01T06:39:09.088499Z",
+    "bounds": [
+      101.70221200703764,
+      12.723126105109325,
+      101.7118757539538,
+      12.73147846410567
+    ]
   },
   {
     "plotCode": "16-STC",
@@ -1959,7 +2565,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.088783Z"
+    "generatedAt": "2026-10-01T06:39:09.088783Z",
+    "bounds": [
+      101.7133771877049,
+      12.725506342135484,
+      101.72111752021637,
+      12.733531821492292
+    ]
   },
   {
     "plotCode": "16-VSD",
@@ -1976,7 +2588,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.089112Z"
+    "generatedAt": "2026-10-01T06:39:09.089112Z",
+    "bounds": [
+      101.69650327956373,
+      12.726514021043492,
+      101.70461199770054,
+      12.73414176832689
+    ]
   },
   {
     "plotCode": "17-STC",
@@ -1993,7 +2611,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.089489Z"
+    "generatedAt": "2026-10-01T06:39:09.089489Z",
+    "bounds": [
+      101.66850455226808,
+      12.717825447709059,
+      101.68479572310471,
+      12.729939991677243
+    ]
   },
   {
     "plotCode": "17-VSD",
@@ -2010,7 +2634,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.089949Z"
+    "generatedAt": "2026-10-01T06:39:09.089949Z",
+    "bounds": [
+      101.69723828038414,
+      12.726975868041002,
+      101.70530856345673,
+      12.734391980578303
+    ]
   },
   {
     "plotCode": "18-STC",
@@ -2027,7 +2657,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.090378Z"
+    "generatedAt": "2026-10-01T06:39:09.090378Z",
+    "bounds": [
+      101.68343715735115,
+      12.72441974129598,
+      101.69234828508641,
+      12.734222177094138
+    ]
   },
   {
     "plotCode": "18(1)-STC",
@@ -2044,7 +2680,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.090765Z"
+    "generatedAt": "2026-10-01T06:39:09.090765Z",
+    "bounds": [
+      101.6612743239535,
+      12.723379338312014,
+      101.66938257777072,
+      12.730671793195535
+    ]
   },
   {
     "plotCode": "19-STC",
@@ -2061,7 +2703,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.091061Z"
+    "generatedAt": "2026-10-01T06:39:09.091061Z",
+    "bounds": [
+      101.65663645238533,
+      12.722940772208444,
+      101.6643605121575,
+      12.72995664588969
+    ]
   },
   {
     "plotCode": "20-STC",
@@ -2078,7 +2726,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.091510Z"
+    "generatedAt": "2026-10-01T06:39:09.091510Z",
+    "bounds": [
+      101.65933007228925,
+      12.719425063233475,
+      101.66800789004611,
+      12.728403998362452
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -2095,7 +2749,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.092099Z"
+    "generatedAt": "2026-10-01T06:39:09.092099Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -2112,7 +2772,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.092323Z"
+    "generatedAt": "2026-10-01T06:39:09.092323Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -2129,7 +2795,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.092553Z"
+    "generatedAt": "2026-10-01T06:39:09.092553Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   },
   {
     "plotCode": "23-STC",
@@ -2146,7 +2818,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.092788Z"
+    "generatedAt": "2026-10-01T06:39:09.092788Z",
+    "bounds": [
+      101.7190603214845,
+      12.711327122586123,
+      101.728880026381,
+      12.718677500720545
+    ]
   },
   {
     "plotCode": "23(1)-STC",
@@ -2163,7 +2841,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.092954Z"
+    "generatedAt": "2026-10-01T06:39:09.092954Z",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ]
   },
   {
     "plotCode": "14-STC",
@@ -2180,7 +2864,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.093183Z"
+    "generatedAt": "2026-10-01T06:39:09.093183Z",
+    "bounds": [
+      101.69719412125094,
+      12.707719699784805,
+      101.7033752187002,
+      12.71352987259815
+    ]
   },
   {
     "plotCode": "14-VSD",
@@ -2197,7 +2887,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.093674Z"
+    "generatedAt": "2026-10-01T06:39:09.093674Z",
+    "bounds": [
+      101.70214990780515,
+      12.71590230627755,
+      101.71191199984729,
+      12.72345277961734
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -2214,7 +2910,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.094014Z"
+    "generatedAt": "2026-10-01T06:39:09.094014Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "15-VSD",
@@ -2231,7 +2933,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.094426Z"
+    "generatedAt": "2026-10-01T06:39:09.094426Z",
+    "bounds": [
+      101.70221200703764,
+      12.723126105109325,
+      101.7118757539538,
+      12.73147846410567
+    ]
   },
   {
     "plotCode": "16-STC",
@@ -2248,7 +2956,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.094697Z"
+    "generatedAt": "2026-10-01T06:39:09.094697Z",
+    "bounds": [
+      101.7133771877049,
+      12.725506342135484,
+      101.72111752021637,
+      12.733531821492292
+    ]
   },
   {
     "plotCode": "16-VSD",
@@ -2265,7 +2979,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.095090Z"
+    "generatedAt": "2026-10-01T06:39:09.095090Z",
+    "bounds": [
+      101.69650327956373,
+      12.726514021043492,
+      101.70461199770054,
+      12.73414176832689
+    ]
   },
   {
     "plotCode": "17-VSD",
@@ -2282,7 +3002,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.095681Z"
+    "generatedAt": "2026-10-01T06:39:09.095681Z",
+    "bounds": [
+      101.69723828038414,
+      12.726975868041002,
+      101.70530856345673,
+      12.734391980578303
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -2299,7 +3025,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.096328Z"
+    "generatedAt": "2026-10-01T06:39:09.096328Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -2316,7 +3048,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.096552Z"
+    "generatedAt": "2026-10-01T06:39:09.096552Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -2333,7 +3071,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.096795Z"
+    "generatedAt": "2026-10-01T06:39:09.096795Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   },
   {
     "plotCode": "23-STC",
@@ -2350,7 +3094,13 @@
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.097115Z"
+    "generatedAt": "2026-10-01T06:39:09.097115Z",
+    "bounds": [
+      101.7190603214845,
+      12.711327122586123,
+      101.728880026381,
+      12.718677500720545
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -2370,7 +3120,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.110092Z"
+    "generatedAt": "2026-10-01T06:39:09.110092Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -2390,7 +3146,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.128486Z"
+    "generatedAt": "2026-10-01T06:39:09.128486Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -2410,7 +3172,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.137601Z"
+    "generatedAt": "2026-10-01T06:39:09.137601Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -2430,7 +3198,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.145739Z"
+    "generatedAt": "2026-10-01T06:39:09.145739Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -2450,7 +3224,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.174831Z"
+    "generatedAt": "2026-10-01T06:39:09.174831Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -2470,7 +3250,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.205110Z"
+    "generatedAt": "2026-10-01T06:39:09.205110Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -2490,7 +3276,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.226157Z"
+    "generatedAt": "2026-10-01T06:39:09.226157Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -2510,7 +3302,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.247132Z"
+    "generatedAt": "2026-10-01T06:39:09.247132Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -2530,7 +3328,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.259474Z"
+    "generatedAt": "2026-10-01T06:39:09.259474Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -2550,7 +3354,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.276602Z"
+    "generatedAt": "2026-10-01T06:39:09.276602Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -2570,7 +3380,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.285434Z"
+    "generatedAt": "2026-10-01T06:39:09.285434Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -2590,7 +3406,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.293588Z"
+    "generatedAt": "2026-10-01T06:39:09.293588Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   },
   {
     "plotCode": "15-STC",
@@ -2610,7 +3432,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.306050Z"
+    "generatedAt": "2026-10-01T06:39:09.306050Z",
+    "bounds": [
+      101.78567531328392,
+      12.736538000142586,
+      101.79136098885556,
+      12.743141308822732
+    ]
   },
   {
     "plotCode": "21-STC",
@@ -2630,7 +3458,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.323481Z"
+    "generatedAt": "2026-10-01T06:39:09.323481Z",
+    "bounds": [
+      101.78404242692518,
+      12.751873573885137,
+      101.7974068016688,
+      12.764967882183841
+    ]
   },
   {
     "plotCode": "22-STC",
@@ -2650,7 +3484,13 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.331685Z"
+    "generatedAt": "2026-10-01T06:39:09.331685Z",
+    "bounds": [
+      101.79808324145003,
+      12.753090098242824,
+      101.80570665323775,
+      12.761462317466822
+    ]
   },
   {
     "plotCode": "22(1)-STC",
@@ -2670,6 +3510,12 @@
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-01T06:39:09.343924Z"
+    "generatedAt": "2026-10-01T06:39:09.343924Z",
+    "bounds": [
+      101.79323343699168,
+      12.75139647502629,
+      101.79948319096609,
+      12.759105268532503
+    ]
   }
 ]

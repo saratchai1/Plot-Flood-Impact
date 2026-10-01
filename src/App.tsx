@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { getDrone, getSatellite, listPlots } from "./api";
 import { PlotMap } from "./PlotMap";
-import { SatellitePreview } from "./SatellitePreview";
+import { ImageCompare } from "./ImageCompare";
 import type {
   DroneRecord,
   PlotRecord,
@@ -68,6 +68,7 @@ export function App() {
   const [drone, setDrone] = useState<DroneRecord | null>(null);
   const [satellite, setSatellite] = useState<SatelliteSearchResult | null>(null);
   const [selectedSceneId, setSelectedSceneId] = useState<string | null>(null);
+  const [selectedBand, setSelectedBand] = useState<string | null>(null);
   const [enabledSensors, setEnabledSensors] = useState<Set<SensorId>>(
     new Set(SENSOR_OPTIONS.map((option) => option.id))
   );
@@ -341,40 +342,34 @@ export function App() {
               )}
             </div>
 
-            <div className="comparison-grid">
-              <article className="comparison-card">
-                <header>
-                  <span>DRONE</span>
-                  <strong>{selectedCode || "—"}</strong>
-                </header>
-                {drone?.available && drone.previewUrl ? (
-                  <img
-                    src={drone.previewUrl}
-                    className="comparison-image"
-                    alt={"Drone orthomosaic " + selectedCode}
-                  />
-                ) : (
-                  <div className="preview-empty">
-                    {loadingPlotData ? "กำลังโหลดภาพโดรน…" : drone?.reason || "ยังไม่มีภาพโดรน"}
-                  </div>
-                )}
-                <footer>
-                  <span>Baseline orthomosaic</span>
-                  <span>{drone?.mosaicSource || drone?.source || "—"}</span>
-                </footer>
-              </article>
-
-              <article className="comparison-card">
-                <header>
-                  <span>SATELLITE</span>
-                  <strong>{selectedScene?.sensor || "เลือก scene"}</strong>
-                </header>
-                <SatellitePreview scene={selectedScene} />
-                <footer>
-                  <span>{selectedScene ? formatDateTime(selectedScene.datetime) : "—"}</span>
-                  <span>{selectedScene ? sceneMeta(selectedScene) : "—"}</span>
-                </footer>
-              </article>
+            <div className="comparison-slider-wrapper" style={{ marginTop: '16px' }}>
+              <div style={{ display: 'flex', gap: '8px', marginBottom: '8px', justifyContent: 'flex-end' }}>
+                <span style={{ fontSize: '12px', fontWeight: 'bold', alignSelf: 'center', marginRight: 'auto' }}>
+                  {drone?.available ? "ภาพโดรน: วันที่ถ่ายไม่ระบุ" : "ไม่มีภาพโดรน"} ↔ ภาพดาวเทียม: {selectedScene ? formatDateTime(selectedScene.datetime) : "—"}
+                </span>
+                
+                {selectedScene?.previewUrls && Object.keys(selectedScene.previewUrls).map(band => (
+                  <button 
+                    key={band}
+                    className="button"
+                    onClick={() => setSelectedBand(band)}
+                    style={{
+                       padding: '4px 8px', fontSize: '12px', borderRadius: '4px', cursor: 'pointer',
+                       background: selectedBand === band ? '#3b82f6' : '#e2e8f0',
+                       color: selectedBand === band ? 'white' : 'inherit',
+                       border: '1px solid #cbd5e1'
+                    }}
+                  >
+                    {band === 'water' ? 'Water Index (น้ำ)' : band.toUpperCase()}
+                  </button>
+                ))}
+              </div>
+              <ImageCompare 
+                droneUrl={drone?.available ? (drone.detailUrl || drone.previewUrl || null) : null}
+                droneBounds={(drone?.meta?.bounds as number[]) || null}
+                satelliteUrl={selectedScene?.previewUrls ? (selectedScene.previewUrls[selectedBand || 'rgb'] || selectedScene.previewUrls['water'] || selectedScene.previewUrls['sar'] || null) : null}
+                satelliteBounds={selectedScene?.bbox || null}
+              />
             </div>
           </section>
 
@@ -411,7 +406,7 @@ export function App() {
                       <button
                         key={scene.collection + ":" + scene.id}
                         className={"scene-row " + (selectedScene?.id === scene.id ? "active" : "")}
-                        onClick={() => setSelectedSceneId(scene.id)}
+                        onClick={() => { setSelectedSceneId(scene.id); setSelectedBand(null); }}
                       >
                         <span className={"sensor-dot " + scene.collection} />
                         <span className="scene-main">

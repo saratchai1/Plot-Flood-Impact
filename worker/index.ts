@@ -504,7 +504,8 @@ app.get("/api/satellite/:plotCode", async (c) => {
         orbitState: s.orbitState,
         polarizations: s.polarizations,
         sourceUrls: s.sourceUrls || [],
-        previewUrls: {} as Record<string, string>
+        previewUrls: {} as Record<string, string>,
+        bbox: s.bounds || null
       };
       
       if (s.sensor === "sentinel-1") {

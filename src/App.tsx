@@ -343,32 +343,48 @@ export function App() {
             </div>
 
             <div className="comparison-slider-wrapper" style={{ marginTop: '16px' }}>
-              <div style={{ display: 'flex', gap: '8px', marginBottom: '8px', justifyContent: 'flex-end' }}>
-                <span style={{ fontSize: '12px', fontWeight: 'bold', alignSelf: 'center', marginRight: 'auto' }}>
-                  {drone?.available ? "ภาพโดรน: วันที่ถ่ายไม่ระบุ" : "ไม่มีภาพโดรน"} ↔ ภาพดาวเทียม: {selectedScene ? formatDateTime(selectedScene.datetime) : "—"}
+              <div style={{ display: 'flex', gap: '6px', marginBottom: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
+                <span style={{ fontSize: '13px', fontWeight: 'bold', marginRight: 'auto', color: '#e2e8f0' }}>
+                  {selectedScene
+                    ? `🛰 ${selectedScene.sensor.toUpperCase()} · ${formatDateTime(selectedScene.datetime)}`
+                    : "เลือก scene จาก timeline ด้านล่าง"}
                 </span>
                 
-                {selectedScene?.previewUrls && Object.keys(selectedScene.previewUrls).map(band => (
-                  <button 
-                    key={band}
-                    className="button"
-                    onClick={() => setSelectedBand(band)}
-                    style={{
-                       padding: '4px 8px', fontSize: '12px', borderRadius: '4px', cursor: 'pointer',
-                       background: selectedBand === band ? '#3b82f6' : '#e2e8f0',
-                       color: selectedBand === band ? 'white' : 'inherit',
-                       border: '1px solid #cbd5e1'
-                    }}
-                  >
-                    {band === 'water' ? 'Water Index (น้ำ)' : band.toUpperCase()}
-                  </button>
-                ))}
+                {selectedScene?.previewUrls && Object.keys(selectedScene.previewUrls).map(band => {
+                  const effectiveBand = selectedBand && selectedScene.previewUrls?.[selectedBand] ? selectedBand : null;
+                  const isActive = effectiveBand === band || (!effectiveBand && band === Object.keys(selectedScene.previewUrls!)[0]);
+                  return (
+                    <button 
+                      key={band}
+                      onClick={() => setSelectedBand(band)}
+                      style={{
+                        padding: '4px 10px', fontSize: '12px', borderRadius: '4px', cursor: 'pointer',
+                        background: isActive ? '#3b82f6' : '#334155',
+                        color: isActive ? 'white' : '#cbd5e1',
+                        border: isActive ? '1px solid #60a5fa' : '1px solid #475569',
+                        fontWeight: isActive ? 'bold' : 'normal',
+                      }}
+                    >
+                      {band === 'water' ? '💧 Water (น้ำ)' : band === 'ndvi' ? '🌿 NDVI' : band === 'sar' ? '📡 SAR' : '🖼 ' + band.toUpperCase()}
+                    </button>
+                  );
+                })}
               </div>
               <ImageCompare 
                 droneUrl={drone?.available ? (drone.detailUrl || drone.previewUrl || null) : null}
-                droneBounds={(drone?.meta?.bounds as number[]) || null}
-                satelliteUrl={selectedScene?.previewUrls ? (selectedScene.previewUrls[selectedBand || 'rgb'] || selectedScene.previewUrls['water'] || selectedScene.previewUrls['sar'] || null) : null}
-                satelliteBounds={selectedScene?.bbox || null}
+                satelliteUrl={(() => {
+                  if (!selectedScene?.previewUrls) return null;
+                  const urls = selectedScene.previewUrls;
+                  if (selectedBand && urls[selectedBand]) return urls[selectedBand];
+                  return urls['rgb'] || urls['sar'] || urls['water'] || null;
+                })()}
+                satelliteLabel={(() => {
+                  if (!selectedScene) return "SATELLITE";
+                  const band = selectedBand && selectedScene.previewUrls?.[selectedBand] ? selectedBand : (selectedScene.previewUrls?.rgb ? 'rgb' : selectedScene.previewUrls?.sar ? 'sar' : 'water');
+                  const bandLabel = band === 'water' ? 'Water Index' : band === 'ndvi' ? 'NDVI' : band === 'sar' ? 'SAR' : 'RGB';
+                  return `${selectedScene.sensor} · ${bandLabel} · ${formatDateTime(selectedScene.datetime)}`;
+                })()}
+                plotBounds={selectedPlot?.bounds as [number, number, number, number] || null}
               />
             </div>
           </section>

@@ -5,6 +5,15 @@ import { app as apiApp } from "./worker/index";
 
 const app = new Hono();
 
+function spriteBase64() {
+  return [
+    process.env.FLOOD_EVENT_SPRITE_1 || "",
+    process.env.FLOOD_EVENT_SPRITE_2 || "",
+    process.env.FLOOD_EVENT_SPRITE_3 || "",
+    process.env.FLOOD_EVENT_SPRITE_4 || ""
+  ].join("");
+}
+
 const EVENT = {
   id: "uploaded-flood-rayong-20260929",
   label: "Flood Rayong 29/09/2026",
@@ -51,14 +60,14 @@ app.get("/api/uploaded-flood/:plotCode", (c) => {
   return c.json({
     ...EVENT,
     coverage: row[0],
-    imageAvailable: row[0] !== "NO_COVERAGE" && Boolean(process.env.FLOOD_EVENT_SPRITE),
+    imageAvailable: row[0] !== "NO_COVERAGE" && Boolean(spriteBase64()),
     cell: row[1],
     spriteUrl: row[0] === "NO_COVERAGE" ? null : "/api/uploaded-flood/sprite"
   });
 });
 
 app.get("/api/uploaded-flood/sprite", (c) => {
-  const encoded = process.env.FLOOD_EVENT_SPRITE;
+  const encoded = spriteBase64();
   if (!encoded) return c.json({ error: "UPLOADED_IMAGE_NOT_CONFIGURED" }, 503);
   return new Response(Buffer.from(encoded, "base64"), {
     headers: {

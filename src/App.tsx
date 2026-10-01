@@ -1,6 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { getDrone, getUploadedFlood, listPlots } from "./api";
-import { PlotMap } from "./PlotMap";
+
+const PlotMap = lazy(() =>
+  import("./PlotMap").then((module) => ({ default: module.PlotMap }))
+);
 import type { DroneRecord, PlotRecord, UploadedFloodEvent } from "./types";
 
 const NO_COVERAGE = new Set(["15-STC", "21-STC", "22(1)-STC", "22-STC"]);
@@ -157,7 +160,9 @@ export function App() {
                   </span>
                 )}
               </div>
-              <PlotMap plots={plots} selectedCode={selectedCode} onSelect={setSelectedCode} />
+              <Suspense fallback={<div className="plot-map muted-block">กำลังโหลดแผนที่…</div>}>
+                <PlotMap plots={plots} selectedCode={selectedCode} onSelect={setSelectedCode} />
+              </Suspense>
             </div>
 
             <div className="summary-card">

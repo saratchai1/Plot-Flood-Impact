@@ -616,3 +616,145 @@ h2 {
     display: none;
   }
 }
+
+
+.compare-shell {
+  overflow: hidden;
+  border: 1px solid rgba(94, 234, 212, 0.14);
+  border-radius: 14px;
+  background: #020806;
+}
+
+.compare-stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #020806;
+  touch-action: pan-y;
+}
+
+.compare-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.compare-media {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  background: #020806;
+}
+
+.compare-satellite {
+  z-index: 2;
+}
+
+.compare-divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 4;
+  width: 2px;
+  transform: translateX(-1px);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+
+.compare-handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  border-radius: 999px;
+  color: #052e2b;
+  background: rgba(255, 255, 255, 0.94);
+  font-size: 1rem;
+  font-weight: 900;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.compare-range {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: ew-resize;
+}
+
+.compare-label {
+  position: absolute;
+  top: 12px;
+  z-index: 3;
+  padding: 6px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 7px;
+  color: white;
+  background: rgba(2, 8, 6, 0.72);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  backdrop-filter: blur(8px);
+}
+
+.compare-label-left {
+  left: 12px;
+}
+
+.compare-label-right {
+  right: 12px;
+}
+
+.compare-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-top: 1px solid rgba(94, 234, 212, 0.09);
+  color: #78958c;
+  font-size: 0.72rem;
+}
+
+.no-satellite {
+  min-height: 320px;
+  gap: 8px;
+  border: 1px dashed rgba(148, 163, 184, 0.22);
+  border-radius: 12px;
+  background: rgba(2, 8, 6, 0.5);
+}
+
+.no-satellite strong {
+  color: #e2e8f0;
+  font-size: 1rem;
+}
+
+@media (max-width: 760px) {
+  .compare-footer {
+    flex-direction: column;
+  }
+
+  .compare-label {
+    top: 8px;
+    font-size: 0.62rem;
+  }
+
+  .compare-label-left {
+    left: 8px;
+  }
+
+  .compare-label-right {
+    right: 8px;
+  }
+}

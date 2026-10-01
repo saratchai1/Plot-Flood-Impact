@@ -67,7 +67,7 @@ test("event start and source adapters remain explicit", () => {
 });
 
 
-test("V2 uploaded flood sprite is complete WebP from the supplied TIFF", () => {
+test("V2 uploaded flood sprite is complete WebP from audited plot crops", () => {
   const spriteSource = readFileSync(
     new URL("../worker/uploadedFloodSprite.ts", import.meta.url),
     "utf8"
@@ -76,32 +76,61 @@ test("V2 uploaded flood sprite is complete WebP from the supplied TIFF", () => {
   assert.ok(match, "embedded flood sprite constant is present");
   const base64 = JSON.parse(match[1]);
   const bytes = Buffer.from(base64, "base64");
-  assert.equal(base64.length, 20120);
-  assert.equal(bytes.length, 15088);
+  assert.equal(base64.length, 50896);
+  assert.equal(bytes.length, 38170);
   assert.equal(bytes.subarray(0, 4).toString("ascii"), "RIFF");
   assert.equal(bytes.subarray(8, 12).toString("ascii"), "WEBP");
+  assert.match(spriteSource, /FLOOD_EVENT_SPRITE_SIZE = \[480, 288\]/);
 });
 
-test("V2 uses uploaded flood imagery by default and does not fetch live STAC in App", () => {
+test("V2 uses uploaded flood imagery and comparison slider without live STAC fetch", () => {
   const appSource = readFileSync(
     new URL("../src/App.tsx", import.meta.url),
     "utf8"
   );
+  const sliderSource = readFileSync(
+    new URL("../src/CompareSlider.tsx", import.meta.url),
+    "utf8"
+  );
   assert.match(appSource, /getUploadedFlood/);
   assert.doesNotMatch(appSource, /getSatellite/);
-  assert.match(appSource, /V2 · Local uploaded imagery/);
-  assert.match(appSource, /15 \/ 19 plots covered/);
+  assert.match(appSource, /CompareSlider/);
+  assert.match(appSource, /ไม่มีภาพดาวเทียมสำหรับแปลง/);
+  assert.match(sliderSource, /type="range"/);
+  assert.match(sliderSource, /Satellite source window/);
 });
 
-test("V2 coverage and sprite route remain explicit", () => {
+test("V2 crop mapping is generated and contains exactly 15 covered plots", () => {
+  const spriteSource = readFileSync(
+    new URL("../worker/uploadedFloodSprite.ts", import.meta.url),
+    "utf8"
+  );
+  const cellBlock =
+    spriteSource.match(/FLOOD_EVENT_CELLS = (\{.*?\}) as const;/s)?.[1] || "";
+  const windowBlock =
+    spriteSource.match(/FLOOD_EVENT_SOURCE_WINDOWS = (\{.*?\}) as const;/s)?.[1] || "";
+  const noCoverageBlock =
+    spriteSource.match(/FLOOD_EVENT_NO_COVERAGE = (\[.*?\]) as const;/s)?.[1] || "";
+
+  assert.equal(Object.keys(JSON.parse(cellBlock)).length, 15);
+  assert.equal(Object.keys(JSON.parse(windowBlock)).length, 15);
+  assert.deepEqual(JSON.parse(noCoverageBlock), [
+    "15-STC",
+    "21-STC",
+    "22(1)-STC",
+    "22-STC"
+  ]);
+});
+
+test("V2 server derives plot coverage from generated mapping", () => {
   const server = readFileSync(
     new URL("../server.ts", import.meta.url),
     "utf8"
   );
-  const fullCount = (server.match(/\["FULL",\[/g) || []).length;
-  const noCoverageCount = (server.match(/\["NO_COVERAGE",null\]/g) || []).length;
-  assert.equal(fullCount, 15);
-  assert.equal(noCoverageCount, 4);
+  assert.match(server, /FLOOD_EVENT_CELLS/);
+  assert.match(server, /FLOOD_EVENT_SOURCE_WINDOWS/);
+  assert.match(server, /FLOOD_EVENT_NO_COVERAGE/);
+  assert.match(server, /sourceValidFraction: noCoverage \? 0 : 1/);
   assert.ok(
     server.indexOf('app.get("/api/uploaded-flood/sprite"') <
       server.indexOf('app.get("/api/uploaded-flood/:plotCode"'),

@@ -15,6 +15,8 @@ const SENSOR_OPTIONS = [
   { id: "landsat-c2-l2", label: "Landsat C2 L2" }
 ] as const;
 
+type SensorId = (typeof SENSOR_OPTIONS)[number]["id"];
+
 function formatDateTime(value: string) {
   if (!value) return "—";
   return new Intl.DateTimeFormat("th-TH", {
@@ -65,7 +67,7 @@ export function App() {
   const [drone, setDrone] = useState<DroneRecord | null>(null);
   const [satellite, setSatellite] = useState<SatelliteSearchResult | null>(null);
   const [selectedSceneId, setSelectedSceneId] = useState<string | null>(null);
-  const [enabledSensors, setEnabledSensors] = useState(
+  const [enabledSensors, setEnabledSensors] = useState<Set<SensorId>>(
     new Set(SENSOR_OPTIONS.map((option) => option.id))
   );
   const [loadingPlots, setLoadingPlots] = useState(true);
@@ -139,7 +141,7 @@ export function App() {
   const visibleScenes = useMemo(
     () =>
       (satellite?.scenes || []).filter((scene) =>
-        enabledSensors.has(scene.collection as (typeof SENSOR_OPTIONS)[number]["id"])
+        enabledSensors.has(scene.collection as SensorId)
       ),
     [satellite, enabledSensors]
   );
@@ -175,11 +177,11 @@ export function App() {
     ? formatDateTime(floodEventStart)
     : "27 ก.ย. 2569";
 
-  function toggleSensor(id: string) {
+  function toggleSensor(id: SensorId) {
     setEnabledSensors((current) => {
       const next = new Set(current);
-      if (next.has(id as never)) next.delete(id as never);
-      else next.add(id as never);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
       return next;
     });
   }

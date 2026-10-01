@@ -63,3 +63,24 @@ export interface SatelliteSearchResult {
   collections: string[];
   scenes: SatelliteScene[];
 }
+
+export interface UploadedFloodEvent {
+  id: string;
+  label: string;
+  acquiredAt: string;
+  acquiredTimeKnown: boolean;
+  sourceFileName: string;
+  sourceSha256: string;
+  sourceCrs: string;
+  wgs84Bounds: [number, number, number, number];
+  pixelSizeM: number;
+  sourceWidth: number;
+  sourceHeight: number;
+  bandCount: number;
+  bandInterpretation: string;
+  coverage: "FULL" | "PARTIAL" | "NO_COVERAGE";
+  imageAvailable: boolean;
+  width: number;
+  height: number;
+  imageUrl: string | null;
+}

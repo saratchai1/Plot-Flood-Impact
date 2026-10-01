@@ -2,17 +2,12 @@ import { serve } from "@hono/node-server";
 import { serveStatic } from "@hono/node-server/serve-static";
 import { Hono } from "hono";
 import { app as apiApp } from "./worker/index";
+import { FLOOD_EVENT_SPRITE_BASE64 } from "./worker/uploadedFloodSprite";
 
 const app = new Hono();
 
 function spriteBase64() {
-  if (process.env.FLOOD_EVENT_SPRITE) return process.env.FLOOD_EVENT_SPRITE;
-  return [
-    process.env.FLOOD_EVENT_SPRITE_1 || "",
-    process.env.FLOOD_EVENT_SPRITE_2 || "",
-    process.env.FLOOD_EVENT_SPRITE_3 || "",
-    process.env.FLOOD_EVENT_SPRITE_4 || ""
-  ].join("");
+  return FLOOD_EVENT_SPRITE_BASE64;
 }
 
 const EVENT = {
@@ -29,28 +24,28 @@ const EVENT = {
   sourceHeight: 1196,
   bandCount: 3,
   bandInterpretation: "RGB",
-  spriteWidth: 640,
-  spriteHeight: 288,
+  spriteWidth: 480,
+  spriteHeight: 216,
   coverage: {
-    "13-STC": ["FULL",[0,0,128,96]],
-    "14(1)-STC": ["FULL",[128,0,128,96]],
-    "14-STC": ["FULL",[256,0,128,96]],
-    "14-VSD": ["FULL",[384,0,128,96]],
+    "13-STC": ["FULL",[0,0,96,72]],
+    "14(1)-STC": ["FULL",[96,0,96,72]],
+    "14-STC": ["FULL",[192,0,96,72]],
+    "14-VSD": ["FULL",[288,0,96,72]],
     "15-STC": ["NO_COVERAGE",null],
-    "15-VSD": ["FULL",[512,0,128,96]],
-    "16-STC": ["FULL",[0,96,128,96]],
-    "16-VSD": ["FULL",[128,96,128,96]],
-    "17-STC": ["FULL",[256,96,128,96]],
-    "17-VSD": ["FULL",[384,96,128,96]],
-    "18(1)-STC": ["FULL",[512,96,128,96]],
-    "18-STC": ["FULL",[0,192,128,96]],
-    "19-STC": ["FULL",[128,192,128,96]],
-    "20-STC": ["FULL",[256,192,128,96]],
+    "15-VSD": ["FULL",[384,0,96,72]],
+    "16-STC": ["FULL",[0,72,96,72]],
+    "16-VSD": ["FULL",[96,72,96,72]],
+    "17-STC": ["FULL",[192,72,96,72]],
+    "17-VSD": ["FULL",[288,72,96,72]],
+    "18(1)-STC": ["FULL",[384,72,96,72]],
+    "18-STC": ["FULL",[0,144,96,72]],
+    "19-STC": ["FULL",[96,144,96,72]],
+    "20-STC": ["FULL",[192,144,96,72]],
     "21-STC": ["NO_COVERAGE",null],
     "22(1)-STC": ["NO_COVERAGE",null],
     "22-STC": ["NO_COVERAGE",null],
-    "23(1)-STC": ["FULL",[384,192,128,96]],
-    "23-STC": ["FULL",[512,192,128,96]]
+    "23(1)-STC": ["FULL",[288,144,96,72]],
+    "23-STC": ["FULL",[384,144,96,72]]
   } as Record<string, [string, [number,number,number,number] | null]>
 };
 

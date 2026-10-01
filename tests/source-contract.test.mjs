@@ -80,7 +80,7 @@ test("V2 uploaded flood sprite is complete WebP from audited plot crops", () => 
   assert.equal(bytes.length, 11478);
   assert.equal(bytes.subarray(0, 4).toString("ascii"), "RIFF");
   assert.equal(bytes.subarray(8, 12).toString("ascii"), "WEBP");
-  assert.match(spriteSource, /FLOOD_EVENT_SPRITE_SIZE = \\[320, 192\\]/);
+  assert.ok(spriteSource.includes("FLOOD_EVENT_SPRITE_SIZE = [320, 192]"));
 });
 
 test("V2 uses uploaded flood imagery and comparison slider without live STAC fetch", () => {

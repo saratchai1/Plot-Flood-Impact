@@ -83,5 +83,7 @@ export interface UploadedFloodEvent {
   spriteWidth: number;
   spriteHeight: number;
   cell: [number, number, number, number] | null;
+  sourceWindow: [number, number, number, number] | null;
+  sourceValidFraction: number;
   spriteUrl: string | null;
 }

@@ -54,19 +54,6 @@ const EVENT = {
   } as Record<string, [string, [number,number,number,number] | null]>
 };
 
-app.get("/api/uploaded-flood/:plotCode", (c) => {
-  const plotCode = decodeURIComponent(c.req.param("plotCode")).trim().toUpperCase();
-  const row = EVENT.coverage[plotCode];
-  if (!row) return c.json({ error: "RAYONG_PLOT_NOT_FOUND" }, 404);
-  return c.json({
-    ...EVENT,
-    coverage: row[0],
-    imageAvailable: row[0] !== "NO_COVERAGE" && Boolean(spriteBase64()),
-    cell: row[1],
-    spriteUrl: row[0] === "NO_COVERAGE" ? null : "/api/uploaded-flood/sprite"
-  });
-});
-
 app.get("/api/uploaded-flood/sprite", (c) => {
   const encoded = spriteBase64();
   if (!encoded) return c.json({ error: "UPLOADED_IMAGE_NOT_CONFIGURED" }, 503);
@@ -77,6 +64,19 @@ app.get("/api/uploaded-flood/sprite", (c) => {
       "x-source-file": EVENT.sourceFileName,
       "x-source-sha256": EVENT.sourceSha256
     }
+  });
+});
+
+app.get("/api/uploaded-flood/:plotCode", (c) => {
+  const plotCode = decodeURIComponent(c.req.param("plotCode")).trim().toUpperCase();
+  const row = EVENT.coverage[plotCode];
+  if (!row) return c.json({ error: "RAYONG_PLOT_NOT_FOUND" }, 404);
+  return c.json({
+    ...EVENT,
+    coverage: row[0],
+    imageAvailable: row[0] !== "NO_COVERAGE" && Boolean(spriteBase64()),
+    cell: row[1],
+    spriteUrl: row[0] === "NO_COVERAGE" ? null : "/api/uploaded-flood/sprite"
   });
 });
 

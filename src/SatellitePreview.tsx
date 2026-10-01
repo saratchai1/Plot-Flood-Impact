@@ -96,138 +96,69 @@ function sarTransform(value: number) {
 }
 
 export function SatellitePreview({ scene }: { scene: SatelliteScene | null }) {
-  const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const [state, setState] = useState<"idle" | "loading" | "ready" | "error">("idle");
-  const [message, setMessage] = useState("");
-
-  const rawLinks = useMemo(() => {
-    if (!scene) return [];
-    return Object.entries(scene.assets)
-      .filter(([, asset]) => Boolean(asset.href))
-      .slice(0, 8);
-  }, [scene]);
+  const [selectedPreview, setSelectedPreview] = useState<string | null>(null);
 
   useEffect(() => {
-    let cancelled = false;
-
-    async function render() {
-      if (!scene || !canvasRef.current) {
-        setState("idle");
-        return;
-      }
-      setState("loading");
-      setMessage("");
-
-      try {
-        const size = 640;
-        const assets = scene.assets;
-
-        if (scene.collection === "sentinel-1") {
-          if (!assets.vv?.href && !assets.vh?.href) {
-            throw new Error("ไม่พบ VV/VH COG ใน scene นี้");
-          }
-
-          const vv = assets.vv?.href ? await readBand(assets.vv.href, size) : null;
-          const vh = assets.vh?.href ? await readBand(assets.vh.href, size) : null;
-          if (cancelled) return;
-
-          if (vv && vh) {
-            drawChannels(
-              canvasRef.current,
-              [vv, vh, vv],
-              [sarTransform, sarTransform, sarTransform]
-            );
-          } else {
-            const band = vv || vh;
-            if (!band) throw new Error("SAR band unavailable");
-            drawChannels(
-              canvasRef.current,
-              [band, band, band],
-              [sarTransform, sarTransform, sarTransform]
-            );
-          }
-        } else if (assets.visual?.href) {
-          const channels = await readVisual(assets.visual.href, size);
-          if (cancelled) return;
-          if (channels.length >= 3) {
-            drawChannels(canvasRef.current, channels.slice(0, 3));
-          } else {
-            drawChannels(canvasRef.current, [channels[0], channels[0], channels[0]]);
-          }
-        } else if (
-          assets.red?.href &&
-          assets.green?.href &&
-          assets.blue?.href
-        ) {
-          const [red, green, blue] = await Promise.all([
-            readBand(assets.red.href, size),
-            readBand(assets.green.href, size),
-            readBand(assets.blue.href, size)
-          ]);
-          if (cancelled) return;
-          drawChannels(canvasRef.current, [red, green, blue]);
-        } else {
-          throw new Error("scene นี้ไม่มี RGB COG ที่รองรับ browser renderer");
-        }
-
-        if (!cancelled) setState("ready");
-      } catch (error) {
-        if (cancelled) return;
-        setMessage(
-          error instanceof Error ? error.message : "render satellite scene ไม่สำเร็จ"
-        );
-        setState("error");
-      }
-    }
-
-    void render();
-    return () => {
-      cancelled = true;
-    };
+    setSelectedPreview(null);
   }, [scene]);
 
   if (!scene) {
     return <div className="preview-empty">เลือก scene จาก timeline เพื่อเปรียบเทียบ</div>;
   }
 
+  const previews = scene.previewUrls || {};
+  let defaultPreview = previews.rgb || previews.sar || scene.previewUrl;
+  
+  if (selectedPreview && previews[selectedPreview]) {
+    defaultPreview = previews[selectedPreview];
+  }
+
+  const hasPreviews = Object.keys(previews).length > 0;
+
   return (
     <div className="satellite-preview">
-      {scene.previewUrl && state === "error" ? (
+      {defaultPreview ? (
         <img
           className="comparison-image"
-          src={scene.previewUrl}
-          alt={"Satellite quicklook " + scene.id}
+          src={defaultPreview}
+          alt={"Satellite preview " + scene.id}
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
       ) : (
-        <canvas
-          ref={canvasRef}
-          className={"comparison-canvas " + (state === "ready" ? "is-ready" : "")}
-        />
+        <div className="preview-empty">
+          ไม่มี preview image
+        </div>
       )}
 
-      {state === "loading" && (
-        <div className="preview-status">กำลังอ่าน Cloud Optimized GeoTIFF…</div>
-      )}
-
-      {state === "error" && (
-        <div className="preview-error">
-          <strong>COG preview ยังเปิดไม่ได้</strong>
-          <span>{message}</span>
-          {scene.previewUrl && <span>แสดง provider quicklook แทน</span>}
+      {hasPreviews && (
+        <div className="preview-selector" style={{ padding: '8px', display: 'flex', gap: '8px', background: '#f5f5f5' }}>
+          {Object.keys(previews).map(key => (
+            <button 
+              key={key} 
+              onClick={() => setSelectedPreview(key)}
+              style={{ fontWeight: selectedPreview === key ? 'bold' : 'normal' }}
+            >
+              {key.toUpperCase()}
+            </button>
+          ))}
         </div>
       )}
 
       <div className="asset-links">
-        {rawLinks.map(([key, asset]) => (
-          <a
-            key={key}
-            href={asset.href}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {key}
-          </a>
-        ))}
+        {scene.sourceUrls && scene.sourceUrls.length > 0 ? (
+          scene.sourceUrls.map((url, idx) => (
+            <a
+              key={idx}
+              href={url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Raw Asset {idx+1}
+            </a>
+          ))
+        ) : (
+           <span style={{ fontSize: '12px', color: '#666' }}>Local caching active</span>
+        )}
       </div>
     </div>
   );

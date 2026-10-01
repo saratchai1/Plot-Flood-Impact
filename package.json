@@ -10,25 +10,27 @@
     "worker:dev": "wrangler dev",
     "deploy": "npm run build && wrangler deploy",
     "test": "node --test tests/source-contract.test.mjs",
-    "start": "tsx server.ts"
+    "start": "tsx server.ts",
+    "satellite:sync": "source venv/bin/activate && python scripts/sync_satellite.py"
   },
   "dependencies": {
+    "@hono/node-server": "^1.19.5",
+    "geotiff": "^3.0.5",
     "hono": "^4.9.7",
     "maplibre-gl": "^5.7.1",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "geotiff": "^3.0.5",
-    "@hono/node-server": "^1.19.5"
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260918.1",
     "@types/geojson": "^7946.0.16",
+    "@types/node": "^26.6.3",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.3",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.2",
     "vite": "^7.1.7",
-    "wrangler": "^4.135.0",
-    "tsx": "^4.20.6"
+    "wrangler": "^4.135.0"
   }
 }

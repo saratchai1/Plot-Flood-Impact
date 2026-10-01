@@ -1,3 +1,6 @@
+import * as fs from "fs";
+import * as path from "path";
+
 import { Hono } from "hono";
 import type { Geometry } from "geojson";
 import { getPddBoundary, listPddBoundaries } from "./pddBoundaries";
@@ -477,7 +480,43 @@ app.get("/api/satellite/:plotCode", async (c) => {
   }
 
   try {
-    const result = await fetchStacScenes(boundary.geometry, from, to);
+    const manifestPath = path.resolve(process.cwd(), "data/satellite/catalog/scenes.json");
+    let manifest: any[] = [];
+    if (fs.existsSync(manifestPath)) {
+      manifest = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
+    }
+
+    const plotScenes = manifest.filter((s: any) => s.plotCode === plotCode);
+    
+    // Map to SatelliteScene format
+    const scenes = plotScenes.map((s: any) => {
+      const dt = s.acquiredAt;
+      const dt_safe = dt.replace(/:/g, '').replace(/-/g, '').substring(0, 15);
+      const prefix = `${dt_safe}_${s.sensor}`;
+      const previewUrlBase = `/api/satellite-image/${plotCode}/${prefix}`;
+      
+      const res = {
+        id: s.sceneId,
+        collection: s.collection,
+        sensor: s.sensor,
+        datetime: dt,
+        cloudCover: s.cloudCover,
+        orbitState: s.orbitState,
+        polarizations: s.polarizations,
+        sourceUrls: s.sourceUrls || [],
+        previewUrls: {} as Record<string, string>
+      };
+      
+      if (s.sensor === "sentinel-1") {
+        res.previewUrls.sar = `${previewUrlBase}_sar.webp`;
+      } else {
+        res.previewUrls.rgb = `${previewUrlBase}_rgb.webp`;
+        res.previewUrls.water = `${previewUrlBase}_water.webp`;
+        res.previewUrls.ndvi = `${previewUrlBase}_ndvi.webp`;
+      }
+      return res;
+    });
+
     return c.json({
       plotCode,
       from,
@@ -485,10 +524,10 @@ app.get("/api/satellite/:plotCode", async (c) => {
       cloudFilterApplied: false,
       queryGeometrySource: boundary.source,
       queryGeometrySourceDate: boundary.sourceDate,
-      count: result.scenes.length,
-      providerMatched: result.providerMatched,
-      collections: result.collections,
-      scenes: result.scenes
+      count: scenes.length,
+      providerMatched: scenes.length,
+      collections: [...COLLECTIONS],
+      scenes
     });
   } catch (error) {
     return c.json(
@@ -499,6 +538,24 @@ app.get("/api/satellite/:plotCode", async (c) => {
       502
     );
   }
+});
+
+app.get("/api/satellite-image/:plotCode/:filename", async (c) => {
+  const plotCode = decodeURIComponent(c.req.param("plotCode")).trim().toUpperCase();
+  const filename = decodeURIComponent(c.req.param("filename"));
+  const imgPath = path.resolve(process.cwd(), "data/satellite/previews", plotCode, filename);
+  
+  if (!fs.existsSync(imgPath)) {
+    return c.json({ error: "PREVIEW_NOT_FOUND" }, 404);
+  }
+  
+  const ext = path.extname(filename).toLowerCase();
+  const mime = ext === '.webp' ? 'image/webp' : ext === '.png' ? 'image/png' : 'image/jpeg';
+  
+  const buffer = fs.readFileSync(imgPath);
+  c.header("Content-Type", mime);
+  c.header("Cache-Control", "public, max-age=86400");
+  return c.body(buffer);
 });
 
 type WorkerEnv = {

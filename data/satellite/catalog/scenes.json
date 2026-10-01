@@ -1,0 +1,2675 @@
+[
+  {
+    "plotCode": "13-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.122726Z"
+  },
+  {
+    "plotCode": "14-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.132444Z"
+  },
+  {
+    "plotCode": "14-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.148760Z"
+  },
+  {
+    "plotCode": "14(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.158509Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.169819Z"
+  },
+  {
+    "plotCode": "15-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.184380Z"
+  },
+  {
+    "plotCode": "16-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.194030Z"
+  },
+  {
+    "plotCode": "16-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.206653Z"
+  },
+  {
+    "plotCode": "17-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.222361Z"
+  },
+  {
+    "plotCode": "17-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.232706Z"
+  },
+  {
+    "plotCode": "18-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.243802Z"
+  },
+  {
+    "plotCode": "18(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.253646Z"
+  },
+  {
+    "plotCode": "19-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.280788Z"
+  },
+  {
+    "plotCode": "20-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.298891Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.318551Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.327969Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.337216Z"
+  },
+  {
+    "plotCode": "23-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.348077Z"
+  },
+  {
+    "plotCode": "23(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PQQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.361101Z"
+  },
+  {
+    "plotCode": "13-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.383706Z"
+  },
+  {
+    "plotCode": "14-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.392343Z"
+  },
+  {
+    "plotCode": "14-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.406713Z"
+  },
+  {
+    "plotCode": "14(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.416450Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.427995Z"
+  },
+  {
+    "plotCode": "15-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.442307Z"
+  },
+  {
+    "plotCode": "16-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.452225Z"
+  },
+  {
+    "plotCode": "16-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.462224Z"
+  },
+  {
+    "plotCode": "17-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.477650Z"
+  },
+  {
+    "plotCode": "17-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.487447Z"
+  },
+  {
+    "plotCode": "18-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.497857Z"
+  },
+  {
+    "plotCode": "18(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.510367Z"
+  },
+  {
+    "plotCode": "19-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.520176Z"
+  },
+  {
+    "plotCode": "20-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.530676Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.551054Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.559992Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.568889Z"
+  },
+  {
+    "plotCode": "23-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.578333Z"
+  },
+  {
+    "plotCode": "23(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PQQ_20260929_0_L2A",
+    "acquiredAt": "2026-09-29T03:54:50.774000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 71.335834,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.590685Z"
+  },
+  {
+    "plotCode": "13-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.591281Z"
+  },
+  {
+    "plotCode": "14-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.591526Z"
+  },
+  {
+    "plotCode": "14-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.592147Z"
+  },
+  {
+    "plotCode": "14(1)-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.592331Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.592560Z"
+  },
+  {
+    "plotCode": "15-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.592958Z"
+  },
+  {
+    "plotCode": "16-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.593170Z"
+  },
+  {
+    "plotCode": "16-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.593623Z"
+  },
+  {
+    "plotCode": "17-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.594055Z"
+  },
+  {
+    "plotCode": "17-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.594989Z"
+  },
+  {
+    "plotCode": "18-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.595593Z"
+  },
+  {
+    "plotCode": "18(1)-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.596056Z"
+  },
+  {
+    "plotCode": "19-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.596413Z"
+  },
+  {
+    "plotCode": "20-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.596869Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.597538Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.597809Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.598060Z"
+  },
+  {
+    "plotCode": "23-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.598377Z"
+  },
+  {
+    "plotCode": "23(1)-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260927T112805_20260927T112830_004763_008EC4",
+    "acquiredAt": "2026-09-27T11:28:18.181823Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.598583Z"
+  },
+  {
+    "plotCode": "13-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.646081Z"
+  },
+  {
+    "plotCode": "14-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.654051Z"
+  },
+  {
+    "plotCode": "14-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.668003Z"
+  },
+  {
+    "plotCode": "14(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.677058Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.689141Z"
+  },
+  {
+    "plotCode": "15-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.701540Z"
+  },
+  {
+    "plotCode": "16-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.710348Z"
+  },
+  {
+    "plotCode": "16-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.720089Z"
+  },
+  {
+    "plotCode": "17-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.733285Z"
+  },
+  {
+    "plotCode": "17-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.742100Z"
+  },
+  {
+    "plotCode": "18-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.751952Z"
+  },
+  {
+    "plotCode": "18(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.767542Z"
+  },
+  {
+    "plotCode": "19-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.777848Z"
+  },
+  {
+    "plotCode": "20-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.787911Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.805434Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.813969Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.822216Z"
+  },
+  {
+    "plotCode": "23-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.830962Z"
+  },
+  {
+    "plotCode": "23(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PQQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.847553Z"
+  },
+  {
+    "plotCode": "13-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.866708Z"
+  },
+  {
+    "plotCode": "14-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.874398Z"
+  },
+  {
+    "plotCode": "14-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.888112Z"
+  },
+  {
+    "plotCode": "14(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.897398Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.909279Z"
+  },
+  {
+    "plotCode": "15-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.922495Z"
+  },
+  {
+    "plotCode": "16-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.930665Z"
+  },
+  {
+    "plotCode": "16-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.939601Z"
+  },
+  {
+    "plotCode": "17-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.952363Z"
+  },
+  {
+    "plotCode": "17-VSD",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.965245Z"
+  },
+  {
+    "plotCode": "18-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:08.989817Z"
+  },
+  {
+    "plotCode": "18(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.003722Z"
+  },
+  {
+    "plotCode": "19-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.011474Z"
+  },
+  {
+    "plotCode": "20-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.021266Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.045459Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.054291Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.062856Z"
+  },
+  {
+    "plotCode": "23-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.074434Z"
+  },
+  {
+    "plotCode": "23(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PQQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:38.267000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.086386Z"
+  },
+  {
+    "plotCode": "13-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.086980Z"
+  },
+  {
+    "plotCode": "14-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.087207Z"
+  },
+  {
+    "plotCode": "14-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.087670Z"
+  },
+  {
+    "plotCode": "14(1)-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.087833Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.088046Z"
+  },
+  {
+    "plotCode": "15-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.088499Z"
+  },
+  {
+    "plotCode": "16-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.088783Z"
+  },
+  {
+    "plotCode": "16-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.089112Z"
+  },
+  {
+    "plotCode": "17-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.089489Z"
+  },
+  {
+    "plotCode": "17-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.089949Z"
+  },
+  {
+    "plotCode": "18-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.090378Z"
+  },
+  {
+    "plotCode": "18(1)-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.090765Z"
+  },
+  {
+    "plotCode": "19-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.091061Z"
+  },
+  {
+    "plotCode": "20-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.091510Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.092099Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.092323Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.092553Z"
+  },
+  {
+    "plotCode": "23-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.092788Z"
+  },
+  {
+    "plotCode": "23(1)-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1D_IW_GRDH_1SDV_20260926T230043_20260926T230108_004755_008E7F",
+    "acquiredAt": "2026-09-26T23:00:55.556340Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "descending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.092954Z"
+  },
+  {
+    "plotCode": "14-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.093183Z"
+  },
+  {
+    "plotCode": "14-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.093674Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.094014Z"
+  },
+  {
+    "plotCode": "15-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.094426Z"
+  },
+  {
+    "plotCode": "16-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.094697Z"
+  },
+  {
+    "plotCode": "16-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.095090Z"
+  },
+  {
+    "plotCode": "17-VSD",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.095681Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.096328Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.096552Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.096795Z"
+  },
+  {
+    "plotCode": "23-STC",
+    "sensor": "sentinel-1",
+    "collection": "sentinel-1-grd",
+    "sceneId": "S1C_IW_GRDH_1SDV_20260928T111933_20260928T111958_009647_01333F",
+    "acquiredAt": "2026-09-28T11:19:45.889170Z",
+    "sourceAssets": [],
+    "cloudCover": null,
+    "orbitState": "ascending",
+    "polarizations": [
+      "VV",
+      "VH"
+    ],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.097115Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PRQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:47.443000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 88.411319,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.110092Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PRQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:47.443000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 88.411319,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.128486Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PRQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:47.443000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 88.411319,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.137601Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2A_T47PRQ_20260929T035408_L2A",
+    "acquiredAt": "2026-09-29T03:54:47.443000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 88.411319,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.145739Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PRQ_20260929_1_L2A",
+    "acquiredAt": "2026-09-29T03:54:47.443000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 88.411319,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.174831Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PRQ_20260929_1_L2A",
+    "acquiredAt": "2026-09-29T03:54:47.443000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 88.411319,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.205110Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PRQ_20260929_1_L2A",
+    "acquiredAt": "2026-09-29T03:54:47.443000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 88.411319,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.226157Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2A_47PRQ_20260929_1_L2A",
+    "acquiredAt": "2026-09-29T03:54:47.443000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 88.411319,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.247132Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PRQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:34.929000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.259474Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PRQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:34.929000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.276602Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PRQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:34.929000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.285434Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-c1-l2a",
+    "sceneId": "S2C_T47PRQ_20260927T034657_L2A",
+    "acquiredAt": "2026-09-27T03:54:34.929000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.293588Z"
+  },
+  {
+    "plotCode": "15-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PRQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:34.929000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.306050Z"
+  },
+  {
+    "plotCode": "21-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PRQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:34.929000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.323481Z"
+  },
+  {
+    "plotCode": "22-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PRQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:34.929000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.331685Z"
+  },
+  {
+    "plotCode": "22(1)-STC",
+    "sensor": "sentinel-2",
+    "collection": "sentinel-2-l2a",
+    "sceneId": "S2C_47PRQ_20260927_0_L2A",
+    "acquiredAt": "2026-09-27T03:54:34.929000Z",
+    "sourceAssets": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16"
+    ],
+    "cloudCover": 100,
+    "orbitState": null,
+    "polarizations": [],
+    "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "processingVersion": "1.0",
+    "generatedAt": "2026-10-01T06:39:09.343924Z"
+  }
+]

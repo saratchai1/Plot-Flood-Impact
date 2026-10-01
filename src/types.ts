@@ -49,6 +49,8 @@ export interface SatelliteScene {
   assets: Record<string, SceneAsset>;
   previewUrl: string | null;
   selfUrl: string | null;
+  previewUrls?: Record<string, string>;
+  sourceUrls?: string[];
 }
 
 export interface SatelliteSearchResult {

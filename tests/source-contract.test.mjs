@@ -76,8 +76,8 @@ test("V2 uploaded flood sprite is complete WebP from audited plot crops", () => 
   assert.ok(match, "embedded flood sprite constant is present");
   const base64 = JSON.parse(match[1]);
   const bytes = Buffer.from(base64, "base64");
-  assert.equal(base64.length, 50896);
-  assert.equal(bytes.length, 38170);
+  assert.equal(base64.length, 15304);
+  assert.equal(bytes.length, 11478);
   assert.equal(bytes.subarray(0, 4).toString("ascii"), "RIFF");
   assert.equal(bytes.subarray(8, 12).toString("ascii"), "WEBP");
   assert.match(spriteSource, /FLOOD_EVENT_SPRITE_SIZE = \[480, 288\]/);

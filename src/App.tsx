@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { getDrone, getUploadedFlood, listPlots } from "./api";
+import { CompareSlider } from "./CompareSlider";
 
 const PlotMap = lazy(() =>
   import("./PlotMap").then((module) => ({ default: module.PlotMap }))
@@ -134,7 +135,7 @@ export function App() {
               >
                 <span>
                   <strong>{plot.plotCode}</strong>
-                  <small>{NO_COVERAGE.has(plot.plotCode) ? "NO_COVERAGE · 29/09" : "COVERED · 29/09"}</small>
+                  <small>{NO_COVERAGE.has(plot.plotCode) ? "ไม่มีภาพดาวเทียม · 29/09" : "มีภาพดาวเทียม · 29/09"}</small>
                 </span>
                 <span className="plot-area">
                   {(plot.declaredAreaRai ?? plot.geometryAreaRai).toFixed(2)} ไร่
@@ -168,7 +169,7 @@ export function App() {
             <div className="summary-card">
               <p className="eyebrow">Uploaded event image</p>
               <div className="metric-grid">
-                <div><span>Coverage</span><strong>{event?.coverage || "—"}</strong></div>
+                <div><span>Satellite</span><strong>{event?.coverage === "NO_COVERAGE" ? "ไม่มีภาพ" : event?.coverage ? "มีภาพ" : "—"}</strong></div>
                 <div><span>Resolution</span><strong>{event ? event.pixelSizeM + " m" : "—"}</strong></div>
                 <div><span>Drone baseline</span><strong>{drone?.available ? "มี" : "—"}</strong></div>
                 <div><span>Bands</span><strong>{event?.bandInterpretation || "—"}</strong></div>
@@ -187,54 +188,23 @@ export function App() {
                 <p className="eyebrow">Fast local comparison</p>
                 <h2>Drone baseline ↔ Flood image 29/09/2026</h2>
               </div>
-              {event && <span className="source-pill">{event.coverage}</span>}
+              {event && <span className="source-pill">{event.coverage === "NO_COVERAGE" ? "ไม่มีภาพดาวเทียม" : "ตรวจพิกัดแล้ว"}</span>}
             </div>
 
-            <div className="comparison-grid">
-              <article className="comparison-card">
-                <header><span>DRONE</span><strong>{selectedCode || "—"}</strong></header>
-                {drone?.available && drone.previewUrl ? (
-                  <img src={drone.previewUrl} className="comparison-image" alt={"Drone " + selectedCode} />
-                ) : (
-                  <div className="preview-empty">
-                    {loadingPlotData ? "กำลังโหลดภาพโดรน…" : drone?.reason || "ยังไม่มีภาพโดรน"}
-                  </div>
-                )}
-                <footer><span>Baseline orthomosaic</span><span>{drone?.mosaicSource || "read-only source"}</span></footer>
-              </article>
-
-              <article className="comparison-card">
-                <header><span>UPLOADED FLOOD IMAGE</span><strong>29/09/2026</strong></header>
-                {event?.coverage === "NO_COVERAGE" ? (
-                  <div className="preview-empty">
-                    ภาพ Flood_Rayong_20260929.tif ไม่ครอบคลุมแปลง {selectedCode}
-                  </div>
-                ) : event?.imageAvailable && event.spriteUrl && event.cell ? (
-                  <svg
-                    className="comparison-image"
-                    viewBox={`0 0 ${event.cell[2]} ${event.cell[3]}`}
-                    role="img"
-                    aria-label={"Flood image " + selectedCode}
-                  >
-                    <image
-                      href={event.spriteUrl}
-                      x={-event.cell[0]}
-                      y={-event.cell[1]}
-                      width={event.spriteWidth}
-                      height={event.spriteHeight}
-                    />
-                  </svg>
-                ) : (
-                  <div className="preview-empty">
-                    {loadingPlotData ? "กำลังโหลด crop…" : "crop ยังไม่ถูกตั้งค่าใน deployment"}
-                  </div>
-                )}
-                <footer>
-                  <span>{event ? formatDate(event.acquiredAt) : "29 กันยายน 2569"}</span>
-                  <span>250 m context crop</span>
-                </footer>
-              </article>
-            </div>
+            {loadingPlotData ? (
+              <div className="preview-empty">กำลังโหลดภาพสำหรับเปรียบเทียบ…</div>
+            ) : !drone?.available || !drone.previewUrl ? (
+              <div className="preview-empty">ไม่มีภาพโดรนสำหรับแปลง {selectedCode}</div>
+            ) : event?.coverage === "NO_COVERAGE" || !event?.imageAvailable ? (
+              <div className="preview-empty no-satellite">
+                <strong>ไม่มีภาพดาวเทียมสำหรับแปลง {selectedCode}</strong>
+                <span>GeoTIFF วันที่ 29/09/2026 ไม่ครอบคลุมตำแหน่งแปลงนี้ จึงเว้นภาพไว้</span>
+              </div>
+            ) : event && selectedCode ? (
+              <CompareSlider plotCode={selectedCode} drone={drone} event={event} />
+            ) : (
+              <div className="preview-empty">ยังไม่มีข้อมูลสำหรับเปรียบเทียบ</div>
+            )}
           </section>
 
           <section className="timeline-section">

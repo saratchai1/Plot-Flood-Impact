@@ -97,7 +97,9 @@ test("V2 uses uploaded flood imagery and comparison slider without live STAC fet
   assert.match(appSource, /CompareSlider/);
   assert.match(appSource, /ไม่มีภาพดาวเทียมสำหรับแปลง/);
   assert.match(sliderSource, /type="range"/);
-  assert.match(sliderSource, /Satellite source window/);
+  assert.match(sliderSource, /geographic extent เดียวกันแล้ว/);
+  assert.match(sliderSource, /droneCropWindow/);
+  assert.match(sliderSource, /targetBoundsWgs84/);
 });
 
 test("V2 crop mapping is generated and contains exactly 15 covered plots", () => {
@@ -129,6 +131,8 @@ test("V2 server derives plot coverage from generated mapping", () => {
   );
   assert.match(server, /FLOOD_EVENT_CELLS/);
   assert.match(server, /FLOOD_EVENT_SOURCE_WINDOWS/);
+  assert.match(server, /FLOOD_EVENT_TARGET_BOUNDS/);
+  assert.match(server, /targetBoundsWgs84/);
   assert.match(server, /FLOOD_EVENT_NO_COVERAGE/);
   assert.match(server, /sourceValidFraction: noCoverage \? 0 : 1/);
   assert.ok(
@@ -140,4 +144,22 @@ test("V2 server derives plot coverage from generated mapping", () => {
     server,
     /a5c575e2cbfe57fa3f1759c8ad796928aeb76a21d1a7a7ef53a6fe31c8f5ce18/
   );
+});
+
+
+test("V2 has audited WGS84 comparison bounds for every covered plot", () => {
+  const geometrySource = readFileSync(
+    new URL("../worker/uploadedFloodGeometry.ts", import.meta.url),
+    "utf8"
+  );
+  const block =
+    geometrySource.match(/FLOOD_EVENT_TARGET_BOUNDS = (\{.*?\}) as const;/s)?.[1] || "";
+  const bounds = JSON.parse(block);
+  assert.equal(Object.keys(bounds).length, 15);
+  for (const [plotCode, value] of Object.entries(bounds)) {
+    assert.equal(value.length, 4, plotCode);
+    assert.ok(value.every(Number.isFinite), plotCode);
+    assert.ok(value[0] < value[2], plotCode);
+    assert.ok(value[1] < value[3], plotCode);
+  }
 });

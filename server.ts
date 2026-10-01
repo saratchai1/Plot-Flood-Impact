@@ -2,13 +2,21 @@ import { serve } from "@hono/node-server";
 import { serveStatic } from "@hono/node-server/serve-static";
 import { Hono } from "hono";
 import { app as apiApp } from "./worker/index";
-import { FLOOD_EVENT_SPRITE_BASE64 } from "./worker/uploadedFloodSprite";
+import {
+  FLOOD_EVENT_CELLS,
+  FLOOD_EVENT_NO_COVERAGE,
+  FLOOD_EVENT_SOURCE_WINDOWS,
+  FLOOD_EVENT_SPRITE_BASE64,
+  FLOOD_EVENT_SPRITE_SIZE
+} from "./worker/uploadedFloodSprite";
 
 const app = new Hono();
 
 function spriteBase64() {
   return FLOOD_EVENT_SPRITE_BASE64;
 }
+
+const NO_COVERAGE = new Set<string>(FLOOD_EVENT_NO_COVERAGE);
 
 const EVENT = {
   id: "uploaded-flood-rayong-20260929",
@@ -24,29 +32,8 @@ const EVENT = {
   sourceHeight: 1196,
   bandCount: 3,
   bandInterpretation: "RGB",
-  spriteWidth: 480,
-  spriteHeight: 216,
-  coverage: {
-    "13-STC": ["FULL",[0,0,96,72]],
-    "14(1)-STC": ["FULL",[96,0,96,72]],
-    "14-STC": ["FULL",[192,0,96,72]],
-    "14-VSD": ["FULL",[288,0,96,72]],
-    "15-STC": ["NO_COVERAGE",null],
-    "15-VSD": ["FULL",[384,0,96,72]],
-    "16-STC": ["FULL",[0,72,96,72]],
-    "16-VSD": ["FULL",[96,72,96,72]],
-    "17-STC": ["FULL",[192,72,96,72]],
-    "17-VSD": ["FULL",[288,72,96,72]],
-    "18(1)-STC": ["FULL",[384,72,96,72]],
-    "18-STC": ["FULL",[0,144,96,72]],
-    "19-STC": ["FULL",[96,144,96,72]],
-    "20-STC": ["FULL",[192,144,96,72]],
-    "21-STC": ["NO_COVERAGE",null],
-    "22(1)-STC": ["NO_COVERAGE",null],
-    "22-STC": ["NO_COVERAGE",null],
-    "23(1)-STC": ["FULL",[288,144,96,72]],
-    "23-STC": ["FULL",[384,144,96,72]]
-  } as Record<string, [string, [number,number,number,number] | null]>
+  spriteWidth: FLOOD_EVENT_SPRITE_SIZE[0],
+  spriteHeight: FLOOD_EVENT_SPRITE_SIZE[1]
 };
 
 app.get("/api/uploaded-flood/sprite", (c) => {
@@ -64,14 +51,22 @@ app.get("/api/uploaded-flood/sprite", (c) => {
 
 app.get("/api/uploaded-flood/:plotCode", (c) => {
   const plotCode = decodeURIComponent(c.req.param("plotCode")).trim().toUpperCase();
-  const row = EVENT.coverage[plotCode];
-  if (!row) return c.json({ error: "RAYONG_PLOT_NOT_FOUND" }, 404);
+  const noCoverage = NO_COVERAGE.has(plotCode);
+  const cell = (FLOOD_EVENT_CELLS as Record<string, readonly [number,number,number,number]>)[plotCode] || null;
+  const sourceWindow = (FLOOD_EVENT_SOURCE_WINDOWS as Record<string, readonly [number,number,number,number]>)[plotCode] || null;
+
+  if (!noCoverage && !cell) {
+    return c.json({ error: "RAYONG_PLOT_NOT_FOUND" }, 404);
+  }
+
   return c.json({
     ...EVENT,
-    coverage: row[0],
-    imageAvailable: row[0] !== "NO_COVERAGE" && Boolean(spriteBase64()),
-    cell: row[1],
-    spriteUrl: row[0] === "NO_COVERAGE" ? null : "/api/uploaded-flood/sprite"
+    coverage: noCoverage ? "NO_COVERAGE" : "FULL",
+    imageAvailable: !noCoverage,
+    cell,
+    sourceWindow,
+    sourceValidFraction: noCoverage ? 0 : 1,
+    spriteUrl: noCoverage ? null : "/api/uploaded-flood/sprite"
   });
 });
 

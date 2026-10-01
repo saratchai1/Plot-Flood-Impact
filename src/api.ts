@@ -8,17 +8,22 @@ async function request<T>(url: string): Promise<T> {
   const response = await fetch(url, {
     headers: { accept: "application/json" }
   });
-  const body = await response.json().catch(() => ({}));
+  const rawBody: unknown = await response.json().catch(() => ({}));
+  const body =
+    rawBody && typeof rawBody === "object"
+      ? (rawBody as Record<string, unknown>)
+      : {};
+
   if (!response.ok) {
     const message =
-      typeof body?.message === "string"
+      typeof body.message === "string"
         ? body.message
-        : typeof body?.error === "string"
+        : typeof body.error === "string"
           ? body.error
           : "Request failed";
     throw new Error(message);
   }
-  return body as T;
+  return rawBody as T;
 }
 
 export async function listPlots() {

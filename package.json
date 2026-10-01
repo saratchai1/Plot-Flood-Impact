@@ -9,14 +9,16 @@
     "preview": "vite preview",
     "worker:dev": "wrangler dev",
     "deploy": "npm run build && wrangler deploy",
-    "test": "node --test tests/source-contract.test.mjs"
+    "test": "node --test tests/source-contract.test.mjs",
+    "start": "tsx server.ts"
   },
   "dependencies": {
     "hono": "^4.9.7",
     "maplibre-gl": "^5.7.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "geotiff": "^3.0.5"
+    "geotiff": "^3.0.5",
+    "@hono/node-server": "^1.19.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260918.1",
@@ -26,6 +28,7 @@
     "@vitejs/plugin-react": "^5.0.3",
     "typescript": "^5.9.2",
     "vite": "^7.1.7",
-    "wrangler": "^4.135.0"
+    "wrangler": "^4.135.0",
+    "tsx": "^4.20.6"
   }
 }

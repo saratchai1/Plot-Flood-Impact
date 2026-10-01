@@ -65,3 +65,50 @@ test("event start and source adapters remain explicit", () => {
   assert.match(worker, /mangrove-area-classifier\.saratchai\.workers\.dev/);
   assert.equal(pkg.dependencies.geotiff, "^3.0.5");
 });
+
+
+test("V2 uploaded flood sprite is complete WebP from the supplied TIFF", () => {
+  const spriteSource = readFileSync(
+    new URL("../worker/uploadedFloodSprite.ts", import.meta.url),
+    "utf8"
+  );
+  const match = spriteSource.match(/FLOOD_EVENT_SPRITE_BASE64 = (".*");/s);
+  assert.ok(match, "embedded flood sprite constant is present");
+  const base64 = JSON.parse(match[1]);
+  const bytes = Buffer.from(base64, "base64");
+  assert.equal(base64.length, 20120);
+  assert.equal(bytes.length, 15088);
+  assert.equal(bytes.subarray(0, 4).toString("ascii"), "RIFF");
+  assert.equal(bytes.subarray(8, 12).toString("ascii"), "WEBP");
+});
+
+test("V2 uses uploaded flood imagery by default and does not fetch live STAC in App", () => {
+  const appSource = readFileSync(
+    new URL("../src/App.tsx", import.meta.url),
+    "utf8"
+  );
+  assert.match(appSource, /getUploadedFlood/);
+  assert.doesNotMatch(appSource, /getSatellite/);
+  assert.match(appSource, /V2 · Local uploaded imagery/);
+  assert.match(appSource, /15 \/ 19 plots covered/);
+});
+
+test("V2 coverage and sprite route remain explicit", () => {
+  const server = readFileSync(
+    new URL("../server.ts", import.meta.url),
+    "utf8"
+  );
+  const fullCount = (server.match(/\["FULL",\[/g) || []).length;
+  const noCoverageCount = (server.match(/\["NO_COVERAGE",null\]/g) || []).length;
+  assert.equal(fullCount, 15);
+  assert.equal(noCoverageCount, 4);
+  assert.ok(
+    server.indexOf('app.get("/api/uploaded-flood/sprite"') <
+      server.indexOf('app.get("/api/uploaded-flood/:plotCode"'),
+    "static sprite route must be registered before the parameter route"
+  );
+  assert.match(
+    server,
+    /a5c575e2cbfe57fa3f1759c8ad796928aeb76a21d1a7a7ef53a6fe31c8f5ce18/
+  );
+});

@@ -80,7 +80,8 @@ export interface UploadedFloodEvent {
   bandInterpretation: string;
   coverage: "FULL" | "PARTIAL" | "NO_COVERAGE";
   imageAvailable: boolean;
-  width: number;
-  height: number;
-  imageUrl: string | null;
+  spriteWidth: number;
+  spriteHeight: number;
+  cell: [number, number, number, number] | null;
+  spriteUrl: string | null;
 }

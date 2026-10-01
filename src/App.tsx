@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { getDrone, getSatellite, listPlots } from "./api";
 import { PlotMap } from "./PlotMap";
 import { SatellitePreview } from "./SatellitePreview";
@@ -60,6 +60,7 @@ function sceneMeta(scene: SatelliteScene) {
 }
 
 export function App() {
+  const loadVersionRef = useRef(0);
   const [plots, setPlots] = useState<PlotRecord[]>([]);
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const [query, setQuery] = useState("");
@@ -102,11 +103,14 @@ export function App() {
     setDrone(null);
     setSatellite(null);
     setSelectedSceneId(null);
+    const loadVersion = ++loadVersionRef.current;
 
     const [droneResult, satelliteResult] = await Promise.allSettled([
       getDrone(plotCode),
       getSatellite(plotCode)
     ]);
+
+    if (loadVersion !== loadVersionRef.current) return;
 
     const errors: string[] = [];
 

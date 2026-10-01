@@ -204,8 +204,21 @@ export function App() {
                   <div className="preview-empty">
                     ภาพ Flood_Rayong_20260929.tif ไม่ครอบคลุมแปลง {selectedCode}
                   </div>
-                ) : event?.imageAvailable && event.imageUrl ? (
-                  <img src={event.imageUrl} className="comparison-image" alt={"Flood image " + selectedCode} />
+                ) : event?.imageAvailable && event.spriteUrl && event.cell ? (
+                  <svg
+                    className="comparison-image"
+                    viewBox={`0 0 ${event.cell[2]} ${event.cell[3]}`}
+                    role="img"
+                    aria-label={"Flood image " + selectedCode}
+                  >
+                    <image
+                      href={event.spriteUrl}
+                      x={-event.cell[0]}
+                      y={-event.cell[1]}
+                      width={event.spriteWidth}
+                      height={event.spriteHeight}
+                    />
+                  </svg>
                 ) : (
                   <div className="preview-empty">
                     {loadingPlotData ? "กำลังโหลด crop…" : "crop ยังไม่ถูกตั้งค่าใน deployment"}

@@ -2,10 +2,6 @@ import { Hono } from "hono";
 import type { Geometry } from "geojson";
 import { getPddBoundary, listPddBoundaries } from "./pddBoundaries";
 
-type Env = {
-  ASSETS: Fetcher;
-};
-
 type StacLink = {
   rel?: string;
   href?: string;
@@ -42,7 +38,7 @@ type StacFeatureCollection = {
   numberReturned?: number;
 };
 
-const app = new Hono<{ Bindings: Env }>();
+export const app = new Hono();
 
 const FLOOD_EVENT_START = "2026-09-27T00:00:00Z";
 const EARTH_SEARCH = "https://earth-search.aws.element84.com/v1/search";
@@ -505,6 +501,14 @@ app.get("/api/satellite/:plotCode", async (c) => {
   }
 });
 
-app.all("*", (c) => c.env.ASSETS.fetch(c.req.raw));
+type WorkerEnv = {
+  ASSETS: Fetcher;
+};
 
-export default app;
+export default {
+  async fetch(request: Request, env: WorkerEnv) {
+    const response = await app.fetch(request);
+    if (response.status !== 404) return response;
+    return env.ASSETS.fetch(request);
+  }
+};

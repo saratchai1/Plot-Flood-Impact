@@ -84,6 +84,7 @@ export interface UploadedFloodEvent {
   spriteHeight: number;
   cell: [number, number, number, number] | null;
   sourceWindow: [number, number, number, number] | null;
+  targetBoundsWgs84: [number, number, number, number] | null;
   sourceValidFraction: number;
   spriteUrl: string | null;
 }

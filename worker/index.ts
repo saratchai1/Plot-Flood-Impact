@@ -272,16 +272,34 @@ async function fetchStacScenes(geometry: Geometry, from: string, to: string) {
   };
 }
 
+/**
+ * Fetch drone record.
+ * On Cloudflare Workers, same-zone subrequests to other *.saratchai.workers.dev
+ * workers fail with 404. So we return direct upstream URLs for the browser
+ * to fetch the images directly.
+ */
 async function fetchDroneRecord(plotCode: string) {
   const listUrl =
     DRONE_SOURCE_ORIGIN +
     "/api/imagery?province=RAYONG&q=" +
     encodeURIComponent(plotCode);
 
-  const listResponse = await fetch(listUrl, {
-    headers: { accept: "application/json" }
-  });
+  // Try fetching the listing — may fail on CF Workers due to same-zone routing
+  let listResponse: Response;
+  try {
+    listResponse = await fetch(listUrl, {
+      headers: { accept: "application/json" }
+    });
+  } catch {
+    // If fetch itself fails, return a fallback with direct URLs
+    return buildDirectDroneRecord(plotCode);
+  }
+
   if (!listResponse.ok) {
+    // CF Workers same-zone 404 — use fallback direct URLs
+    if (listResponse.status === 404) {
+      return buildDirectDroneRecord(plotCode);
+    }
     return {
       available: false,
       reason: `DRONE_LIST_${listResponse.status}`
@@ -316,12 +334,17 @@ async function fetchDroneRecord(plotCode: string) {
     encodeURIComponent(item.key) +
     "&plotCode=" +
     encodeURIComponent(plotCode);
-  const metaResponse = await fetch(metaUrl, {
-    headers: { accept: "application/json" }
-  });
-  const meta = metaResponse.ok
-    ? ((await metaResponse.json()) as Record<string, unknown>)
-    : null;
+  let meta: Record<string, unknown> | null = null;
+  try {
+    const metaResponse = await fetch(metaUrl, {
+      headers: { accept: "application/json" }
+    });
+    meta = metaResponse.ok
+      ? ((await metaResponse.json()) as Record<string, unknown>)
+      : null;
+  } catch {
+    // Ignore meta fetch failures
+  }
 
   return {
     available: true,
@@ -342,6 +365,43 @@ async function fetchDroneRecord(plotCode: string) {
       encodeURIComponent(item.key) +
       "&width=4096",
     meta
+  };
+}
+
+/**
+ * Fallback: build drone URLs that point directly to the upstream worker.
+ * Used when CF Worker-to-Worker subrequest fails.
+ */
+function buildDirectDroneRecord(plotCode: string) {
+  // Construct the known key pattern for Rayong plots
+  const plotLower = plotCode.toLowerCase().replace(/[()]/g, match => match);
+  const plotUnderscore = plotCode.replace(/-/g, '_');
+  const key = `mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/${plotLower}/${plotUnderscore}_mosaic.webp`;
+  
+  const directPreview = 
+    DRONE_SOURCE_ORIGIN +
+    "/api/imagery/preview?key=" +
+    encodeURIComponent(key) +
+    "&width=2048";
+  const directDetail = 
+    DRONE_SOURCE_ORIGIN +
+    "/api/imagery/preview?key=" +
+    encodeURIComponent(key) +
+    "&width=4096";
+
+  return {
+    available: true,
+    key,
+    plotName: plotCode,
+    locationName: null,
+    plotAreaSqm: null,
+    boundarySource: null,
+    mosaicSource: "analysis_assets",
+    capturedAt: null,
+    source: "mangrove-area-classifier-direct",
+    previewUrl: directPreview,
+    detailUrl: directDetail,
+    meta: null
   };
 }
 
@@ -434,7 +494,9 @@ app.get("/api/drone-image", async (c) => {
     encodeURIComponent(key) +
     "&width=" +
     width;
-  const response = await fetch(upstream);
+  const response = await fetch(upstream, {
+    headers: { host: "mangrove-area-classifier.saratchai.workers.dev" },
+  });
   if (!response.ok) {
     return c.json(
       {

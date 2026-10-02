@@ -386,7 +386,7 @@ export function App() {
                   const bandLabel = band === 'water' ? 'Water Index' : band === 'ndvi' ? 'NDVI' : band === 'sar' ? 'SAR' : 'RGB';
                   return `${selectedScene.sensor} · ${bandLabel} · ${formatDateTime(selectedScene.datetime)}`;
                 })()}
-                plotBounds={selectedPlot?.bounds as [number, number, number, number] || null}
+                plotBounds={(selectedPlot?.droneBounds || selectedPlot?.bounds) as [number, number, number, number] || null}
                 floodMode={selectedBand === 'flood'}
               />
             </div>

@@ -224,7 +224,21 @@ def run():
             if not p_shape.is_valid:
                 p_shape = p_shape.buffer(0)
             
-            buffer_shape = p_shape.buffer(0.0025) 
+            drone_bounds_dict = {}
+            if os.path.exists("drone_bounds.json"):
+                try:
+                    with open("drone_bounds.json") as f_db:
+                        drone_bounds_dict = json.load(f_db)
+                except Exception:
+                    pass
+
+            if p_code in drone_bounds_dict and drone_bounds_dict[p_code]:
+                db = drone_bounds_dict[p_code]
+                crop_shape = box(db[0], db[1], db[2], db[3])
+                effective_bounds = list(db)
+            else:
+                crop_shape = p_shape.buffer(0.0025)
+                effective_bounds = list(crop_shape.bounds)
             
             out_plot_dir = os.path.join(PLOTS_DIR, p_code, dt_safe, col)
             os.makedirs(out_plot_dir, exist_ok=True)
@@ -238,9 +252,9 @@ def run():
                     with rasterio.open(path) as src:
                         from rasterio.warp import transform_geom
                         
-                        # Project plot geometry from EPSG:4326 to src CRS
+                        # Project crop geometry from EPSG:4326 to src CRS
                         src_crs = src.crs
-                        proj_geom = transform_geom('EPSG:4326', src_crs, mapping(buffer_shape))
+                        proj_geom = transform_geom('EPSG:4326', src_crs, mapping(crop_shape))
                         
                         out_image, out_transform = mask(src, [proj_geom], crop=True)
                         cropped_data[k] = out_image[0]
@@ -278,6 +292,7 @@ def run():
                     "orbitState": item['properties'].get('sat:orbit_state'),
                     "polarizations": item['properties'].get('sar:polarizations', []),
                     "plotBoundarySource": "pdd_kmz_2026_09_21",
+                    "bounds": effective_bounds,
                     "processingVersion": "1.0",
                     "generatedAt": datetime.utcnow().isoformat() + "Z"
                 })

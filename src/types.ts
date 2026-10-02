@@ -5,6 +5,7 @@ export interface PlotRecord {
   province: string;
   geometry: Geometry;
   bounds: [number, number, number, number] | null;
+  droneBounds?: [number, number, number, number] | null;
   centroid: [number, number] | null;
   geometryAreaRai: number;
   declaredAreaRai: number | null;

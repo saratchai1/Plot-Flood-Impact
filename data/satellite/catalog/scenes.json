@@ -16,8 +16,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68736282377864,
+      12.70509728056603,
+      101.69794167045445,
+      12.715310517270082
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.616701Z"
+    "generatedAt": "2026-10-02T04:30:21.638582Z"
   },
   {
     "plotCode": "14-STC",
@@ -36,8 +42,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69860219694857,
+      12.709352990838486,
+      101.70119886073812,
+      12.71132157043842
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.625786Z"
+    "generatedAt": "2026-10-02T04:30:21.645806Z"
   },
   {
     "plotCode": "14-VSD",
@@ -56,8 +68,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70422227512942,
+      12.717679549857655,
+      101.71000008829702,
+      12.721566509831733
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.643161Z"
+    "generatedAt": "2026-10-02T04:30:21.657796Z"
   },
   {
     "plotCode": "14(1)-STC",
@@ -76,8 +94,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67058705945412,
+      12.69007844884081,
+      101.67413565658912,
+      12.692990325886425
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.655458Z"
+    "generatedAt": "2026-10-02T04:30:21.667498Z"
   },
   {
     "plotCode": "15-STC",
@@ -96,8 +120,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.668607Z"
+    "generatedAt": "2026-10-02T04:30:21.676966Z"
   },
   {
     "plotCode": "15-VSD",
@@ -116,8 +146,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70408824052598,
+      12.725186696848565,
+      101.70984002859124,
+      12.72964644693928
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.683482Z"
+    "generatedAt": "2026-10-02T04:30:21.688381Z"
   },
   {
     "plotCode": "16-STC",
@@ -136,8 +172,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7153566,
+      12.7273268,
+      101.7205174,
+      12.7328825
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.693461Z"
+    "generatedAt": "2026-10-02T04:30:21.699652Z"
   },
   {
     "plotCode": "16-VSD",
@@ -156,8 +198,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69840550388365,
+      12.728144607274952,
+      101.70348186819218,
+      12.732453459761697
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.706235Z"
+    "generatedAt": "2026-10-02T04:30:21.707807Z"
   },
   {
     "plotCode": "17-STC",
@@ -176,8 +224,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67030350663994,
+      12.719827353630002,
+      101.68272473644801,
+      12.72808674664869
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.741207Z"
+    "generatedAt": "2026-10-02T04:30:21.720575Z"
   },
   {
     "plotCode": "17-VSD",
@@ -196,8 +250,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69889149695875,
+      12.727481326923076,
+      101.70450254125231,
+      12.732864503009893
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.758111Z"
+    "generatedAt": "2026-10-02T04:30:21.728499Z"
   },
   {
     "plotCode": "18-STC",
@@ -216,8 +276,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68549593519342,
+      12.726611875437133,
+      101.69025004487044,
+      12.732247281794068
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.769834Z"
+    "generatedAt": "2026-10-02T04:30:21.736101Z"
   },
   {
     "plotCode": "18(1)-STC",
@@ -236,8 +302,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66330203442426,
+      12.72515071957361,
+      101.66740491785177,
+      12.728722826733547
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.780494Z"
+    "generatedAt": "2026-10-02T04:30:21.742845Z"
   },
   {
     "plotCode": "19-STC",
@@ -256,8 +328,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.65869534520962,
+      12.7251970306448,
+      101.6625621615421,
+      12.72780075728841
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.794580Z"
+    "generatedAt": "2026-10-02T04:30:21.750037Z"
   },
   {
     "plotCode": "20-STC",
@@ -276,8 +354,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66141448669786,
+      12.721651632469115,
+      101.66581174274461,
+      12.726507338188307
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.804887Z"
+    "generatedAt": "2026-10-02T04:30:21.757490Z"
   },
   {
     "plotCode": "21-STC",
@@ -296,8 +380,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.826061Z"
+    "generatedAt": "2026-10-02T04:30:21.775100Z"
   },
   {
     "plotCode": "22-STC",
@@ -316,8 +406,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.835413Z"
+    "generatedAt": "2026-10-02T04:30:21.782249Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -336,8 +432,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.844874Z"
+    "generatedAt": "2026-10-02T04:30:21.789525Z"
   },
   {
     "plotCode": "23-STC",
@@ -356,8 +458,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7207646,
+      12.713267,
+      101.7275128,
+      12.7177939
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.858557Z"
+    "generatedAt": "2026-10-02T04:30:21.797474Z"
   },
   {
     "plotCode": "23(1)-STC",
@@ -376,8 +484,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.874029Z"
+    "generatedAt": "2026-10-02T04:30:21.812164Z"
   },
   {
     "plotCode": "13-STC",
@@ -396,8 +510,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68736282377864,
+      12.70509728056603,
+      101.69794167045445,
+      12.715310517270082
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.896783Z"
+    "generatedAt": "2026-10-02T04:30:21.854933Z"
   },
   {
     "plotCode": "14-STC",
@@ -416,8 +536,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69860219694857,
+      12.709352990838486,
+      101.70119886073812,
+      12.71132157043842
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.905100Z"
+    "generatedAt": "2026-10-02T04:30:21.861150Z"
   },
   {
     "plotCode": "14-VSD",
@@ -436,8 +562,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70422227512942,
+      12.717679549857655,
+      101.71000008829702,
+      12.721566509831733
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.921171Z"
+    "generatedAt": "2026-10-02T04:30:21.873362Z"
   },
   {
     "plotCode": "14(1)-STC",
@@ -456,8 +588,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67058705945412,
+      12.69007844884081,
+      101.67413565658912,
+      12.692990325886425
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.932471Z"
+    "generatedAt": "2026-10-02T04:30:21.884215Z"
   },
   {
     "plotCode": "15-STC",
@@ -476,8 +614,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.945959Z"
+    "generatedAt": "2026-10-02T04:30:21.894585Z"
   },
   {
     "plotCode": "15-VSD",
@@ -496,8 +640,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70408824052598,
+      12.725186696848565,
+      101.70984002859124,
+      12.72964644693928
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.967283Z"
+    "generatedAt": "2026-10-02T04:30:21.907026Z"
   },
   {
     "plotCode": "16-STC",
@@ -516,8 +666,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7153566,
+      12.7273268,
+      101.7205174,
+      12.7328825
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:17.982172Z"
+    "generatedAt": "2026-10-02T04:30:21.920684Z"
   },
   {
     "plotCode": "16-VSD",
@@ -536,8 +692,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69840550388365,
+      12.728144607274952,
+      101.70348186819218,
+      12.732453459761697
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.002744Z"
+    "generatedAt": "2026-10-02T04:30:21.928520Z"
   },
   {
     "plotCode": "17-STC",
@@ -556,8 +718,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67030350663994,
+      12.719827353630002,
+      101.68272473644801,
+      12.72808674664869
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.051461Z"
+    "generatedAt": "2026-10-02T04:30:21.986911Z"
   },
   {
     "plotCode": "17-VSD",
@@ -576,8 +744,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69889149695875,
+      12.727481326923076,
+      101.70450254125231,
+      12.732864503009893
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.071680Z"
+    "generatedAt": "2026-10-02T04:30:21.994468Z"
   },
   {
     "plotCode": "18-STC",
@@ -596,8 +770,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68549593519342,
+      12.726611875437133,
+      101.69025004487044,
+      12.732247281794068
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.085471Z"
+    "generatedAt": "2026-10-02T04:30:22.001992Z"
   },
   {
     "plotCode": "18(1)-STC",
@@ -616,8 +796,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66330203442426,
+      12.72515071957361,
+      101.66740491785177,
+      12.728722826733547
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.096887Z"
+    "generatedAt": "2026-10-02T04:30:22.009699Z"
   },
   {
     "plotCode": "19-STC",
@@ -636,8 +822,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.65869534520962,
+      12.7251970306448,
+      101.6625621615421,
+      12.72780075728841
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.105899Z"
+    "generatedAt": "2026-10-02T04:30:22.016596Z"
   },
   {
     "plotCode": "20-STC",
@@ -656,8 +848,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66141448669786,
+      12.721651632469115,
+      101.66581174274461,
+      12.726507338188307
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.116754Z"
+    "generatedAt": "2026-10-02T04:30:22.024484Z"
   },
   {
     "plotCode": "21-STC",
@@ -676,8 +874,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.138040Z"
+    "generatedAt": "2026-10-02T04:30:22.042113Z"
   },
   {
     "plotCode": "22-STC",
@@ -696,8 +900,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.148517Z"
+    "generatedAt": "2026-10-02T04:30:22.048957Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -716,8 +926,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.157519Z"
+    "generatedAt": "2026-10-02T04:30:22.055237Z"
   },
   {
     "plotCode": "23-STC",
@@ -736,8 +952,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7207646,
+      12.713267,
+      101.7275128,
+      12.7177939
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.170862Z"
+    "generatedAt": "2026-10-02T04:30:22.062944Z"
   },
   {
     "plotCode": "23(1)-STC",
@@ -756,8 +978,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.184368Z"
+    "generatedAt": "2026-10-02T04:30:22.076420Z"
   },
   {
     "plotCode": "13-STC",
@@ -773,8 +1001,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68736282377864,
+      12.70509728056603,
+      101.69794167045445,
+      12.715310517270082
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.184876Z"
+    "generatedAt": "2026-10-02T04:30:22.076878Z"
   },
   {
     "plotCode": "14-STC",
@@ -790,8 +1024,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69860219694857,
+      12.709352990838486,
+      101.70119886073812,
+      12.71132157043842
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.185030Z"
+    "generatedAt": "2026-10-02T04:30:22.077043Z"
   },
   {
     "plotCode": "14-VSD",
@@ -807,8 +1047,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70422227512942,
+      12.717679549857655,
+      101.71000008829702,
+      12.721566509831733
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.185415Z"
+    "generatedAt": "2026-10-02T04:30:22.077221Z"
   },
   {
     "plotCode": "14(1)-STC",
@@ -824,8 +1070,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67058705945412,
+      12.69007844884081,
+      101.67413565658912,
+      12.692990325886425
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.185508Z"
+    "generatedAt": "2026-10-02T04:30:22.077343Z"
   },
   {
     "plotCode": "15-STC",
@@ -841,8 +1093,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.185849Z"
+    "generatedAt": "2026-10-02T04:30:22.077462Z"
   },
   {
     "plotCode": "15-VSD",
@@ -858,8 +1116,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70408824052598,
+      12.725186696848565,
+      101.70984002859124,
+      12.72964644693928
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.186462Z"
+    "generatedAt": "2026-10-02T04:30:22.077595Z"
   },
   {
     "plotCode": "16-STC",
@@ -875,8 +1139,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7153566,
+      12.7273268,
+      101.7205174,
+      12.7328825
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.186733Z"
+    "generatedAt": "2026-10-02T04:30:22.077906Z"
   },
   {
     "plotCode": "16-VSD",
@@ -892,8 +1162,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69840550388365,
+      12.728144607274952,
+      101.70348186819218,
+      12.732453459761697
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.187006Z"
+    "generatedAt": "2026-10-02T04:30:22.078159Z"
   },
   {
     "plotCode": "17-STC",
@@ -909,8 +1185,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67030350663994,
+      12.719827353630002,
+      101.68272473644801,
+      12.72808674664869
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.187402Z"
+    "generatedAt": "2026-10-02T04:30:22.078469Z"
   },
   {
     "plotCode": "17-VSD",
@@ -926,8 +1208,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69889149695875,
+      12.727481326923076,
+      101.70450254125231,
+      12.732864503009893
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.187768Z"
+    "generatedAt": "2026-10-02T04:30:22.078687Z"
   },
   {
     "plotCode": "18-STC",
@@ -943,8 +1231,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68549593519342,
+      12.726611875437133,
+      101.69025004487044,
+      12.732247281794068
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.188150Z"
+    "generatedAt": "2026-10-02T04:30:22.078930Z"
   },
   {
     "plotCode": "18(1)-STC",
@@ -960,8 +1254,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66330203442426,
+      12.72515071957361,
+      101.66740491785177,
+      12.728722826733547
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.188519Z"
+    "generatedAt": "2026-10-02T04:30:22.079113Z"
   },
   {
     "plotCode": "19-STC",
@@ -977,8 +1277,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.65869534520962,
+      12.7251970306448,
+      101.6625621615421,
+      12.72780075728841
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.188760Z"
+    "generatedAt": "2026-10-02T04:30:22.079313Z"
   },
   {
     "plotCode": "20-STC",
@@ -994,8 +1300,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66141448669786,
+      12.721651632469115,
+      101.66581174274461,
+      12.726507338188307
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.189035Z"
+    "generatedAt": "2026-10-02T04:30:22.079471Z"
   },
   {
     "plotCode": "21-STC",
@@ -1011,8 +1323,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.189725Z"
+    "generatedAt": "2026-10-02T04:30:22.079768Z"
   },
   {
     "plotCode": "22-STC",
@@ -1028,8 +1346,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.189969Z"
+    "generatedAt": "2026-10-02T04:30:22.079925Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -1045,8 +1369,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.190225Z"
+    "generatedAt": "2026-10-02T04:30:22.080103Z"
   },
   {
     "plotCode": "23-STC",
@@ -1062,8 +1392,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7207646,
+      12.713267,
+      101.7275128,
+      12.7177939
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.190420Z"
+    "generatedAt": "2026-10-02T04:30:22.080277Z"
   },
   {
     "plotCode": "23(1)-STC",
@@ -1079,8 +1415,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.190561Z"
+    "generatedAt": "2026-10-02T04:30:22.080575Z"
   },
   {
     "plotCode": "13-STC",
@@ -1099,8 +1441,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68736282377864,
+      12.70509728056603,
+      101.69794167045445,
+      12.715310517270082
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.213536Z"
+    "generatedAt": "2026-10-02T04:30:22.098805Z"
   },
   {
     "plotCode": "14-STC",
@@ -1119,8 +1467,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69860219694857,
+      12.709352990838486,
+      101.70119886073812,
+      12.71132157043842
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.221624Z"
+    "generatedAt": "2026-10-02T04:30:22.105249Z"
   },
   {
     "plotCode": "14-VSD",
@@ -1139,8 +1493,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70422227512942,
+      12.717679549857655,
+      101.71000008829702,
+      12.721566509831733
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.270706Z"
+    "generatedAt": "2026-10-02T04:30:22.116650Z"
   },
   {
     "plotCode": "14(1)-STC",
@@ -1159,8 +1519,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67058705945412,
+      12.69007844884081,
+      101.67413565658912,
+      12.692990325886425
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.282384Z"
+    "generatedAt": "2026-10-02T04:30:22.127968Z"
   },
   {
     "plotCode": "15-STC",
@@ -1179,8 +1545,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.295280Z"
+    "generatedAt": "2026-10-02T04:30:22.138071Z"
   },
   {
     "plotCode": "15-VSD",
@@ -1199,8 +1571,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70408824052598,
+      12.725186696848565,
+      101.70984002859124,
+      12.72964644693928
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.308718Z"
+    "generatedAt": "2026-10-02T04:30:22.149916Z"
   },
   {
     "plotCode": "16-STC",
@@ -1219,8 +1597,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7153566,
+      12.7273268,
+      101.7205174,
+      12.7328825
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.317512Z"
+    "generatedAt": "2026-10-02T04:30:22.162741Z"
   },
   {
     "plotCode": "16-VSD",
@@ -1239,8 +1623,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69840550388365,
+      12.728144607274952,
+      101.70348186819218,
+      12.732453459761697
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.326968Z"
+    "generatedAt": "2026-10-02T04:30:22.170867Z"
   },
   {
     "plotCode": "17-STC",
@@ -1259,8 +1649,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67030350663994,
+      12.719827353630002,
+      101.68272473644801,
+      12.72808674664869
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.341033Z"
+    "generatedAt": "2026-10-02T04:30:22.199611Z"
   },
   {
     "plotCode": "17-VSD",
@@ -1279,8 +1675,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69889149695875,
+      12.727481326923076,
+      101.70450254125231,
+      12.732864503009893
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.350889Z"
+    "generatedAt": "2026-10-02T04:30:22.207988Z"
   },
   {
     "plotCode": "18-STC",
@@ -1299,8 +1701,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68549593519342,
+      12.726611875437133,
+      101.69025004487044,
+      12.732247281794068
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.361872Z"
+    "generatedAt": "2026-10-02T04:30:22.216358Z"
   },
   {
     "plotCode": "18(1)-STC",
@@ -1319,8 +1727,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66330203442426,
+      12.72515071957361,
+      101.66740491785177,
+      12.728722826733547
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.377439Z"
+    "generatedAt": "2026-10-02T04:30:22.224233Z"
   },
   {
     "plotCode": "19-STC",
@@ -1339,8 +1753,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.65869534520962,
+      12.7251970306448,
+      101.6625621615421,
+      12.72780075728841
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.388023Z"
+    "generatedAt": "2026-10-02T04:30:22.230980Z"
   },
   {
     "plotCode": "20-STC",
@@ -1359,8 +1779,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66141448669786,
+      12.721651632469115,
+      101.66581174274461,
+      12.726507338188307
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.399049Z"
+    "generatedAt": "2026-10-02T04:30:22.238413Z"
   },
   {
     "plotCode": "21-STC",
@@ -1379,8 +1805,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.420538Z"
+    "generatedAt": "2026-10-02T04:30:22.252578Z"
   },
   {
     "plotCode": "22-STC",
@@ -1399,8 +1831,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.433237Z"
+    "generatedAt": "2026-10-02T04:30:22.259768Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -1419,8 +1857,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.443429Z"
+    "generatedAt": "2026-10-02T04:30:22.266486Z"
   },
   {
     "plotCode": "23-STC",
@@ -1439,8 +1883,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7207646,
+      12.713267,
+      101.7275128,
+      12.7177939
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.460003Z"
+    "generatedAt": "2026-10-02T04:30:22.273632Z"
   },
   {
     "plotCode": "23(1)-STC",
@@ -1459,8 +1909,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.509931Z"
+    "generatedAt": "2026-10-02T04:30:22.287546Z"
   },
   {
     "plotCode": "13-STC",
@@ -1479,8 +1935,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68736282377864,
+      12.70509728056603,
+      101.69794167045445,
+      12.715310517270082
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.532362Z"
+    "generatedAt": "2026-10-02T04:30:22.309779Z"
   },
   {
     "plotCode": "14-STC",
@@ -1499,8 +1961,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69860219694857,
+      12.709352990838486,
+      101.70119886073812,
+      12.71132157043842
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.541293Z"
+    "generatedAt": "2026-10-02T04:30:22.316254Z"
   },
   {
     "plotCode": "14-VSD",
@@ -1519,8 +1987,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70422227512942,
+      12.717679549857655,
+      101.71000008829702,
+      12.721566509831733
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.559507Z"
+    "generatedAt": "2026-10-02T04:30:22.328659Z"
   },
   {
     "plotCode": "14(1)-STC",
@@ -1539,8 +2013,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67058705945412,
+      12.69007844884081,
+      101.67413565658912,
+      12.692990325886425
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.570389Z"
+    "generatedAt": "2026-10-02T04:30:22.340083Z"
   },
   {
     "plotCode": "15-STC",
@@ -1559,8 +2039,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.584817Z"
+    "generatedAt": "2026-10-02T04:30:22.350453Z"
   },
   {
     "plotCode": "15-VSD",
@@ -1579,8 +2065,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70408824052598,
+      12.725186696848565,
+      101.70984002859124,
+      12.72964644693928
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.601322Z"
+    "generatedAt": "2026-10-02T04:30:22.362287Z"
   },
   {
     "plotCode": "16-STC",
@@ -1599,8 +2091,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7153566,
+      12.7273268,
+      101.7205174,
+      12.7328825
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.612036Z"
+    "generatedAt": "2026-10-02T04:30:22.372944Z"
   },
   {
     "plotCode": "16-VSD",
@@ -1619,8 +2117,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69840550388365,
+      12.728144607274952,
+      101.70348186819218,
+      12.732453459761697
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.621304Z"
+    "generatedAt": "2026-10-02T04:30:22.379756Z"
   },
   {
     "plotCode": "17-STC",
@@ -1639,8 +2143,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67030350663994,
+      12.719827353630002,
+      101.68272473644801,
+      12.72808674664869
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.638917Z"
+    "generatedAt": "2026-10-02T04:30:22.390829Z"
   },
   {
     "plotCode": "17-VSD",
@@ -1659,8 +2169,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69889149695875,
+      12.727481326923076,
+      101.70450254125231,
+      12.732864503009893
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.649728Z"
+    "generatedAt": "2026-10-02T04:30:22.397601Z"
   },
   {
     "plotCode": "18-STC",
@@ -1679,8 +2195,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68549593519342,
+      12.726611875437133,
+      101.69025004487044,
+      12.732247281794068
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.660960Z"
+    "generatedAt": "2026-10-02T04:30:22.404269Z"
   },
   {
     "plotCode": "18(1)-STC",
@@ -1699,8 +2221,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66330203442426,
+      12.72515071957361,
+      101.66740491785177,
+      12.728722826733547
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.670823Z"
+    "generatedAt": "2026-10-02T04:30:22.410877Z"
   },
   {
     "plotCode": "19-STC",
@@ -1719,8 +2247,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.65869534520962,
+      12.7251970306448,
+      101.6625621615421,
+      12.72780075728841
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.681190Z"
+    "generatedAt": "2026-10-02T04:30:22.425676Z"
   },
   {
     "plotCode": "20-STC",
@@ -1739,8 +2273,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66141448669786,
+      12.721651632469115,
+      101.66581174274461,
+      12.726507338188307
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.692102Z"
+    "generatedAt": "2026-10-02T04:30:22.439488Z"
   },
   {
     "plotCode": "21-STC",
@@ -1759,8 +2299,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.715328Z"
+    "generatedAt": "2026-10-02T04:30:22.454786Z"
   },
   {
     "plotCode": "22-STC",
@@ -1779,8 +2325,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.724604Z"
+    "generatedAt": "2026-10-02T04:30:22.460993Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -1799,8 +2351,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.762913Z"
+    "generatedAt": "2026-10-02T04:30:22.468289Z"
   },
   {
     "plotCode": "23-STC",
@@ -1819,8 +2377,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7207646,
+      12.713267,
+      101.7275128,
+      12.7177939
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.773306Z"
+    "generatedAt": "2026-10-02T04:30:22.475846Z"
   },
   {
     "plotCode": "23(1)-STC",
@@ -1839,8 +2403,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.787003Z"
+    "generatedAt": "2026-10-02T04:30:22.489011Z"
   },
   {
     "plotCode": "13-STC",
@@ -1856,8 +2426,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68736282377864,
+      12.70509728056603,
+      101.69794167045445,
+      12.715310517270082
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.787518Z"
+    "generatedAt": "2026-10-02T04:30:22.489438Z"
   },
   {
     "plotCode": "14-STC",
@@ -1873,8 +2449,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69860219694857,
+      12.709352990838486,
+      101.70119886073812,
+      12.71132157043842
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.787670Z"
+    "generatedAt": "2026-10-02T04:30:22.489603Z"
   },
   {
     "plotCode": "14-VSD",
@@ -1890,8 +2472,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70422227512942,
+      12.717679549857655,
+      101.71000008829702,
+      12.721566509831733
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.788118Z"
+    "generatedAt": "2026-10-02T04:30:22.489780Z"
   },
   {
     "plotCode": "14(1)-STC",
@@ -1907,8 +2495,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67058705945412,
+      12.69007844884081,
+      101.67413565658912,
+      12.692990325886425
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.788242Z"
+    "generatedAt": "2026-10-02T04:30:22.489903Z"
   },
   {
     "plotCode": "15-STC",
@@ -1924,8 +2518,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.788407Z"
+    "generatedAt": "2026-10-02T04:30:22.490117Z"
   },
   {
     "plotCode": "15-VSD",
@@ -1941,8 +2541,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70408824052598,
+      12.725186696848565,
+      101.70984002859124,
+      12.72964644693928
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.788787Z"
+    "generatedAt": "2026-10-02T04:30:22.490281Z"
   },
   {
     "plotCode": "16-STC",
@@ -1958,8 +2564,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7153566,
+      12.7273268,
+      101.7205174,
+      12.7328825
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.789165Z"
+    "generatedAt": "2026-10-02T04:30:22.490416Z"
   },
   {
     "plotCode": "16-VSD",
@@ -1975,8 +2587,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69840550388365,
+      12.728144607274952,
+      101.70348186819218,
+      12.732453459761697
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.789625Z"
+    "generatedAt": "2026-10-02T04:30:22.490585Z"
   },
   {
     "plotCode": "17-STC",
@@ -1992,8 +2610,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.67030350663994,
+      12.719827353630002,
+      101.68272473644801,
+      12.72808674664869
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.790601Z"
+    "generatedAt": "2026-10-02T04:30:22.490787Z"
   },
   {
     "plotCode": "17-VSD",
@@ -2009,8 +2633,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69889149695875,
+      12.727481326923076,
+      101.70450254125231,
+      12.732864503009893
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.791025Z"
+    "generatedAt": "2026-10-02T04:30:22.490979Z"
   },
   {
     "plotCode": "18-STC",
@@ -2026,8 +2656,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.68549593519342,
+      12.726611875437133,
+      101.69025004487044,
+      12.732247281794068
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.791396Z"
+    "generatedAt": "2026-10-02T04:30:22.491167Z"
   },
   {
     "plotCode": "18(1)-STC",
@@ -2043,8 +2679,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66330203442426,
+      12.72515071957361,
+      101.66740491785177,
+      12.728722826733547
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.791829Z"
+    "generatedAt": "2026-10-02T04:30:22.491334Z"
   },
   {
     "plotCode": "19-STC",
@@ -2060,8 +2702,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.65869534520962,
+      12.7251970306448,
+      101.6625621615421,
+      12.72780075728841
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.792064Z"
+    "generatedAt": "2026-10-02T04:30:22.491528Z"
   },
   {
     "plotCode": "20-STC",
@@ -2077,8 +2725,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.66141448669786,
+      12.721651632469115,
+      101.66581174274461,
+      12.726507338188307
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.792335Z"
+    "generatedAt": "2026-10-02T04:30:22.491681Z"
   },
   {
     "plotCode": "21-STC",
@@ -2094,8 +2748,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.792912Z"
+    "generatedAt": "2026-10-02T04:30:22.491973Z"
   },
   {
     "plotCode": "22-STC",
@@ -2111,8 +2771,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.793313Z"
+    "generatedAt": "2026-10-02T04:30:22.492101Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -2128,8 +2794,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.793505Z"
+    "generatedAt": "2026-10-02T04:30:22.492275Z"
   },
   {
     "plotCode": "23-STC",
@@ -2145,8 +2817,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7207646,
+      12.713267,
+      101.7275128,
+      12.7177939
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.793674Z"
+    "generatedAt": "2026-10-02T04:30:22.492457Z"
   },
   {
     "plotCode": "23(1)-STC",
@@ -2162,8 +2840,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.6556260237034,
+      12.66805000515047,
+      101.66264896673388,
+      12.674290330080494
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.803364Z"
+    "generatedAt": "2026-10-02T04:30:22.492707Z"
   },
   {
     "plotCode": "14-STC",
@@ -2179,8 +2863,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69860219694857,
+      12.709352990838486,
+      101.70119886073812,
+      12.71132157043842
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.803933Z"
+    "generatedAt": "2026-10-02T04:30:22.492883Z"
   },
   {
     "plotCode": "14-VSD",
@@ -2196,8 +2886,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70422227512942,
+      12.717679549857655,
+      101.71000008829702,
+      12.721566509831733
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.804365Z"
+    "generatedAt": "2026-10-02T04:30:22.493052Z"
   },
   {
     "plotCode": "15-STC",
@@ -2213,8 +2909,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.804532Z"
+    "generatedAt": "2026-10-02T04:30:22.493173Z"
   },
   {
     "plotCode": "15-VSD",
@@ -2230,8 +2932,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.70408824052598,
+      12.725186696848565,
+      101.70984002859124,
+      12.72964644693928
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.804935Z"
+    "generatedAt": "2026-10-02T04:30:22.493308Z"
   },
   {
     "plotCode": "16-STC",
@@ -2247,8 +2955,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7153566,
+      12.7273268,
+      101.7205174,
+      12.7328825
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.805152Z"
+    "generatedAt": "2026-10-02T04:30:22.493503Z"
   },
   {
     "plotCode": "16-VSD",
@@ -2264,8 +2978,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69840550388365,
+      12.728144607274952,
+      101.70348186819218,
+      12.732453459761697
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.805391Z"
+    "generatedAt": "2026-10-02T04:30:22.493848Z"
   },
   {
     "plotCode": "17-VSD",
@@ -2281,8 +3001,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.69889149695875,
+      12.727481326923076,
+      101.70450254125231,
+      12.732864503009893
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.805945Z"
+    "generatedAt": "2026-10-02T04:30:22.494101Z"
   },
   {
     "plotCode": "21-STC",
@@ -2298,8 +3024,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.806712Z"
+    "generatedAt": "2026-10-02T04:30:22.494405Z"
   },
   {
     "plotCode": "22-STC",
@@ -2315,8 +3047,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.807348Z"
+    "generatedAt": "2026-10-02T04:30:22.494540Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -2332,8 +3070,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.807616Z"
+    "generatedAt": "2026-10-02T04:30:22.494716Z"
   },
   {
     "plotCode": "23-STC",
@@ -2349,8 +3093,14 @@
       "VH"
     ],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.7207646,
+      12.713267,
+      101.7275128,
+      12.7177939
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.807791Z"
+    "generatedAt": "2026-10-02T04:30:22.494942Z"
   },
   {
     "plotCode": "15-STC",
@@ -2369,8 +3119,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.821757Z"
+    "generatedAt": "2026-10-02T04:30:22.506084Z"
   },
   {
     "plotCode": "21-STC",
@@ -2389,8 +3145,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.841561Z"
+    "generatedAt": "2026-10-02T04:30:22.521778Z"
   },
   {
     "plotCode": "22-STC",
@@ -2409,8 +3171,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.850723Z"
+    "generatedAt": "2026-10-02T04:30:22.529498Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -2429,8 +3197,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.863531Z"
+    "generatedAt": "2026-10-02T04:30:22.536111Z"
   },
   {
     "plotCode": "15-STC",
@@ -2449,8 +3223,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.893433Z"
+    "generatedAt": "2026-10-02T04:30:22.561970Z"
   },
   {
     "plotCode": "21-STC",
@@ -2469,8 +3249,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.926631Z"
+    "generatedAt": "2026-10-02T04:30:22.590338Z"
   },
   {
     "plotCode": "22-STC",
@@ -2489,8 +3275,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.949073Z"
+    "generatedAt": "2026-10-02T04:30:22.612065Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -2509,8 +3301,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.970658Z"
+    "generatedAt": "2026-10-02T04:30:22.641407Z"
   },
   {
     "plotCode": "15-STC",
@@ -2529,8 +3327,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:18.991414Z"
+    "generatedAt": "2026-10-02T04:30:22.653930Z"
   },
   {
     "plotCode": "21-STC",
@@ -2549,8 +3353,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:19.012377Z"
+    "generatedAt": "2026-10-02T04:30:22.669875Z"
   },
   {
     "plotCode": "22-STC",
@@ -2569,8 +3379,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:19.022115Z"
+    "generatedAt": "2026-10-02T04:30:22.677162Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -2589,8 +3405,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:19.067589Z"
+    "generatedAt": "2026-10-02T04:30:22.684923Z"
   },
   {
     "plotCode": "15-STC",
@@ -2609,8 +3431,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:19.083725Z"
+    "generatedAt": "2026-10-02T04:30:22.698142Z"
   },
   {
     "plotCode": "21-STC",
@@ -2629,8 +3457,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:19.102926Z"
+    "generatedAt": "2026-10-02T04:30:22.715717Z"
   },
   {
     "plotCode": "22-STC",
@@ -2649,8 +3483,14 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:19.113541Z"
+    "generatedAt": "2026-10-02T04:30:22.724714Z"
   },
   {
     "plotCode": "22(1)-STC",
@@ -2669,7 +3509,13 @@
     "orbitState": null,
     "polarizations": [],
     "plotBoundarySource": "pdd_kmz_2026_09_21",
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ],
     "processingVersion": "1.0",
-    "generatedAt": "2026-10-02T01:57:19.127330Z"
+    "generatedAt": "2026-10-02T04:30:22.732323Z"
   }
 ]

@@ -1,12 +1,9 @@
 import { useState, useRef, useCallback, useMemo } from "react";
 
-/** Build a static ESRI World Imagery URL for given bounds. */
-function esriBasemapUrl(bounds: [number, number, number, number], width = 800, height = 600) {
+/** Build a static ESRI World Imagery URL for given bounds matching exact georeference. */
+function esriBasemapUrl(bounds: [number, number, number, number], width = 1200, height = 900) {
   const [west, south, east, north] = bounds;
-  // Add ~20% padding around the bounds for context
-  const dLon = (east - west) * 0.2;
-  const dLat = (north - south) * 0.2;
-  const bbox = [west - dLon, south - dLat, east + dLon, north + dLat].join(",");
+  const bbox = [west, south, east, north].join(",");
   return (
     `https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export` +
     `?bbox=${bbox}&bboxSR=4326&imageSR=4326&size=${width},${height}&format=png&f=image`
@@ -29,6 +26,16 @@ export function ImageCompare({
   const [sliderPos, setSliderPos] = useState(50);
   const containerRef = useRef<HTMLDivElement>(null);
   const dragging = useRef(false);
+
+  const containerAspect = useMemo(() => {
+    if (!plotBounds) return "4 / 3";
+    const [west, south, east, north] = plotBounds;
+    const dLon = east - west;
+    const dLat = north - south;
+    const midLat = ((south + north) / 2) * (Math.PI / 180);
+    const aspect = (dLon * Math.cos(midLat)) / dLat;
+    return Number.isFinite(aspect) && aspect > 0.2 && aspect < 5 ? `${aspect}` : "4 / 3";
+  }, [plotBounds]);
 
   const basemapSrc = useMemo(() => {
     if (!plotBounds) return null;
@@ -70,7 +77,7 @@ export function ImageCompare({
       style={{
         position: "relative",
         width: "100%",
-        aspectRatio: "4 / 3",
+        aspectRatio: containerAspect,
         overflow: "hidden",
         background: "#1e293b",
         borderRadius: "8px",
@@ -90,7 +97,7 @@ export function ImageCompare({
             inset: 0,
             width: "100%",
             height: "100%",
-            objectFit: "cover",
+            objectFit: "fill",
             objectPosition: "center",
             opacity: 0.6,
           }}
@@ -108,7 +115,7 @@ export function ImageCompare({
             inset: 0,
             width: "100%",
             height: "100%",
-            objectFit: "contain",
+            objectFit: "fill",
             objectPosition: "center",
             ...(floodMode ? {
               // Mock visual: tint the grayscale water index to blue
@@ -137,7 +144,7 @@ export function ImageCompare({
               inset: 0,
               width: "100%",
               height: "100%",
-              objectFit: "cover",
+              objectFit: "fill",
               objectPosition: "center",
             }}
           />
@@ -152,7 +159,7 @@ export function ImageCompare({
               inset: 0,
               width: "100%",
               height: "100%",
-              objectFit: "contain",
+              objectFit: "fill",
               objectPosition: "center",
             }}
           />

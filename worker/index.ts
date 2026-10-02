@@ -2,6 +2,7 @@ import { Hono } from "hono";
 import type { Geometry } from "geojson";
 import { getPddBoundary, listPddBoundaries } from "./pddBoundaries";
 import satelliteManifest from "../data/satellite/catalog/scenes.json";
+import droneBoundsMap from "../drone_bounds.json";
 
 type StacLink = {
   rel?: string;
@@ -424,6 +425,7 @@ app.get("/api/plots", (c) => {
       province: "ระยอง",
       geometry: row.geometry,
       bounds,
+      droneBounds: (droneBoundsMap as unknown as Record<string, [number, number, number, number]>)[row.plotCode] || null,
       centroid: centroidFromBounds(bounds),
       geometryAreaRai: row.geometryAreaRai,
       declaredAreaRai: row.declaredAreaRai,

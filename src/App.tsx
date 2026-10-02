@@ -350,22 +350,22 @@ export function App() {
                     : "เลือก scene จาก timeline ด้านล่าง"}
                 </span>
                 
-                {selectedScene?.previewUrls && Object.keys(selectedScene.previewUrls).map(band => {
+                {selectedScene?.previewUrls && ['flood', ...Object.keys(selectedScene.previewUrls)].map(band => {
                   const effectiveBand = selectedBand && selectedScene.previewUrls?.[selectedBand] ? selectedBand : null;
-                  const isActive = effectiveBand === band || (!effectiveBand && band === Object.keys(selectedScene.previewUrls!)[0]);
+                  const isActive = (selectedBand === 'flood' && band === 'flood') || (selectedBand !== 'flood' && (effectiveBand === band || (!effectiveBand && band === Object.keys(selectedScene.previewUrls!)[0])));
                   return (
                     <button 
                       key={band}
                       onClick={() => setSelectedBand(band)}
                       style={{
                         padding: '4px 10px', fontSize: '12px', borderRadius: '4px', cursor: 'pointer',
-                        background: isActive ? '#3b82f6' : '#334155',
+                        background: isActive ? (band === 'flood' ? '#0ea5e9' : '#3b82f6') : '#334155',
                         color: isActive ? 'white' : '#cbd5e1',
-                        border: isActive ? '1px solid #60a5fa' : '1px solid #475569',
+                        border: isActive ? (band === 'flood' ? '1px solid #38bdf8' : '1px solid #60a5fa') : '1px solid #475569',
                         fontWeight: isActive ? 'bold' : 'normal',
                       }}
                     >
-                      {band === 'water' ? '💧 Water (น้ำ)' : band === 'ndvi' ? '🌿 NDVI' : band === 'sar' ? '📡 SAR' : '🖼 ' + band.toUpperCase()}
+                      {band === 'flood' ? '🌊 ตรวจน้ำ (Flood)' : band === 'water' ? '💧 Water (น้ำ)' : band === 'ndvi' ? '🌿 NDVI' : band === 'sar' ? '📡 SAR' : '🖼 ' + band.toUpperCase()}
                     </button>
                   );
                 })}
@@ -375,16 +375,19 @@ export function App() {
                 satelliteUrl={(() => {
                   if (!selectedScene?.previewUrls) return null;
                   const urls = selectedScene.previewUrls;
+                  if (selectedBand === 'flood') return urls['water'] || urls['rgb'] || null; // Mock using water index for now
                   if (selectedBand && urls[selectedBand]) return urls[selectedBand];
                   return urls['rgb'] || urls['sar'] || urls['water'] || null;
                 })()}
                 satelliteLabel={(() => {
                   if (!selectedScene) return "SATELLITE";
+                  if (selectedBand === 'flood') return `Sentinel-1 (Mock) · Flood Analysis · 1 ต.ค. 2026`;
                   const band = selectedBand && selectedScene.previewUrls?.[selectedBand] ? selectedBand : (selectedScene.previewUrls?.rgb ? 'rgb' : selectedScene.previewUrls?.sar ? 'sar' : 'water');
                   const bandLabel = band === 'water' ? 'Water Index' : band === 'ndvi' ? 'NDVI' : band === 'sar' ? 'SAR' : 'RGB';
                   return `${selectedScene.sensor} · ${bandLabel} · ${formatDateTime(selectedScene.datetime)}`;
                 })()}
                 plotBounds={selectedPlot?.bounds as [number, number, number, number] || null}
+                floodMode={selectedBand === 'flood'}
               />
             </div>
           </section>

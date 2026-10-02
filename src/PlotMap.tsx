@@ -82,7 +82,7 @@ export function PlotMap({
           "line-color": [
             "case",
             ["==", ["get", "selected"], 1],
-            "#fbbf24",
+            "#FFD400", // Yellowish for plot boundary
             "#2dd4bf"
           ],
           "line-width": [

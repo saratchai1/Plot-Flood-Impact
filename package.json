@@ -11,7 +11,7 @@
     "deploy": "npm run build && wrangler deploy",
     "test": "node --test tests/source-contract.test.mjs",
     "start": "tsx server.ts",
-    "satellite:sync": "source venv/bin/activate && python scripts/sync_satellite.py"
+    "satellite:sync": "source venv/bin/activate && python scripts/query_stac.py && python scripts/sync_satellite.py"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.5",

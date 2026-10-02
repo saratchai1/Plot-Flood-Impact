@@ -18,11 +18,13 @@ export function ImageCompare({
   satelliteUrl,
   satelliteLabel,
   plotBounds,
+  floodMode = false,
 }: {
   droneUrl: string | null;
   satelliteUrl: string | null;
   satelliteLabel: string;
   plotBounds: [number, number, number, number] | null;
+  floodMode?: boolean;
 }) {
   const [sliderPos, setSliderPos] = useState(50);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -108,6 +110,10 @@ export function ImageCompare({
             height: "100%",
             objectFit: "contain",
             objectPosition: "center",
+            ...(floodMode ? {
+              // Mock visual: tint the grayscale water index to blue
+              filter: "sepia(1) hue-rotate(180deg) saturate(400%) brightness(1.2) contrast(1.5)"
+            } : {})
           }}
         />
       )}
@@ -260,6 +266,44 @@ export function ImageCompare({
           }}
         >
           เลือก scene จาก timeline
+        </div>
+      )}
+
+      {/* Flood Analysis Legend */}
+      {floodMode && (
+        <div
+          style={{
+            position: "absolute",
+            bottom: 24,
+            left: 24,
+            background: "rgba(15, 23, 42, 0.85)",
+            border: "1px solid #334155",
+            borderRadius: 8,
+            padding: "12px 16px",
+            color: "white",
+            fontSize: 13,
+            display: "flex",
+            flexDirection: "column",
+            gap: 8,
+            backdropFilter: "blur(4px)",
+            pointerEvents: "none",
+            boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.5)",
+            zIndex: 10,
+          }}
+        >
+          <div style={{ fontWeight: "bold", marginBottom: 4, color: "#cbd5e1" }}>การแสดงผล (ตรวจน้ำ)</div>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <div style={{ width: 14, height: 14, background: "#00C8FF", borderRadius: 2 }}></div>
+            <span>น้ำท่วมใหม่</span>
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <div style={{ width: 14, height: 14, background: "#0047AB", borderRadius: 2 }}></div>
+            <span>ร่องน้ำ/น้ำเดิม</span>
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <div style={{ width: 14, height: 14, border: "2px solid #FFD400", borderRadius: 2 }}></div>
+            <span>ขอบแปลงอ้างอิง</span>
+          </div>
         </div>
       )}
 

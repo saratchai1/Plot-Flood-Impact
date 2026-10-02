@@ -341,6 +341,7 @@ app.get("/api/plots", (c) => {
       geometry: row.geometry,
       bounds,
       droneBounds: (droneBoundsMap as unknown as Record<string, [number, number, number, number]>)[row.plotCode] || null,
+      basemapUrl: `/satellite-previews/${row.plotCode}/basemap_esri.webp`,
       centroid: centroidFromBounds(bounds),
       geometryAreaRai: row.geometryAreaRai,
       declaredAreaRai: row.declaredAreaRai,

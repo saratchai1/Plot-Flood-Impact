@@ -5,6 +5,7 @@ export function ImageCompare({
   satelliteUrl,
   satelliteLabel,
   plotBounds,
+  basemapUrl = null,
   satelliteRgbUrl = null,
   floodMode = false,
 }: {
@@ -12,6 +13,7 @@ export function ImageCompare({
   satelliteUrl: string | null;
   satelliteLabel: string;
   plotBounds: [number, number, number, number] | null;
+  basemapUrl?: string | null;
   satelliteRgbUrl?: string | null;
   floodMode?: boolean;
 }) {
@@ -29,7 +31,7 @@ export function ImageCompare({
     return Number.isFinite(aspect) && aspect > 0.2 && aspect < 5 ? `${aspect}` : "4 / 3";
   }, [plotBounds]);
 
-  const backgroundAerial = satelliteRgbUrl || satelliteUrl;
+  const backgroundAerial = basemapUrl || satelliteRgbUrl || satelliteUrl;
 
   const updateSlider = useCallback((clientX: number) => {
     if (!containerRef.current) return;
@@ -301,7 +303,25 @@ export function ImageCompare({
         </div>
       )}
 
-
+      {/* Basemap attribution */}
+      {backgroundAerial && (
+        <div
+          style={{
+            position: "absolute",
+            bottom: 4,
+            right: 6,
+            fontSize: 10,
+            color: "rgba(255,255,255,0.7)",
+            background: "rgba(0,0,0,0.6)",
+            padding: "2px 6px",
+            borderRadius: 4,
+            pointerEvents: "none",
+            zIndex: 5,
+          }}
+        >
+          Basemap © Esri
+        </div>
+      )}
     </div>
   );
 }

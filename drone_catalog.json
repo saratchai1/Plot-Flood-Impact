@@ -1,0 +1,4526 @@
+{
+  "13-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/13-stc/13_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-13-stc",
+    "plotCode": "13-STC",
+    "plotName": "13-STC \u2014 \u0e16\u0e19\u0e19\u0e01\u0e30\u0e40\u0e1e\u0e23\u0e32",
+    "locationName": "\u0e16\u0e19\u0e19\u0e01\u0e30\u0e40\u0e1e\u0e23\u0e32",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 415828.016,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 259.89251,
+    "pddDeclaredAreaRai": 289.89,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/13-stc/13_STC_mosaic.webp",
+      "plotCode": "13-STC",
+      "plotName": "13-STC \u2014 \u0e16\u0e19\u0e19\u0e01\u0e30\u0e40\u0e1e\u0e23\u0e32",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F13-stc%2F13_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F13-stc%2F13_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F13-stc%2F13_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.68736282377864,
+        12.70509728056603,
+        101.69794167045445,
+        12.715310517270082
+      ],
+      "boundary": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                101.694411,
+                12.706678
+              ],
+              [
+                101.690717,
+                12.70546
+              ],
+              [
+                101.689921,
+                12.706706
+              ],
+              [
+                101.689304,
+                12.707516
+              ],
+              [
+                101.688271,
+                12.708213
+              ],
+              [
+                101.68788,
+                12.70866
+              ],
+              [
+                101.689149,
+                12.709487
+              ],
+              [
+                101.691236,
+                12.705633
+              ],
+              [
+                101.691331,
+                12.705664
+              ],
+              [
+                101.690935,
+                12.706376
+              ],
+              [
+                101.694528,
+                12.708195
+              ],
+              [
+                101.697349,
+                12.709594
+              ],
+              [
+                101.69746,
+                12.70961
+              ],
+              [
+                101.697379,
+                12.708898
+              ],
+              [
+                101.697,
+                12.708721
+              ],
+              [
+                101.694411,
+                12.706678
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.692459,
+                12.710935
+              ],
+              [
+                101.690994,
+                12.709893
+              ],
+              [
+                101.689532,
+                12.709068
+              ],
+              [
+                101.689678,
+                12.708949
+              ],
+              [
+                101.693212,
+                12.710774
+              ],
+              [
+                101.694528,
+                12.708195
+              ],
+              [
+                101.694496,
+                12.708258
+              ],
+              [
+                101.690907,
+                12.706485
+              ],
+              [
+                101.689367,
+                12.709333
+              ],
+              [
+                101.689392,
+                12.70946
+              ],
+              [
+                101.690062,
+                12.709971
+              ],
+              [
+                101.69019,
+                12.710116
+              ],
+              [
+                101.691186,
+                12.713201
+              ],
+              [
+                101.691112,
+                12.713225
+              ],
+              [
+                101.691928,
+                12.712955
+              ],
+              [
+                101.692098,
+                12.712465
+              ],
+              [
+                101.692862,
+                12.711636
+              ],
+              [
+                101.69286,
+                12.711482
+              ],
+              [
+                101.692459,
+                12.710935
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.688702,
+                12.711879
+              ],
+              [
+                101.688634,
+                12.711554
+              ],
+              [
+                101.687639,
+                12.708562
+              ],
+              [
+                101.685917,
+                12.709114
+              ],
+              [
+                101.686239,
+                12.710198
+              ],
+              [
+                101.686224,
+                12.710208
+              ],
+              [
+                101.686275,
+                12.71035
+              ],
+              [
+                101.68717,
+                12.713267
+              ],
+              [
+                101.687518,
+                12.713083
+              ],
+              [
+                101.687824,
+                12.712394
+              ],
+              [
+                101.688702,
+                12.711879
+              ]
+            ],
+            [
+              [
+                101.689916,
+                12.712424
+              ],
+              [
+                101.689184,
+                12.712748
+              ],
+              [
+                101.689099,
+                12.712595
+              ],
+              [
+                101.68986,
+                12.712344
+              ],
+              [
+                101.689916,
+                12.712424
+              ]
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 259.89251,
+      "pddDeclaredAreaRai": 289.89,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 415828.016,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "13-STC.tif",
+      "sourceFileSizeBytes": 7801770742,
+      "sourceWidth": 61381,
+      "sourceHeight": 60340,
+      "pixelSizeX": 0.018543200000000024,
+      "pixelSizeY": -0.018543200000001096,
+      "renderedSizeBytes": 1966904
+    },
+    "bounds": [
+      101.68736282377864,
+      12.70509728056603,
+      101.69794167045445,
+      12.715310517270082
+    ]
+  },
+  "14(1)-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/14-1-stc/14_1_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-14-1-stc",
+    "plotCode": "14(1)-STC",
+    "plotName": "14(1)-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e16\u0e19\u0e19\u0e01\u0e23\u0e30\u0e40\u0e1e\u0e23\u0e32",
+    "locationName": "\u0e1a\u0e49\u0e32\u0e19\u0e16\u0e19\u0e19\u0e01\u0e23\u0e30\u0e40\u0e1e\u0e23\u0e32",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 19957.8608,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 12.473663,
+    "pddDeclaredAreaRai": 12.47,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/14-1-stc/14_1_STC_mosaic.webp",
+      "plotCode": "14(1)-STC",
+      "plotName": "14(1)-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e16\u0e19\u0e19\u0e01\u0e23\u0e30\u0e40\u0e1e\u0e23\u0e32",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F14-1-stc%2F14_1_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F14-1-stc%2F14_1_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F14-1-stc%2F14_1_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.67058705945412,
+        12.69007844884081,
+        101.67413565658912,
+        12.692990325886425
+      ],
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.67374,
+              12.691866
+            ],
+            [
+              101.673128,
+              12.692606
+            ],
+            [
+              101.671734,
+              12.691241
+            ],
+            [
+              101.672256,
+              12.690682
+            ],
+            [
+              101.67374,
+              12.691866
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 12.473663,
+      "pddDeclaredAreaRai": 12.47,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 19957.8608,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "14(1)-STC.tif",
+      "sourceFileSizeBytes": 655925972,
+      "sourceWidth": 18111,
+      "sourceHeight": 15080,
+      "pixelSizeX": 0.021116500000002876,
+      "pixelSizeY": -0.021116499999996315,
+      "renderedSizeBytes": 1695370
+    },
+    "bounds": [
+      101.67058705945412,
+      12.69007844884081,
+      101.67413565658912,
+      12.692990325886425
+    ]
+  },
+  "14-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/14-stc/14_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-14-stc",
+    "plotCode": "14-STC",
+    "plotName": "14-STC \u2014 \u0e16\u0e19\u0e19\u0e01\u0e30\u0e40\u0e1e\u0e23\u0e32",
+    "locationName": "\u0e16\u0e19\u0e19\u0e01\u0e30\u0e40\u0e1e\u0e23\u0e32",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 7177,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 4.485625,
+    "pddDeclaredAreaRai": 4.48,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/14-stc/14_STC_mosaic.webp",
+      "plotCode": "14-STC",
+      "plotName": "14-STC \u2014 \u0e16\u0e19\u0e19\u0e01\u0e30\u0e40\u0e1e\u0e23\u0e32",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F14-stc%2F14_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F14-stc%2F14_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F14-stc%2F14_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.69860219694857,
+        12.709352990838486,
+        101.70119886073812,
+        12.71132157043842
+      ],
+      "boundary": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                101.699989,
+                12.710371
+              ],
+              [
+                101.699951,
+                12.710217
+              ],
+              [
+                101.699693,
+                12.710229
+              ],
+              [
+                101.699732,
+                12.7104
+              ],
+              [
+                101.699989,
+                12.710371
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.700042,
+                12.71103
+              ],
+              [
+                101.700877,
+                12.710795
+              ],
+              [
+                101.700807,
+                12.710272
+              ],
+              [
+                101.699779,
+                12.710481
+              ],
+              [
+                101.699921,
+                12.710913
+              ],
+              [
+                101.700042,
+                12.71103
+              ]
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 4.485625,
+      "pddDeclaredAreaRai": 4.48,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 7177,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "14-STC.tif",
+      "sourceFileSizeBytes": 618822452,
+      "sourceWidth": 18762,
+      "sourceHeight": 14409,
+      "pixelSizeX": 0.014923400000000477,
+      "pixelSizeY": -0.014923399999994728,
+      "renderedSizeBytes": 1671680
+    },
+    "bounds": [
+      101.69860219694857,
+      12.709352990838486,
+      101.70119886073812,
+      12.71132157043842
+    ]
+  },
+  "14-VSD": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/14-vsd/14_VSD_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-14-vsd",
+    "plotCode": "14-VSD",
+    "plotName": "14-VSD \u2014 \u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+    "locationName": "\u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 62457.0832,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 39.035677,
+    "pddDeclaredAreaRai": 39.03,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/14-vsd/14_VSD_mosaic.webp",
+      "plotCode": "14-VSD",
+      "plotName": "14-VSD \u2014 \u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F14-vsd%2F14_VSD_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F14-vsd%2F14_VSD_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F14-vsd%2F14_VSD_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.70422227512942,
+        12.717679549857655,
+        101.71000008829702,
+        12.721566509831733
+      ],
+      "boundary": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                101.707624,
+                12.718433
+              ],
+              [
+                101.707487,
+                12.718401
+              ],
+              [
+                101.707042,
+                12.719736
+              ],
+              [
+                101.706864,
+                12.719758
+              ],
+              [
+                101.706766,
+                12.720103
+              ],
+              [
+                101.707999,
+                12.719668
+              ],
+              [
+                101.708008,
+                12.719694
+              ],
+              [
+                101.706977,
+                12.720067
+              ],
+              [
+                101.706853,
+                12.72017
+              ],
+              [
+                101.706724,
+                12.720158
+              ],
+              [
+                101.706649,
+                12.720272
+              ],
+              [
+                101.706673,
+                12.720484
+              ],
+              [
+                101.706777,
+                12.72043
+              ],
+              [
+                101.706737,
+                12.720315
+              ],
+              [
+                101.706826,
+                12.720311
+              ],
+              [
+                101.706888,
+                12.720413
+              ],
+              [
+                101.708539,
+                12.71982
+              ],
+              [
+                101.708555,
+                12.71977
+              ],
+              [
+                101.708598,
+                12.719774
+              ],
+              [
+                101.708847,
+                12.720737
+              ],
+              [
+                101.709283,
+                12.720707
+              ],
+              [
+                101.709412,
+                12.719415
+              ],
+              [
+                101.7092,
+                12.719163
+              ],
+              [
+                101.70853,
+                12.718806
+              ],
+              [
+                101.707708,
+                12.71841
+              ],
+              [
+                101.707684,
+                12.718459
+              ],
+              [
+                101.707624,
+                12.718433
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.706592,
+                12.72017
+              ],
+              [
+                101.706692,
+                12.719912
+              ],
+              [
+                101.706585,
+                12.719661
+              ],
+              [
+                101.704647,
+                12.719582
+              ],
+              [
+                101.70509,
+                12.720526
+              ],
+              [
+                101.705152,
+                12.720657
+              ],
+              [
+                101.705476,
+                12.720548
+              ],
+              [
+                101.706592,
+                12.72017
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.706487,
+                12.720247
+              ],
+              [
+                101.70517,
+                12.720697
+              ],
+              [
+                101.705291,
+                12.720954
+              ],
+              [
+                101.705378,
+                12.720925
+              ],
+              [
+                101.706585,
+                12.720531
+              ],
+              [
+                101.706487,
+                12.720247
+              ]
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 39.035677,
+      "pddDeclaredAreaRai": 39.03,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 62457.0832,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "14-VSD.tif",
+      "sourceFileSizeBytes": 1741319080,
+      "sourceWidth": 29829,
+      "sourceHeight": 20275,
+      "pixelSizeX": 0.02090390000000181,
+      "pixelSizeY": -0.020903899999996867,
+      "renderedSizeBytes": 1786012
+    },
+    "bounds": [
+      101.70422227512942,
+      12.717679549857655,
+      101.71000008829702,
+      12.721566509831733
+    ]
+  },
+  "15-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/15-stc/15_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-15-stc",
+    "plotCode": "15-STC",
+    "plotName": "15-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e40\u0e02\u0e32\u0e19\u0e49\u0e2d\u0e22",
+    "locationName": "\u0e1a\u0e49\u0e32\u0e19\u0e40\u0e02\u0e32\u0e19\u0e49\u0e2d\u0e22",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 8126.131200000001,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 5.078832,
+    "pddDeclaredAreaRai": 5.07,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/15-stc/15_STC_mosaic.webp",
+      "plotCode": "15-STC",
+      "plotName": "15-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e40\u0e02\u0e32\u0e19\u0e49\u0e2d\u0e22",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F15-stc%2F15_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F15-stc%2F15_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F15-stc%2F15_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.78782557095529,
+        12.738723360045865,
+        101.78942067445381,
+        12.740907995904571
+      ],
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.788445,
+              12.740622
+            ],
+            [
+              101.788461,
+              12.740491
+            ],
+            [
+              101.788397,
+              12.740364
+            ],
+            [
+              101.788247,
+              12.740306
+            ],
+            [
+              101.788173,
+              12.740174
+            ],
+            [
+              101.788302,
+              12.739799
+            ],
+            [
+              101.788229,
+              12.739731
+            ],
+            [
+              101.788237,
+              12.7396
+            ],
+            [
+              101.788195,
+              12.739313
+            ],
+            [
+              101.788339,
+              12.73928
+            ],
+            [
+              101.788337,
+              12.739038
+            ],
+            [
+              101.788861,
+              12.739143
+            ],
+            [
+              101.788595,
+              12.740506
+            ],
+            [
+              101.788598,
+              12.740644
+            ],
+            [
+              101.788445,
+              12.740622
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 5.078832,
+      "pddDeclaredAreaRai": 5.07,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 8126.131200000001,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "15-STC.tif",
+      "sourceFileSizeBytes": 158118034,
+      "sourceWidth": 5457,
+      "sourceHeight": 7670,
+      "pixelSizeX": 0.031295900000003284,
+      "pixelSizeY": -0.031295899999986075,
+      "renderedSizeBytes": 2792700
+    },
+    "bounds": [
+      101.78782557095529,
+      12.738723360045865,
+      101.78942067445381,
+      12.740907995904571
+    ]
+  },
+  "15-VSD": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/15-vsd/15_VSD_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-15-vsd",
+    "plotCode": "15-VSD",
+    "plotName": "15-VSD \u2014 \u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+    "locationName": "\u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 74362.7328,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 46.476708,
+    "pddDeclaredAreaRai": 46.47,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/15-vsd/15_VSD_mosaic.webp",
+      "plotCode": "15-VSD",
+      "plotName": "15-VSD \u2014 \u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F15-vsd%2F15_VSD_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F15-vsd%2F15_VSD_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F15-vsd%2F15_VSD_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.70408824052598,
+        12.725186696848565,
+        101.70984002859124,
+        12.72964644693928
+      ],
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.704712,
+              12.727973
+            ],
+            [
+              101.707491,
+              12.727004
+            ],
+            [
+              101.707772,
+              12.728046
+            ],
+            [
+              101.707875,
+              12.728035
+            ],
+            [
+              101.707655,
+              12.727362
+            ],
+            [
+              101.708058,
+              12.727198
+            ],
+            [
+              101.707887,
+              12.726883
+            ],
+            [
+              101.707609,
+              12.726914
+            ],
+            [
+              101.707538,
+              12.72668
+            ],
+            [
+              101.70824,
+              12.725638
+            ],
+            [
+              101.708248,
+              12.725626
+            ],
+            [
+              101.708561,
+              12.726589
+            ],
+            [
+              101.709355,
+              12.726281
+            ],
+            [
+              101.709376,
+              12.72654
+            ],
+            [
+              101.709294,
+              12.726559
+            ],
+            [
+              101.709176,
+              12.72671
+            ],
+            [
+              101.70906,
+              12.726955
+            ],
+            [
+              101.708967,
+              12.726955
+            ],
+            [
+              101.708868,
+              12.727109
+            ],
+            [
+              101.708706,
+              12.72703
+            ],
+            [
+              101.708786,
+              12.727132
+            ],
+            [
+              101.708796,
+              12.727326
+            ],
+            [
+              101.708865,
+              12.727553
+            ],
+            [
+              101.708822,
+              12.727976
+            ],
+            [
+              101.708736,
+              12.728089
+            ],
+            [
+              101.708468,
+              12.728109
+            ],
+            [
+              101.708243,
+              12.72816
+            ],
+            [
+              101.708143,
+              12.728599
+            ],
+            [
+              101.708072,
+              12.728807
+            ],
+            [
+              101.707917,
+              12.728947
+            ],
+            [
+              101.707852,
+              12.728948
+            ],
+            [
+              101.70776,
+              12.728757
+            ],
+            [
+              101.707709,
+              12.728766
+            ],
+            [
+              101.707637,
+              12.728709
+            ],
+            [
+              101.707532,
+              12.728723
+            ],
+            [
+              101.707502,
+              12.728659
+            ],
+            [
+              101.707071,
+              12.728825
+            ],
+            [
+              101.706924,
+              12.728343
+            ],
+            [
+              101.705276,
+              12.728911
+            ],
+            [
+              101.705234,
+              12.728838
+            ],
+            [
+              101.70501,
+              12.728979
+            ],
+            [
+              101.704712,
+              12.727973
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 46.476708,
+      "pddDeclaredAreaRai": 46.47,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 74362.7328,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "15-VSD.tif",
+      "sourceFileSizeBytes": 1534618038,
+      "sourceWidth": 27471,
+      "sourceHeight": 21589,
+      "pixelSizeX": 0.022570399999998436,
+      "pixelSizeY": -0.022570400000004796,
+      "renderedSizeBytes": 1791938
+    },
+    "bounds": [
+      101.70408824052598,
+      12.725186696848565,
+      101.70984002859124,
+      12.72964644693928
+    ]
+  },
+  "16-STC": {
+    "key": "mangrove-drone-dashboard/recovered/16_STC_mosaic.webp",
+    "mosaicSource": "recovered_registry",
+    "plotId": "sheet-master:16-stc",
+    "plotCode": "16-STC",
+    "plotName": "16-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e19\u0e32\u0e0b\u0e32",
+    "locationName": "\u0e1a\u0e49\u0e32\u0e19\u0e19\u0e32\u0e0b\u0e32",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 43289.5008,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 27.055938,
+    "pddDeclaredAreaRai": 27.05,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/recovered/16_STC_mosaic.webp",
+      "plotCode": "16-STC",
+      "plotName": "16-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e19\u0e32\u0e0b\u0e32",
+      "mosaicSource": "recovered_registry",
+      "recoverySource": {
+        "plotCode": "16-STC",
+        "checkedAt": "2026-09-22",
+        "status": "available",
+        "note": "\u0e2a\u0e23\u0e49\u0e32\u0e07 WebP \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e40\u0e27\u0e47\u0e1a\u0e08\u0e32\u0e01 GeoTIFF \u0e08\u0e23\u0e34\u0e07\u0e43\u0e19 Drive; bounds \u0e41\u0e25\u0e30\u0e02\u0e19\u0e32\u0e14\u0e15\u0e49\u0e19\u0e09\u0e1a\u0e31\u0e1a\u0e2d\u0e48\u0e32\u0e19\u0e08\u0e32\u0e01 GeoTIFF \u0e42\u0e14\u0e22\u0e15\u0e23\u0e07",
+        "driveFileId": "1Jdui9nEiLNjKxBvcwOt5SCs1Awvv2DI_",
+        "driveFileName": "16 STC.tif",
+        "sourceFileName": "16 STC.tif",
+        "sourceFileSizeBytes": 1111112340,
+        "sourceType": "drive_geotiff_derived_static_webp",
+        "staticAssetKey": "mangrove-drone-dashboard/recovered/16_STC_mosaic.webp",
+        "staticAssetPath": "/recovered/16_STC_mosaic.webp",
+        "bounds": [
+          101.7153566,
+          12.7273268,
+          101.7205174,
+          12.7328825
+        ],
+        "sha256": "d9169be0f2a55380ff461509aeb24992a8a5120eca1d2c4db15cce9dc638028c",
+        "sizeBytes": 849956,
+        "width": 3726,
+        "height": 4096,
+        "sourceWidth": 25402,
+        "sourceHeight": 27922,
+        "pixelSizeX": 0.0217891,
+        "pixelSizeY": 0.0217891,
+        "sourceCrs": "EPSG:32648",
+        "isNorthUp": true
+      },
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Frecovered%2F16_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Frecovered%2F16_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Frecovered%2F16_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.7153566,
+        12.7273268,
+        101.7205174,
+        12.7328825
+      ],
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.718618,
+              12.730696
+            ],
+            [
+              101.718437,
+              12.730959
+            ],
+            [
+              101.718143,
+              12.731035
+            ],
+            [
+              101.717789,
+              12.730623
+            ],
+            [
+              101.71755,
+              12.73067
+            ],
+            [
+              101.71744,
+              12.730681
+            ],
+            [
+              101.71719,
+              12.730484
+            ],
+            [
+              101.716964,
+              12.729195
+            ],
+            [
+              101.716789,
+              12.729142
+            ],
+            [
+              101.71632,
+              12.729174
+            ],
+            [
+              101.715876,
+              12.728149
+            ],
+            [
+              101.715949,
+              12.728049
+            ],
+            [
+              101.716832,
+              12.728004
+            ],
+            [
+              101.717207,
+              12.728705
+            ],
+            [
+              101.717474,
+              12.728639
+            ],
+            [
+              101.718171,
+              12.728487
+            ],
+            [
+              101.71835,
+              12.728819
+            ],
+            [
+              101.718268,
+              12.728902
+            ],
+            [
+              101.718066,
+              12.728922
+            ],
+            [
+              101.71805,
+              12.729148
+            ],
+            [
+              101.717885,
+              12.72924
+            ],
+            [
+              101.718618,
+              12.730696
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 27.055938,
+      "pddDeclaredAreaRai": 27.05,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 43289.5008,
+      "georeferenced": true,
+      "georefSource": "recovery_registry",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": null,
+      "sourceFileName": "16 STC.tif",
+      "sourceFileSizeBytes": 1111112340,
+      "sourceWidth": 25402,
+      "sourceHeight": 27922,
+      "pixelSizeX": 0.0217891,
+      "pixelSizeY": 0.0217891,
+      "renderedSizeBytes": 849956
+    },
+    "bounds": [
+      101.7153566,
+      12.7273268,
+      101.7205174,
+      12.7328825
+    ]
+  },
+  "16-VSD": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/16-vsd/16_VSD_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-16-vsd",
+    "plotCode": "16-VSD",
+    "plotName": "16-VSD \u2014 \u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+    "locationName": "\u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 19259.9552,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 12.037472,
+    "pddDeclaredAreaRai": 12.03,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/16-vsd/16_VSD_mosaic.webp",
+      "plotCode": "16-VSD",
+      "plotName": "16-VSD \u2014 \u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F16-vsd%2F16_VSD_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F16-vsd%2F16_VSD_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F16-vsd%2F16_VSD_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.69840550388365,
+        12.728144607274952,
+        101.70348186819218,
+        12.732453459761697
+      ],
+      "boundary": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                101.701449,
+                12.729511
+              ],
+              [
+                101.701451,
+                12.7295
+              ],
+              [
+                101.701582,
+                12.729431
+              ],
+              [
+                101.701441,
+                12.729011
+              ],
+              [
+                101.699932,
+                12.729394
+              ],
+              [
+                101.699984,
+                12.729591
+              ],
+              [
+                101.700263,
+                12.729877
+              ],
+              [
+                101.700492,
+                12.729824
+              ],
+              [
+                101.700513,
+                12.729853
+              ],
+              [
+                101.701449,
+                12.729511
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.701286,
+                12.729775
+              ],
+              [
+                101.700403,
+                12.730106
+              ],
+              [
+                101.701984,
+                12.731349
+              ],
+              [
+                101.702112,
+                12.731268
+              ],
+              [
+                101.701286,
+                12.729775
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.69958,
+                12.731565
+              ],
+              [
+                101.699335,
+                12.72997
+              ],
+              [
+                101.699246,
+                12.730007
+              ],
+              [
+                101.699261,
+                12.730067
+              ],
+              [
+                101.699185,
+                12.730091
+              ],
+              [
+                101.699178,
+                12.730035
+              ],
+              [
+                101.699102,
+                12.730074
+              ],
+              [
+                101.699002,
+                12.731569
+              ],
+              [
+                101.699072,
+                12.731603
+              ],
+              [
+                101.69951,
+                12.731642
+              ],
+              [
+                101.69958,
+                12.731565
+              ]
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 12.037472,
+      "pddDeclaredAreaRai": 12.03,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 19259.9552,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "16-VSD.tif",
+      "sourceFileSizeBytes": 596862332,
+      "sourceWidth": 18095,
+      "sourceHeight": 15598,
+      "pixelSizeX": 0.03021790000000023,
+      "pixelSizeY": -0.03021790000000377,
+      "renderedSizeBytes": 1350208
+    },
+    "bounds": [
+      101.69840550388365,
+      12.728144607274952,
+      101.70348186819218,
+      12.732453459761697
+    ]
+  },
+  "17-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-17stc-alignment-fix-v2-20260817/17-stc/17_STC_mosaic_tiles_v2.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-17-stc",
+    "plotCode": "17-STC",
+    "plotName": "17-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e17\u0e30\u0e40\u0e25\u0e19\u0e49\u0e2d\u0e22",
+    "locationName": "\u0e1a\u0e49\u0e32\u0e19\u0e17\u0e30\u0e40\u0e25\u0e19\u0e49\u0e2d\u0e22",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 440356.9712,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 275.223107,
+    "pddDeclaredAreaRai": 275.21,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-17stc-alignment-fix-v2-20260817/17-stc/17_STC_mosaic_tiles_v2.webp",
+      "plotCode": "17-STC",
+      "plotName": "17-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e17\u0e30\u0e40\u0e25\u0e19\u0e49\u0e2d\u0e22",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-17stc-alignment-fix-v2-20260817%2F17-stc%2F17_STC_mosaic_tiles_v2.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-17stc-alignment-fix-v2-20260817%2F17-stc%2F17_STC_mosaic_tiles_v2.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-17stc-alignment-fix-v2-20260817%2F17-stc%2F17_STC_mosaic_tiles_v2.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.67030350663994,
+        12.719827353630002,
+        101.68272473644801,
+        12.72808674664869
+      ],
+      "boundary": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                101.680538,
+                12.72448
+              ],
+              [
+                101.680296,
+                12.724221
+              ],
+              [
+                101.679648,
+                12.723902
+              ],
+              [
+                101.67946,
+                12.723543
+              ],
+              [
+                101.678978,
+                12.723195
+              ],
+              [
+                101.67857,
+                12.72198
+              ],
+              [
+                101.678258,
+                12.721215
+              ],
+              [
+                101.678252,
+                12.720682
+              ],
+              [
+                101.677972,
+                12.720324
+              ],
+              [
+                101.676687,
+                12.721502
+              ],
+              [
+                101.676183,
+                12.721642
+              ],
+              [
+                101.675591,
+                12.721414
+              ],
+              [
+                101.674283,
+                12.7213
+              ],
+              [
+                101.673015,
+                12.720599
+              ],
+              [
+                101.672686,
+                12.720802
+              ],
+              [
+                101.672506,
+                12.721156
+              ],
+              [
+                101.672112,
+                12.721322
+              ],
+              [
+                101.672026,
+                12.721928
+              ],
+              [
+                101.671003,
+                12.72267
+              ],
+              [
+                101.671065,
+                12.722626
+              ],
+              [
+                101.672108,
+                12.724457
+              ],
+              [
+                101.673804,
+                12.727349
+              ],
+              [
+                101.673863,
+                12.727365
+              ],
+              [
+                101.673731,
+                12.72744
+              ],
+              [
+                101.67579,
+                12.726344
+              ],
+              [
+                101.675949,
+                12.726568
+              ],
+              [
+                101.677191,
+                12.726574
+              ],
+              [
+                101.67743,
+                12.72649
+              ],
+              [
+                101.677138,
+                12.725039
+              ],
+              [
+                101.678852,
+                12.724362
+              ],
+              [
+                101.679365,
+                12.725264
+              ],
+              [
+                101.679884,
+                12.724975
+              ],
+              [
+                101.680434,
+                12.72467
+              ],
+              [
+                101.680966,
+                12.724105
+              ],
+              [
+                101.680538,
+                12.724489
+              ]
+            ],
+            [
+              [
+                101.674894,
+                12.722514
+              ],
+              [
+                101.674885,
+                12.722469
+              ],
+              [
+                101.675735,
+                12.721963
+              ],
+              [
+                101.677454,
+                12.724905
+              ],
+              [
+                101.677409,
+                12.724922
+              ],
+              [
+                101.675755,
+                12.722071
+              ],
+              [
+                101.675681,
+                12.722072
+              ],
+              [
+                101.674894,
+                12.722514
+              ]
+            ],
+            [
+              [
+                101.673017,
+                12.721611
+              ],
+              [
+                101.673072,
+                12.721574
+              ],
+              [
+                101.673184,
+                12.721539
+              ],
+              [
+                101.673934,
+                12.721202
+              ],
+              [
+                101.674193,
+                12.721687
+              ],
+              [
+                101.674193,
+                12.721687
+              ],
+              [
+                101.674193,
+                12.721687
+              ],
+              [
+                101.673513,
+                12.72208
+              ],
+              [
+                101.673434,
+                12.722126
+              ],
+              [
+                101.675989,
+                12.726558
+              ],
+              [
+                101.675949,
+                12.726558
+              ],
+              [
+                101.67581,
+                12.726335
+              ],
+              [
+                101.673017,
+                12.721611
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.6812,
+                12.726244
+              ],
+              [
+                101.682189,
+                12.725773
+              ],
+              [
+                101.682297,
+                12.725565
+              ],
+              [
+                101.682258,
+                12.725276
+              ],
+              [
+                101.681697,
+                12.725336
+              ],
+              [
+                101.681331,
+                12.725344
+              ],
+              [
+                101.679705,
+                12.725865
+              ],
+              [
+                101.679734,
+                12.725916
+              ],
+              [
+                101.679915,
+                12.726501
+              ],
+              [
+                101.6812,
+                12.726244
+              ]
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 275.223107,
+      "pddDeclaredAreaRai": 275.21,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 440356.9712,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "17-STC.tif",
+      "sourceFileSizeBytes": 583184938,
+      "sourceWidth": 47759,
+      "sourceHeight": 32081,
+      "pixelSizeX": 0.02807130000000056,
+      "pixelSizeY": -0.028071300000003584,
+      "renderedSizeBytes": 1807530
+    },
+    "bounds": [
+      101.67030350663994,
+      12.719827353630002,
+      101.68272473644801,
+      12.72808674664869
+    ]
+  },
+  "17-VSD": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/17-vsd/17_VSD_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-17-vsd",
+    "plotCode": "17-VSD",
+    "plotName": "17-VSD \u2014 \u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+    "locationName": "\u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 39065.0752,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 24.415672,
+    "pddDeclaredAreaRai": 24.41,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/17-vsd/17_VSD_mosaic.webp",
+      "plotCode": "17-VSD",
+      "plotName": "17-VSD \u2014 \u0e14\u0e2d\u0e19\u0e21\u0e30\u0e01\u0e2d\u0e01\u0e25\u0e48\u0e32\u0e07",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F17-vsd%2F17_VSD_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F17-vsd%2F17_VSD_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F17-vsd%2F17_VSD_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.69889149695875,
+        12.727481326923076,
+        101.70450254125231,
+        12.732864503009893
+      ],
+      "boundary": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                101.702809,
+                12.729976
+              ],
+              [
+                101.702385,
+                12.729475
+              ],
+              [
+                101.701381,
+                12.729705
+              ],
+              [
+                101.701713,
+                12.730339
+              ],
+              [
+                101.702809,
+                12.729976
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.701286,
+                12.729739
+              ],
+              [
+                101.700403,
+                12.73007
+              ],
+              [
+                101.701984,
+                12.731313
+              ],
+              [
+                101.702112,
+                12.731232
+              ],
+              [
+                101.701286,
+                12.729739
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.700582,
+                12.731892
+              ],
+              [
+                101.701527,
+                12.731377
+              ],
+              [
+                101.701776,
+                12.731545
+              ],
+              [
+                101.701845,
+                12.731515
+              ],
+              [
+                101.701727,
+                12.731357
+              ],
+              [
+                101.701742,
+                12.73132
+              ],
+              [
+                101.701601,
+                12.731208
+              ],
+              [
+                101.701546,
+                12.731252
+              ],
+              [
+                101.700095,
+                12.730132
+              ],
+              [
+                101.700067,
+                12.730111
+              ],
+              [
+                101.700005,
+                12.730135
+              ],
+              [
+                101.699839,
+                12.730198
+              ],
+              [
+                101.699738,
+                12.730293
+              ],
+              [
+                101.700582,
+                12.731892
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.701978,
+                12.731529
+              ],
+              [
+                101.702232,
+                12.731317
+              ],
+              [
+                101.702166,
+                12.73124
+              ],
+              [
+                101.701999,
+                12.731362
+              ],
+              [
+                101.701871,
+                12.731389
+              ],
+              [
+                101.701978,
+                12.731529
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.700786,
+                12.731857
+              ],
+              [
+                101.701717,
+                12.731624
+              ],
+              [
+                101.701508,
+                12.73149
+              ],
+              [
+                101.700786,
+                12.731857
+              ]
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 24.415672,
+      "pddDeclaredAreaRai": 24.41,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 39065.0752,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "17-VSD.tif",
+      "sourceFileSizeBytes": 972295356,
+      "sourceWidth": 22053,
+      "sourceHeight": 21542,
+      "pixelSizeX": 0.027373600000002177,
+      "pixelSizeY": -0.027373600000001195,
+      "renderedSizeBytes": 1576038
+    },
+    "bounds": [
+      101.69889149695875,
+      12.727481326923076,
+      101.70450254125231,
+      12.732864503009893
+    ]
+  },
+  "18(1)-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/18-1-stc/18_1_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-18-1-stc",
+    "plotCode": "18(1)-STC",
+    "plotName": "18(1)-STC \u2014 \u0e17\u0e30\u0e40\u0e25\u0e19\u0e49\u0e2d\u0e22",
+    "locationName": "\u0e17\u0e30\u0e40\u0e25\u0e19\u0e49\u0e2d\u0e22",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 33647.9632,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 21.029977,
+    "pddDeclaredAreaRai": 21.03,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/18-1-stc/18_1_STC_mosaic.webp",
+      "plotCode": "18(1)-STC",
+      "plotName": "18(1)-STC \u2014 \u0e17\u0e30\u0e40\u0e25\u0e19\u0e49\u0e2d\u0e22",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F18-1-stc%2F18_1_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F18-1-stc%2F18_1_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F18-1-stc%2F18_1_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.66330203442426,
+        12.72515071957361,
+        101.66740491785177,
+        12.728722826733547
+      ],
+      "boundary": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                101.66602,
+                12.727262
+              ],
+              [
+                101.666418,
+                12.727046
+              ],
+              [
+                101.66598,
+                12.72619
+              ],
+              [
+                101.665344,
+                12.726478
+              ],
+              [
+                101.665299,
+                12.726356
+              ],
+              [
+                101.665428,
+                12.726273
+              ],
+              [
+                101.665295,
+                12.725915
+              ],
+              [
+                101.665056,
+                12.725876
+              ],
+              [
+                101.664909,
+                12.725901
+              ],
+              [
+                101.664659,
+                12.72613
+              ],
+              [
+                101.664561,
+                12.726147
+              ],
+              [
+                101.66424,
+                12.726379
+              ],
+              [
+                101.663773,
+                12.726707
+              ],
+              [
+                101.664009,
+                12.727223
+              ],
+              [
+                101.66447,
+                12.726984
+              ],
+              [
+                101.665226,
+                12.726598
+              ],
+              [
+                101.665592,
+                12.727267
+              ],
+              [
+                101.665904,
+                12.727037
+              ],
+              [
+                101.66602,
+                12.727262
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.665532,
+                12.727311
+              ],
+              [
+                101.665232,
+                12.726722
+              ],
+              [
+                101.664543,
+                12.727127
+              ],
+              [
+                101.664882,
+                12.727789
+              ],
+              [
+                101.665532,
+                12.727311
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.666053,
+                12.727326
+              ],
+              [
+                101.666258,
+                12.727722
+              ],
+              [
+                101.666657,
+                12.727525
+              ],
+              [
+                101.666465,
+                12.727144
+              ],
+              [
+                101.666053,
+                12.727326
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.66649,
+                12.728172
+              ],
+              [
+                101.666883,
+                12.727968
+              ],
+              [
+                101.66668,
+                12.727568
+              ],
+              [
+                101.666279,
+                12.727763
+              ],
+              [
+                101.66649,
+                12.728172
+              ]
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 21.029977,
+      "pddDeclaredAreaRai": 21.03,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 33647.9632,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "18(1)-STC.tif",
+      "sourceFileSizeBytes": 1233278658,
+      "sourceWidth": 21104,
+      "sourceHeight": 18670,
+      "pixelSizeX": 0.02093820000000099,
+      "pixelSizeY": -0.020938200000002603,
+      "renderedSizeBytes": 2633274
+    },
+    "bounds": [
+      101.66330203442426,
+      12.72515071957361,
+      101.66740491785177,
+      12.728722826733547
+    ]
+  },
+  "18-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/18-stc/18_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-18-stc",
+    "plotCode": "18-STC",
+    "plotName": "18-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e17\u0e30\u0e40\u0e25\u0e19\u0e49\u0e2d\u0e22",
+    "locationName": "\u0e1a\u0e49\u0e32\u0e19\u0e17\u0e30\u0e40\u0e25\u0e19\u0e49\u0e2d\u0e22",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 50609.6256,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 31.631016,
+    "pddDeclaredAreaRai": 31.62,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/18-stc/18_STC_mosaic.webp",
+      "plotCode": "18-STC",
+      "plotName": "18-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e17\u0e30\u0e40\u0e25\u0e19\u0e49\u0e2d\u0e22",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F18-stc%2F18_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F18-stc%2F18_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F18-stc%2F18_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.68549593519342,
+        12.726611875437133,
+        101.69025004487044,
+        12.732247281794068
+      ],
+      "boundary": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                101.687488,
+                12.727391
+              ],
+              [
+                101.687487,
+                12.727274
+              ],
+              [
+                101.685937,
+                12.726919
+              ],
+              [
+                101.685945,
+                12.727632
+              ],
+              [
+                101.686024,
+                12.727324
+              ],
+              [
+                101.686531,
+                12.727328
+              ],
+              [
+                101.6865,
+                12.727916
+              ],
+              [
+                101.686067,
+                12.727902
+              ],
+              [
+                101.686121,
+                12.728011
+              ],
+              [
+                101.687118,
+                12.727953
+              ],
+              [
+                101.687333,
+                12.727474
+              ],
+              [
+                101.687488,
+                12.727391
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.687502,
+                12.729514
+              ],
+              [
+                101.687359,
+                12.729202
+              ],
+              [
+                101.686949,
+                12.729175
+              ],
+              [
+                101.686912,
+                12.72902
+              ],
+              [
+                101.687255,
+                12.728977
+              ],
+              [
+                101.686974,
+                12.728363
+              ],
+              [
+                101.687033,
+                12.728194
+              ],
+              [
+                101.686241,
+                12.728264
+              ],
+              [
+                101.686849,
+                12.729575
+              ],
+              [
+                101.687005,
+                12.729573
+              ],
+              [
+                101.687158,
+                12.730132
+              ],
+              [
+                101.687563,
+                12.7301
+              ],
+              [
+                101.688311,
+                12.730319
+              ],
+              [
+                101.687887,
+                12.72941
+              ],
+              [
+                101.687502,
+                12.729514
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.689851,
+                12.731594
+              ],
+              [
+                101.689631,
+                12.730721
+              ],
+              [
+                101.689061,
+                12.730754
+              ],
+              [
+                101.688442,
+                12.730606
+              ],
+              [
+                101.687879,
+                12.730404
+              ],
+              [
+                101.68772,
+                12.731314
+              ],
+              [
+                101.689262,
+                12.731723
+              ],
+              [
+                101.689851,
+                12.731594
+              ]
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 31.631016,
+      "pddDeclaredAreaRai": 31.62,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 50609.6256,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "18-STC.tif",
+      "sourceFileSizeBytes": 2161137076,
+      "sourceWidth": 28601,
+      "sourceHeight": 34673,
+      "pixelSizeX": 0.017840899999999722,
+      "pixelSizeY": -0.017840899999999868,
+      "renderedSizeBytes": 1345772
+    },
+    "bounds": [
+      101.68549593519342,
+      12.726611875437133,
+      101.69025004487044,
+      12.732247281794068
+    ]
+  },
+  "19-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/19-stc/19_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-19-stc",
+    "plotCode": "19-STC",
+    "plotName": "19-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e17\u0e48\u0e32\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e1c\u0e25",
+    "locationName": "\u0e1a\u0e49\u0e32\u0e19\u0e17\u0e48\u0e32\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e1c\u0e25",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 24346.1424,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 15.216339,
+    "pddDeclaredAreaRai": 15.21,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/19-stc/19_STC_mosaic.webp",
+      "plotCode": "19-STC",
+      "plotName": "19-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e17\u0e48\u0e32\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e1c\u0e25",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F19-stc%2F19_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F19-stc%2F19_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F19-stc%2F19_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.65869534520962,
+        12.7251970306448,
+        101.6625621615421,
+        12.72780075728841
+      ],
+      "boundary": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                101.659638,
+                12.726919
+              ],
+              [
+                101.659858,
+                12.726937
+              ],
+              [
+                101.660273,
+                12.726561
+              ],
+              [
+                101.660294,
+                12.726473
+              ],
+              [
+                101.659863,
+                12.725951
+              ],
+              [
+                101.659174,
+                12.726291
+              ],
+              [
+                101.659136,
+                12.726508
+              ],
+              [
+                101.659638,
+                12.726919
+              ]
+            ],
+            [
+              [
+                101.659826,
+                12.726091
+              ],
+              [
+                101.659826,
+                12.726086
+              ],
+              [
+                101.659828,
+                12.726082
+              ],
+              [
+                101.65983,
+                12.726079
+              ],
+              [
+                101.659834,
+                12.726077
+              ],
+              [
+                101.659838,
+                12.726076
+              ],
+              [
+                101.659843,
+                12.726076
+              ],
+              [
+                101.659847,
+                12.726078
+              ],
+              [
+                101.65985,
+                12.72608
+              ],
+              [
+                101.660213,
+                12.726483
+              ],
+              [
+                101.660215,
+                12.726487
+              ],
+              [
+                101.660216,
+                12.726491
+              ],
+              [
+                101.660216,
+                12.726495
+              ],
+              [
+                101.660215,
+                12.726499
+              ],
+              [
+                101.660212,
+                12.726502
+              ],
+              [
+                101.659775,
+                12.726913
+              ],
+              [
+                101.659771,
+                12.726916
+              ],
+              [
+                101.659766,
+                12.726917
+              ],
+              [
+                101.659761,
+                12.726916
+              ],
+              [
+                101.659678,
+                12.72689
+              ],
+              [
+                101.659674,
+                12.726888
+              ],
+              [
+                101.659671,
+                12.726885
+              ],
+              [
+                101.659669,
+                12.726881
+              ],
+              [
+                101.659668,
+                12.726877
+              ],
+              [
+                101.659669,
+                12.726873
+              ],
+              [
+                101.659671,
+                12.726869
+              ],
+              [
+                101.659674,
+                12.726866
+              ],
+              [
+                101.659678,
+                12.726864
+              ],
+              [
+                101.659682,
+                12.726863
+              ],
+              [
+                101.659686,
+                12.726864
+              ],
+              [
+                101.659762,
+                12.726888
+              ],
+              [
+                101.660184,
+                12.726491
+              ],
+              [
+                101.659829,
+                12.726098
+              ],
+              [
+                101.659827,
+                12.726095
+              ],
+              [
+                101.659826,
+                12.726091
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.660155,
+                12.727216
+              ],
+              [
+                101.66017,
+                12.727357
+              ],
+              [
+                101.660332,
+                12.727458
+              ],
+              [
+                101.660438,
+                12.727444
+              ],
+              [
+                101.661185,
+                12.726638
+              ],
+              [
+                101.661862,
+                12.726
+              ],
+              [
+                101.661634,
+                12.725532
+              ],
+              [
+                101.660771,
+                12.72628
+              ],
+              [
+                101.660767,
+                12.726282
+              ],
+              [
+                101.660763,
+                12.726283
+              ],
+              [
+                101.660759,
+                12.726283
+              ],
+              [
+                101.660755,
+                12.726281
+              ],
+              [
+                101.660751,
+                12.726279
+              ],
+              [
+                101.660749,
+                12.726275
+              ],
+              [
+                101.660748,
+                12.726271
+              ],
+              [
+                101.660748,
+                12.726267
+              ],
+              [
+                101.66075,
+                12.726263
+              ],
+              [
+                101.660753,
+                12.72626
+              ],
+              [
+                101.661621,
+                12.725507
+              ],
+              [
+                101.661588,
+                12.725438
+              ],
+              [
+                101.660366,
+                12.726533
+              ],
+              [
+                101.659982,
+                12.726901
+              ],
+              [
+                101.659963,
+                12.727035
+              ],
+              [
+                101.660155,
+                12.727216
+              ]
+            ],
+            [
+              [
+                101.660483,
+                12.72654
+              ],
+              [
+                101.660488,
+                12.726539
+              ],
+              [
+                101.660492,
+                12.726539
+              ],
+              [
+                101.660496,
+                12.726541
+              ],
+              [
+                101.660499,
+                12.726544
+              ],
+              [
+                101.660501,
+                12.726547
+              ],
+              [
+                101.660502,
+                12.726551
+              ],
+              [
+                101.660502,
+                12.726556
+              ],
+              [
+                101.6605,
+                12.72656
+              ],
+              [
+                101.660498,
+                12.726563
+              ],
+              [
+                101.660042,
+                12.726947
+              ],
+              [
+                101.660038,
+                12.726949
+              ],
+              [
+                101.660034,
+                12.72695
+              ],
+              [
+                101.660029,
+                12.72695
+              ],
+              [
+                101.660025,
+                12.726948
+              ],
+              [
+                101.660022,
+                12.726945
+              ],
+              [
+                101.66002,
+                12.726942
+              ],
+              [
+                101.660019,
+                12.726938
+              ],
+              [
+                101.660019,
+                12.726933
+              ],
+              [
+                101.660021,
+                12.72693
+              ],
+              [
+                101.660024,
+                12.726926
+              ],
+              [
+                101.66048,
+                12.726542
+              ],
+              [
+                101.660483,
+                12.72654
+              ]
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 15.216339,
+      "pddDeclaredAreaRai": 15.21,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 24346.1424,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "19-STC.tif",
+      "sourceFileSizeBytes": 1010980106,
+      "sourceWidth": 25436,
+      "sourceHeight": 17308,
+      "pixelSizeX": 0.016406900000000075,
+      "pixelSizeY": -0.016406900000004394,
+      "renderedSizeBytes": 1354440
+    },
+    "bounds": [
+      101.65869534520962,
+      12.7251970306448,
+      101.6625621615421,
+      12.72780075728841
+    ]
+  },
+  "20-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/20-stc/20_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-20-stc",
+    "plotCode": "20-STC",
+    "plotName": "20-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e17\u0e48\u0e32\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e1c\u0e25",
+    "locationName": "\u0e1a\u0e49\u0e32\u0e19\u0e17\u0e48\u0e32\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e1c\u0e25",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 45907.980800000005,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 28.692488,
+    "pddDeclaredAreaRai": 28.69,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/20-stc/20_STC_mosaic.webp",
+      "plotCode": "20-STC",
+      "plotName": "20-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e17\u0e48\u0e32\u0e40\u0e08\u0e23\u0e34\u0e0d\u0e1c\u0e25",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F20-stc%2F20_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F20-stc%2F20_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F20-stc%2F20_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.66141448669786,
+        12.721651632469115,
+        101.66581174274461,
+        12.726507338188307
+      ],
+      "boundary": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                101.665006,
+                12.722856
+              ],
+              [
+                101.665508,
+                12.721924
+              ],
+              [
+                101.665346,
+                12.722047
+              ],
+              [
+                101.664976,
+                12.722704
+              ],
+              [
+                101.664885,
+                12.722795
+              ],
+              [
+                101.664873,
+                12.722551
+              ],
+              [
+                101.66483,
+                12.722439
+              ],
+              [
+                101.664764,
+                12.722489
+              ],
+              [
+                101.66486,
+                12.722956
+              ],
+              [
+                101.665006,
+                12.722856
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                101.663772,
+                12.723286
+              ],
+              [
+                101.663791,
+                12.723327
+              ],
+              [
+                101.663284,
+                12.723472
+              ],
+              [
+                101.663481,
+                12.724154
+              ],
+              [
+                101.66338,
+                12.724182
+              ],
+              [
+                101.663192,
+                12.7235
+              ],
+              [
+                101.662749,
+                12.723549
+              ],
+              [
+                101.66247,
+                12.723957
+              ],
+              [
+                101.662576,
+                12.724424
+              ],
+              [
+                101.66183,
+                12.724758
+              ],
+              [
+                101.662157,
+                12.725904
+              ],
+              [
+                101.662721,
+                12.725668
+              ],
+              [
+                101.662797,
+                12.725405
+              ],
+              [
+                101.663038,
+                12.725192
+              ],
+              [
+                101.66341,
+                12.725065
+              ],
+              [
+                101.663602,
+                12.724841
+              ],
+              [
+                101.663792,
+                12.724703
+              ],
+              [
+                101.664229,
+                12.724274
+              ],
+              [
+                101.66434,
+                12.723898
+              ],
+              [
+                101.664495,
+                12.723806
+              ],
+              [
+                101.664897,
+                12.723058
+              ],
+              [
+                101.66486,
+                12.722956
+              ],
+              [
+                101.663772,
+                12.723286
+              ]
+            ],
+            [
+              [
+                101.663617,
+                12.723413
+              ],
+              [
+                101.663637,
+                12.723518
+              ],
+              [
+                101.663363,
+                12.723582
+              ],
+              [
+                101.663328,
+                12.72349
+              ],
+              [
+                101.663617,
+                12.723413
+              ]
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 28.692488,
+      "pddDeclaredAreaRai": 28.69,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 45907.980800000005,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "20-STC.tif",
+      "sourceFileSizeBytes": 1117942938,
+      "sourceWidth": 22101,
+      "sourceHeight": 24921,
+      "pixelSizeX": 0.02137580000000085,
+      "pixelSizeY": -0.021375800000002065,
+      "renderedSizeBytes": 1327638
+    },
+    "bounds": [
+      101.66141448669786,
+      12.721651632469115,
+      101.66581174274461,
+      12.726507338188307
+    ]
+  },
+  "21-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/21-stc/21_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-21-stc",
+    "plotCode": "21-STC",
+    "plotName": "21-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e40\u0e02\u0e32\u0e19\u0e49\u0e2d\u0e22",
+    "locationName": "\u0e1a\u0e49\u0e32\u0e19\u0e40\u0e02\u0e32\u0e19\u0e49\u0e2d\u0e22",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 234349.8176,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 146.468636,
+    "pddDeclaredAreaRai": 146.34,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/21-stc/21_STC_mosaic.webp",
+      "plotCode": "21-STC",
+      "plotName": "21-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e40\u0e02\u0e32\u0e19\u0e49\u0e2d\u0e22",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": {
+        "plotCode": "21-STC",
+        "checkedAt": "2026-09-22",
+        "driveFileId": "1wiQpxIT9lv85RHAWEF2iFG-lA0OHKOSP",
+        "driveFileName": "21-STC_mosaic.webp",
+        "r2Key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/21-stc/21_STC_mosaic.webp",
+        "sha256": "fb9f7e40a954b2e712df8419c9f2887c948edf8f1277f10503b9fe8f7ac3117c",
+        "sizeBytes": 1787584,
+        "width": 4096,
+        "height": 3975,
+        "sourceFileName": "21-STC.tif",
+        "sourceType": "derived_orthomosaic",
+        "quantitativeStatus": "requires_runtime_georeference",
+        "classificationStatus": "not_inferred_from_source_availability"
+      },
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F21-stc%2F21_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F21-stc%2F21_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F21-stc%2F21_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.78588253992267,
+        12.753870172113988,
+        101.7956507376372,
+        12.76318098050221
+      ],
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.78715,
+              12.761364
+            ],
+            [
+              101.786756,
+              12.761486
+            ],
+            [
+              101.786542,
+              12.761235
+            ],
+            [
+              101.787444,
+              12.760467
+            ],
+            [
+              101.787833,
+              12.760661
+            ],
+            [
+              101.788438,
+              12.760492
+            ],
+            [
+              101.789167,
+              12.759807
+            ],
+            [
+              101.789384,
+              12.759407
+            ],
+            [
+              101.789127,
+              12.758669
+            ],
+            [
+              101.788142,
+              12.758634
+            ],
+            [
+              101.788188,
+              12.758625
+            ],
+            [
+              101.788158,
+              12.758463
+            ],
+            [
+              101.788229,
+              12.758218
+            ],
+            [
+              101.78868,
+              12.757967
+            ],
+            [
+              101.788685,
+              12.757834
+            ],
+            [
+              101.791097,
+              12.75705
+            ],
+            [
+              101.79105,
+              12.756863
+            ],
+            [
+              101.791086,
+              12.756923
+            ],
+            [
+              101.791439,
+              12.756902
+            ],
+            [
+              101.7916,
+              12.756726
+            ],
+            [
+              101.79162,
+              12.756428
+            ],
+            [
+              101.791304,
+              12.756211
+            ],
+            [
+              101.790901,
+              12.756265
+            ],
+            [
+              101.790654,
+              12.755275
+            ],
+            [
+              101.793138,
+              12.754372
+            ],
+            [
+              101.793693,
+              12.755441
+            ],
+            [
+              101.794095,
+              12.755184
+            ],
+            [
+              101.794908,
+              12.75625
+            ],
+            [
+              101.794901,
+              12.756476
+            ],
+            [
+              101.794728,
+              12.756704
+            ],
+            [
+              101.793764,
+              12.756913
+            ],
+            [
+              101.793146,
+              12.757552
+            ],
+            [
+              101.792613,
+              12.757639
+            ],
+            [
+              101.792561,
+              12.757919
+            ],
+            [
+              101.793479,
+              12.7594
+            ],
+            [
+              101.793485,
+              12.759942
+            ],
+            [
+              101.793059,
+              12.760579
+            ],
+            [
+              101.792122,
+              12.76151
+            ],
+            [
+              101.791643,
+              12.761506
+            ],
+            [
+              101.791524,
+              12.759927
+            ],
+            [
+              101.791373,
+              12.759513
+            ],
+            [
+              101.790743,
+              12.759167
+            ],
+            [
+              101.790458,
+              12.759215
+            ],
+            [
+              101.789673,
+              12.759748
+            ],
+            [
+              101.789463,
+              12.759939
+            ],
+            [
+              101.789366,
+              12.760347
+            ],
+            [
+              101.789517,
+              12.760634
+            ],
+            [
+              101.78959,
+              12.761438
+            ],
+            [
+              101.789869,
+              12.761697
+            ],
+            [
+              101.790254,
+              12.761557
+            ],
+            [
+              101.79046,
+              12.761853
+            ],
+            [
+              101.790326,
+              12.762306
+            ],
+            [
+              101.789997,
+              12.762463
+            ],
+            [
+              101.789482,
+              12.762468
+            ],
+            [
+              101.788552,
+              12.761611
+            ],
+            [
+              101.788228,
+              12.761452
+            ],
+            [
+              101.78715,
+              12.761364
+            ]
+          ],
+          [
+            [
+              101.791178,
+              12.75517
+            ],
+            [
+              101.790654,
+              12.755275
+            ],
+            [
+              101.790836,
+              12.755992
+            ],
+            [
+              101.791342,
+              12.755837
+            ],
+            [
+              101.791178,
+              12.75517
+            ]
+          ],
+          [
+            [
+              101.792489,
+              12.755572
+            ],
+            [
+              101.792265,
+              12.755258
+            ],
+            [
+              101.791688,
+              12.755508
+            ],
+            [
+              101.791673,
+              12.755896
+            ],
+            [
+              101.792389,
+              12.755717
+            ],
+            [
+              101.792489,
+              12.755572
+            ]
+          ],
+          [
+            [
+              101.792073,
+              12.757642
+            ],
+            [
+              101.79213,
+              12.757397
+            ],
+            [
+              101.79205,
+              12.757206
+            ],
+            [
+              101.791802,
+              12.757022
+            ],
+            [
+              101.791523,
+              12.757121
+            ],
+            [
+              101.791368,
+              12.757279
+            ],
+            [
+              101.791358,
+              12.757392
+            ],
+            [
+              101.791565,
+              12.757743
+            ],
+            [
+              101.79181,
+              12.757784
+            ],
+            [
+              101.792073,
+              12.757642
+            ]
+          ],
+          [
+            [
+              101.792506,
+              12.757684
+            ],
+            [
+              101.792333,
+              12.75775
+            ],
+            [
+              101.791892,
+              12.758141
+            ],
+            [
+              101.791879,
+              12.758356
+            ],
+            [
+              101.7925,
+              12.758034
+            ],
+            [
+              101.792476,
+              12.757928
+            ],
+            [
+              101.792506,
+              12.757684
+            ]
+          ],
+          [
+            [
+              101.791195,
+              12.758673
+            ],
+            [
+              101.7914,
+              12.758633
+            ],
+            [
+              101.791559,
+              12.758322
+            ],
+            [
+              101.791386,
+              12.758158
+            ],
+            [
+              101.79134,
+              12.758012
+            ],
+            [
+              101.791211,
+              12.757882
+            ],
+            [
+              101.791071,
+              12.757861
+            ],
+            [
+              101.790953,
+              12.757901
+            ],
+            [
+              101.790933,
+              12.757956
+            ],
+            [
+              101.790935,
+              12.758073
+            ],
+            [
+              101.790836,
+              12.758392
+            ],
+            [
+              101.791011,
+              12.75852
+            ],
+            [
+              101.791056,
+              12.758612
+            ],
+            [
+              101.791195,
+              12.758673
+            ]
+          ],
+          [
+            [
+              101.789551,
+              12.757554
+            ],
+            [
+              101.790402,
+              12.759171
+            ],
+            [
+              101.790531,
+              12.759097
+            ],
+            [
+              101.789674,
+              12.757514
+            ],
+            [
+              101.789551,
+              12.757554
+            ]
+          ],
+          [
+            [
+              101.791652,
+              12.759781
+            ],
+            [
+              101.792174,
+              12.759595
+            ],
+            [
+              101.79207,
+              12.759316
+            ],
+            [
+              101.791548,
+              12.75952
+            ],
+            [
+              101.791652,
+              12.759781
+            ]
+          ],
+          [
+            [
+              101.793144,
+              12.754702
+            ],
+            [
+              101.793056,
+              12.754436
+            ],
+            [
+              101.792287,
+              12.754752
+            ],
+            [
+              101.792216,
+              12.755005
+            ],
+            [
+              101.792453,
+              12.754971
+            ],
+            [
+              101.792805,
+              12.755013
+            ],
+            [
+              101.793144,
+              12.754702
+            ]
+          ],
+          [
+            [
+              101.793027,
+              12.755927
+            ],
+            [
+              101.793203,
+              12.756106
+            ],
+            [
+              101.793308,
+              12.756394
+            ],
+            [
+              101.793264,
+              12.756638
+            ],
+            [
+              101.793451,
+              12.75688
+            ],
+            [
+              101.793672,
+              12.756833
+            ],
+            [
+              101.793659,
+              12.756553
+            ],
+            [
+              101.793641,
+              12.755749
+            ],
+            [
+              101.79336,
+              12.755264
+            ],
+            [
+              101.792857,
+              12.755586
+            ],
+            [
+              101.792832,
+              12.755857
+            ],
+            [
+              101.793027,
+              12.755927
+            ]
+          ],
+          [
+            [
+              101.794454,
+              12.755853
+            ],
+            [
+              101.79427,
+              12.755901
+            ],
+            [
+              101.794506,
+              12.756582
+            ],
+            [
+              101.794682,
+              12.756504
+            ],
+            [
+              101.794703,
+              12.756247
+            ],
+            [
+              101.794454,
+              12.755853
+            ]
+          ],
+          [
+            [
+              101.79387,
+              12.755986
+            ],
+            [
+              101.793921,
+              12.756676
+            ],
+            [
+              101.794232,
+              12.75663
+            ],
+            [
+              101.794093,
+              12.755938
+            ],
+            [
+              101.79387,
+              12.755986
+            ]
+          ],
+          [
+            [
+              101.792595,
+              12.756835
+            ],
+            [
+              101.793025,
+              12.756587
+            ],
+            [
+              101.792959,
+              12.756479
+            ],
+            [
+              101.792798,
+              12.756101
+            ],
+            [
+              101.792468,
+              12.756141
+            ],
+            [
+              101.792231,
+              12.756423
+            ],
+            [
+              101.792401,
+              12.756765
+            ],
+            [
+              101.792595,
+              12.756835
+            ]
+          ],
+          [
+            [
+              101.792832,
+              12.757474
+            ],
+            [
+              101.793089,
+              12.757444
+            ],
+            [
+              101.793389,
+              12.757125
+            ],
+            [
+              101.793213,
+              12.757018
+            ],
+            [
+              101.793092,
+              12.756875
+            ],
+            [
+              101.792892,
+              12.75704
+            ],
+            [
+              101.792745,
+              12.757122
+            ],
+            [
+              101.792832,
+              12.757474
+            ]
+          ],
+          [
+            [
+              101.7919,
+              12.758446
+            ],
+            [
+              101.792085,
+              12.758635
+            ],
+            [
+              101.792904,
+              12.758662
+            ],
+            [
+              101.792532,
+              12.758078
+            ],
+            [
+              101.7919,
+              12.758446
+            ]
+          ],
+          [
+            [
+              101.793314,
+              12.759447
+            ],
+            [
+              101.792149,
+              12.759857
+            ],
+            [
+              101.79215,
+              12.75992
+            ],
+            [
+              101.793314,
+              12.759501
+            ],
+            [
+              101.793314,
+              12.759447
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 146.468636,
+      "pddDeclaredAreaRai": 146.34,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 234349.8176,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "21-STC.tif",
+      "sourceFileSizeBytes": 3830455914,
+      "sourceWidth": 42079,
+      "sourceHeight": 40836,
+      "pixelSizeX": 0.02496689999999879,
+      "pixelSizeY": -0.024966899999997332,
+      "renderedSizeBytes": 1787584
+    },
+    "bounds": [
+      101.78588253992267,
+      12.753870172113988,
+      101.7956507376372,
+      12.76318098050221
+    ]
+  },
+  "22(1)-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/22-1-stc/22_1_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-22-1-stc",
+    "plotCode": "22(1)-STC",
+    "plotName": "22(1)-STC \u2014 \u0e40\u0e02\u0e32\u0e16\u0e49\u0e33",
+    "locationName": "\u0e40\u0e02\u0e32\u0e16\u0e49\u0e33",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 20899.1824,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 13.061989,
+    "pddDeclaredAreaRai": 13.06,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/22-1-stc/22_1_STC_mosaic.webp",
+      "plotCode": "22(1)-STC",
+      "plotName": "22(1)-STC \u2014 \u0e40\u0e02\u0e32\u0e16\u0e49\u0e33",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F22-1-stc%2F22_1_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F22-1-stc%2F22_1_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F22-1-stc%2F22_1_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.79524838768806,
+        12.753447305593228,
+        101.79801451363267,
+        12.756996153170823
+      ],
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.796985,
+              12.756455
+            ],
+            [
+              101.796357,
+              12.756607
+            ],
+            [
+              101.796177,
+              12.756038
+            ],
+            [
+              101.796142,
+              12.755904
+            ],
+            [
+              101.796238,
+              12.755876
+            ],
+            [
+              101.796484,
+              12.755783
+            ],
+            [
+              101.796798,
+              12.75576
+            ],
+            [
+              101.796646,
+              12.755336
+            ],
+            [
+              101.796702,
+              12.755328
+            ],
+            [
+              101.796655,
+              12.755232
+            ],
+            [
+              101.796426,
+              12.755386
+            ],
+            [
+              101.796264,
+              12.75574
+            ],
+            [
+              101.796238,
+              12.755849
+            ],
+            [
+              101.796179,
+              12.755859
+            ],
+            [
+              101.795731,
+              12.754048
+            ],
+            [
+              101.796162,
+              12.753922
+            ],
+            [
+              101.796483,
+              12.753896
+            ],
+            [
+              101.796512,
+              12.754092
+            ],
+            [
+              101.796958,
+              12.755994
+            ],
+            [
+              101.796897,
+              12.755955
+            ],
+            [
+              101.796922,
+              12.756219
+            ],
+            [
+              101.796985,
+              12.756455
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 13.061989,
+      "pddDeclaredAreaRai": 13.06,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 20899.1824,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "22(1)-STC.tif",
+      "sourceFileSizeBytes": 896010272,
+      "sourceWidth": 15934,
+      "sourceHeight": 20950,
+      "pixelSizeX": 0.018602400000001795,
+      "pixelSizeY": -0.01860240000000041,
+      "renderedSizeBytes": 2037460
+    },
+    "bounds": [
+      101.79524838768806,
+      12.753447305593228,
+      101.79801451363267,
+      12.756996153170823
+    ]
+  },
+  "22-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/22-stc/22_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-22-stc",
+    "plotCode": "22-STC",
+    "plotName": "22-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e40\u0e02\u0e32\u0e16\u0e49\u0e33",
+    "locationName": "\u0e1a\u0e49\u0e32\u0e19\u0e40\u0e02\u0e32\u0e16\u0e49\u0e33",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 41685.536,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 26.05346,
+    "pddDeclaredAreaRai": 26.05,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/22-stc/22_STC_mosaic.webp",
+      "plotCode": "22-STC",
+      "plotName": "22-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e40\u0e02\u0e32\u0e16\u0e49\u0e33",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F22-stc%2F22_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F22-stc%2F22_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F22-stc%2F22_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.79948442026404,
+        12.75524262170705,
+        101.80362693179354,
+        12.76006619339397
+      ],
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.802656,
+              12.758963
+            ],
+            [
+              101.801724,
+              12.758641
+            ],
+            [
+              101.801638,
+              12.758162
+            ],
+            [
+              101.801566,
+              12.758126
+            ],
+            [
+              101.800581,
+              12.757948
+            ],
+            [
+              101.801121,
+              12.7568
+            ],
+            [
+              101.802088,
+              12.755589
+            ],
+            [
+              101.802301,
+              12.755784
+            ],
+            [
+              101.802875,
+              12.756058
+            ],
+            [
+              101.802864,
+              12.756119
+            ],
+            [
+              101.802097,
+              12.757305
+            ],
+            [
+              101.802163,
+              12.757366
+            ],
+            [
+              101.80235,
+              12.757568
+            ],
+            [
+              101.802601,
+              12.757821
+            ],
+            [
+              101.803122,
+              12.758358
+            ],
+            [
+              101.803207,
+              12.758548
+            ],
+            [
+              101.803198,
+              12.758596
+            ],
+            [
+              101.802656,
+              12.758963
+            ]
+          ],
+          [
+            [
+              101.801441,
+              12.756543
+            ],
+            [
+              101.801626,
+              12.75668
+            ],
+            [
+              101.802038,
+              12.756979
+            ],
+            [
+              101.802612,
+              12.756197
+            ],
+            [
+              101.802018,
+              12.755807
+            ],
+            [
+              101.801628,
+              12.756309
+            ],
+            [
+              101.801441,
+              12.756543
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 26.05346,
+      "pddDeclaredAreaRai": 26.05,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 41685.536,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "22-STC.tif",
+      "sourceFileSizeBytes": 1037187100,
+      "sourceWidth": 19383,
+      "sourceHeight": 23080,
+      "pixelSizeX": 0.022931100000002567,
+      "pixelSizeY": -0.022931100000000672,
+      "renderedSizeBytes": 1815844
+    },
+    "bounds": [
+      101.79948442026404,
+      12.75524262170705,
+      101.80362693179354,
+      12.76006619339397
+    ]
+  },
+  "23-1-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/23-1-stc/23_1_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-23-1-stc",
+    "plotCode": "23-1-STC",
+    "plotName": "\u0e41\u0e1b\u0e25\u0e07 23-1-STC",
+    "locationName": "\u0e2d\u0e48\u0e32\u0e27\u0e21\u0e30\u0e02\u0e32\u0e21\u0e1b\u0e49\u0e2d\u0e21, \u0e01\u0e23\u0e48\u0e33, \u0e41\u0e01\u0e25\u0e07",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 14560,
+    "boundarySource": "none",
+    "boundaryEnforced": false,
+    "pddGeometryAreaRai": null,
+    "pddDeclaredAreaRai": null,
+    "pddSourceDate": null,
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/23-1-stc/23_1_STC_mosaic.webp",
+      "plotCode": "23-1-STC",
+      "plotName": "\u0e41\u0e1b\u0e25\u0e07 23-1-STC",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F23-1-stc%2F23_1_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F23-1-stc%2F23_1_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F23-1-stc%2F23_1_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.65677572710212,
+        12.668992989358546,
+        101.66060215639784,
+        12.672208812090998
+      ],
+      "boundary": null,
+      "boundarySource": "none",
+      "boundaryEnforced": false,
+      "pddGeometryAreaRai": null,
+      "pddDeclaredAreaRai": null,
+      "pddSourceDate": null,
+      "plotAreaSqm": 14560,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "23-1-STC.tif",
+      "sourceFileSizeBytes": 502653324,
+      "sourceWidth": 17121,
+      "sourceHeight": 14607,
+      "pixelSizeX": 0.02408450000000128,
+      "pixelSizeY": -0.02408449999999428,
+      "renderedSizeBytes": 1408042
+    },
+    "bounds": [
+      101.65677572710212,
+      12.668992989358546,
+      101.66060215639784,
+      12.672208812090998
+    ]
+  },
+  "23-STC": {
+    "key": "mangrove-drone-dashboard/recovered/23_STC_mosaic.webp",
+    "mosaicSource": "recovered_registry",
+    "plotId": "sheet-master:23-stc",
+    "plotCode": "23-STC",
+    "plotName": "23-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e19\u0e32\u0e0b\u0e32",
+    "locationName": "\u0e1a\u0e49\u0e32\u0e19\u0e19\u0e32\u0e0b\u0e32",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 68653.0256,
+    "boundarySource": "pdd_kmz_2026_09_21",
+    "boundaryEnforced": true,
+    "pddGeometryAreaRai": 42.908141,
+    "pddDeclaredAreaRai": 42.9,
+    "pddSourceDate": "2026-09-21",
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/recovered/23_STC_mosaic.webp",
+      "plotCode": "23-STC",
+      "plotName": "23-STC \u2014 \u0e1a\u0e49\u0e32\u0e19\u0e19\u0e32\u0e0b\u0e32",
+      "mosaicSource": "recovered_registry",
+      "recoverySource": {
+        "plotCode": "23-STC",
+        "checkedAt": "2026-09-22",
+        "status": "available",
+        "note": "\u0e2a\u0e23\u0e49\u0e32\u0e07 WebP \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e40\u0e27\u0e47\u0e1a\u0e08\u0e32\u0e01 GeoTIFF \u0e08\u0e23\u0e34\u0e07\u0e43\u0e19 Drive; bounds \u0e41\u0e25\u0e30\u0e02\u0e19\u0e32\u0e14\u0e15\u0e49\u0e19\u0e09\u0e1a\u0e31\u0e1a\u0e2d\u0e48\u0e32\u0e19\u0e08\u0e32\u0e01 GeoTIFF \u0e42\u0e14\u0e22\u0e15\u0e23\u0e07",
+        "driveFileId": "12lGFhhIfRrS4Wd1A2umMy7M8EW4jWYUC",
+        "driveFileName": "23 STC.tif",
+        "sourceFileName": "23 STC.tif",
+        "sourceFileSizeBytes": 1420909088,
+        "sourceType": "drive_geotiff_derived_static_webp",
+        "staticAssetKey": "mangrove-drone-dashboard/recovered/23_STC_mosaic.webp",
+        "staticAssetPath": "/recovered/23_STC_mosaic.webp",
+        "bounds": [
+          101.7207646,
+          12.713267,
+          101.7275128,
+          12.7177939
+        ],
+        "sha256": "514336ee8b96e81b88afeeec7a913fa39ff6819cc0c552494af9437ff58604bd",
+        "sizeBytes": 866710,
+        "width": 4096,
+        "height": 2771,
+        "sourceWidth": 32770,
+        "sourceHeight": 22170,
+        "pixelSizeX": 0.0222038,
+        "pixelSizeY": 0.0222038,
+        "sourceCrs": "EPSG:32648",
+        "isNorthUp": true
+      },
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Frecovered%2F23_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Frecovered%2F23_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Frecovered%2F23_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.7207646,
+        12.713267,
+        101.7275128,
+        12.7177939
+      ],
+      "boundary": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.723219,
+              12.716143
+            ],
+            [
+              101.722017,
+              12.716053
+            ],
+            [
+              101.721558,
+              12.715087
+            ],
+            [
+              101.722102,
+              12.714672
+            ],
+            [
+              101.722552,
+              12.714711
+            ],
+            [
+              101.722471,
+              12.714234
+            ],
+            [
+              101.72272,
+              12.714058
+            ],
+            [
+              101.723279,
+              12.713827
+            ],
+            [
+              101.723451,
+              12.714065
+            ],
+            [
+              101.723465,
+              12.714708
+            ],
+            [
+              101.723485,
+              12.714739
+            ],
+            [
+              101.724211,
+              12.71479
+            ],
+            [
+              101.724892,
+              12.714842
+            ],
+            [
+              101.725039,
+              12.71492
+            ],
+            [
+              101.725121,
+              12.714856
+            ],
+            [
+              101.726383,
+              12.714914
+            ],
+            [
+              101.725108,
+              12.716067
+            ],
+            [
+              101.725027,
+              12.716133
+            ],
+            [
+              101.72497,
+              12.716178
+            ],
+            [
+              101.723219,
+              12.716143
+            ]
+          ],
+          [
+            [
+              101.722793,
+              12.715747
+            ],
+            [
+              101.722804,
+              12.715901
+            ],
+            [
+              101.722951,
+              12.715917
+            ],
+            [
+              101.723054,
+              12.716016
+            ],
+            [
+              101.723209,
+              12.71596
+            ],
+            [
+              101.723095,
+              12.715627
+            ],
+            [
+              101.722986,
+              12.715763
+            ],
+            [
+              101.722793,
+              12.715747
+            ]
+          ],
+          [
+            [
+              101.724176,
+              12.716049
+            ],
+            [
+              101.724136,
+              12.715724
+            ],
+            [
+              101.723769,
+              12.7158
+            ],
+            [
+              101.72378,
+              12.716026
+            ],
+            [
+              101.724176,
+              12.716049
+            ]
+          ],
+          [
+            [
+              101.724922,
+              12.716087
+            ],
+            [
+              101.724918,
+              12.715707
+            ],
+            [
+              101.724623,
+              12.715683
+            ],
+            [
+              101.724563,
+              12.716081
+            ],
+            [
+              101.724922,
+              12.716087
+            ]
+          ]
+        ]
+      },
+      "boundarySource": "pdd_kmz_2026_09_21",
+      "boundaryEnforced": true,
+      "pddGeometryAreaRai": 42.908141,
+      "pddDeclaredAreaRai": 42.9,
+      "pddSourceDate": "2026-09-21",
+      "plotAreaSqm": 68653.0256,
+      "georeferenced": true,
+      "georefSource": "recovery_registry",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": null,
+      "sourceFileName": "23 STC.tif",
+      "sourceFileSizeBytes": 1420909088,
+      "sourceWidth": 32770,
+      "sourceHeight": 22170,
+      "pixelSizeX": 0.0222038,
+      "pixelSizeY": 0.0222038,
+      "renderedSizeBytes": 866710
+    },
+    "bounds": [
+      101.7207646,
+      12.713267,
+      101.7275128,
+      12.7177939
+    ]
+  },
+  "23(1)-STC": {
+    "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/23-1-stc/23_1_STC_mosaic.webp",
+    "mosaicSource": "analysis_assets",
+    "plotId": "plot-23-1-stc",
+    "plotCode": "23(1)-STC",
+    "plotName": "\u0e41\u0e1b\u0e25\u0e07 23-1-STC",
+    "locationName": "\u0e2d\u0e48\u0e32\u0e27\u0e21\u0e30\u0e02\u0e32\u0e21\u0e1b\u0e49\u0e2d\u0e21, \u0e01\u0e23\u0e48\u0e33, \u0e41\u0e01\u0e25\u0e07",
+    "province": "\u0e23\u0e30\u0e22\u0e2d\u0e07",
+    "plotAreaSqm": 14560,
+    "boundarySource": "none",
+    "boundaryEnforced": false,
+    "pddGeometryAreaRai": null,
+    "pddDeclaredAreaRai": null,
+    "pddSourceDate": null,
+    "browserRenderable": true,
+    "meta": {
+      "key": "mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/23-1-stc/23_1_STC_mosaic.webp",
+      "plotCode": "23-1-STC",
+      "plotName": "\u0e41\u0e1b\u0e25\u0e07 23-1-STC",
+      "mosaicSource": "analysis_assets",
+      "recoverySource": null,
+      "objectUrl": "/api/r2/object?key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F23-1-stc%2F23_1_STC_mosaic.webp",
+      "previewUrl": "/api/imagery/preview?width=2048&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F23-1-stc%2F23_1_STC_mosaic.webp",
+      "detailUrl": "/api/imagery/preview?width=4096&key=mangrove-drone-dashboard%2Fassets%2Frayong-3color-overview-v1-20260817%2F23-1-stc%2F23_1_STC_mosaic.webp",
+      "contentType": "image/webp",
+      "bounds": [
+        101.65677572710212,
+        12.668992989358546,
+        101.66060215639784,
+        12.672208812090998
+      ],
+      "boundary": null,
+      "boundarySource": "none",
+      "boundaryEnforced": false,
+      "pddGeometryAreaRai": null,
+      "pddDeclaredAreaRai": null,
+      "pddSourceDate": null,
+      "plotAreaSqm": 14560,
+      "georeferenced": true,
+      "georefSource": "dashboard_d1",
+      "georefWarning": null,
+      "isNorthUp": true,
+      "rasterStatus": "GOOD",
+      "sourceFileName": "23-1-STC.tif",
+      "sourceFileSizeBytes": 502653324,
+      "sourceWidth": 17121,
+      "sourceHeight": 14607,
+      "pixelSizeX": 0.02408450000000128,
+      "pixelSizeY": -0.02408449999999428,
+      "renderedSizeBytes": 1408042
+    },
+    "bounds": [
+      101.65677572710212,
+      12.668992989358546,
+      101.66060215639784,
+      12.672208812090998
+    ]
+  }
+}

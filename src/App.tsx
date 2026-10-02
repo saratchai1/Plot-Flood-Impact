@@ -387,6 +387,7 @@ export function App() {
                   return `${selectedScene.sensor} · ${bandLabel} · ${formatDateTime(selectedScene.datetime)}`;
                 })()}
                 plotBounds={(selectedPlot?.droneBounds || selectedPlot?.bounds) as [number, number, number, number] || null}
+                satelliteRgbUrl={selectedScene?.previewUrls?.rgb || null}
                 floodMode={selectedBand === 'flood'}
               />
             </div>

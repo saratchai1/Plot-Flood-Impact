@@ -1,26 +1,18 @@
 import { useState, useRef, useCallback, useMemo } from "react";
 
-/** Build a static ESRI World Imagery URL for given bounds matching exact georeference. */
-function esriBasemapUrl(bounds: [number, number, number, number], width = 1200, height = 900) {
-  const [west, south, east, north] = bounds;
-  const bbox = [west, south, east, north].join(",");
-  return (
-    `https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export` +
-    `?bbox=${bbox}&bboxSR=4326&imageSR=4326&size=${width},${height}&format=png&f=image`
-  );
-}
-
 export function ImageCompare({
   droneUrl,
   satelliteUrl,
   satelliteLabel,
   plotBounds,
+  satelliteRgbUrl = null,
   floodMode = false,
 }: {
   droneUrl: string | null;
   satelliteUrl: string | null;
   satelliteLabel: string;
   plotBounds: [number, number, number, number] | null;
+  satelliteRgbUrl?: string | null;
   floodMode?: boolean;
 }) {
   const [sliderPos, setSliderPos] = useState(50);
@@ -37,10 +29,7 @@ export function ImageCompare({
     return Number.isFinite(aspect) && aspect > 0.2 && aspect < 5 ? `${aspect}` : "4 / 3";
   }, [plotBounds]);
 
-  const basemapSrc = useMemo(() => {
-    if (!plotBounds) return null;
-    return esriBasemapUrl(plotBounds, 1200, 900);
-  }, [plotBounds]);
+  const backgroundAerial = satelliteRgbUrl || satelliteUrl;
 
   const updateSlider = useCallback((clientX: number) => {
     if (!containerRef.current) return;
@@ -79,17 +68,17 @@ export function ImageCompare({
         width: "100%",
         aspectRatio: containerAspect,
         overflow: "hidden",
-        background: "#1e293b",
+        background: "#0f172a",
         borderRadius: "8px",
         cursor: "col-resize",
         userSelect: "none",
         touchAction: "none",
       }}
     >
-      {/* Layer 0 — Basemap (aerial context behind everything) */}
-      {basemapSrc && (
+      {/* Layer 0 — Aerial satellite background behind everything */}
+      {backgroundAerial && (
         <img
-          src={basemapSrc}
+          src={backgroundAerial}
           alt=""
           draggable={false}
           style={{
@@ -99,12 +88,11 @@ export function ImageCompare({
             height: "100%",
             objectFit: "fill",
             objectPosition: "center",
-            opacity: 0.6,
           }}
         />
       )}
 
-      {/* Layer 1 — Satellite (right side, fully visible) */}
+      {/* Layer 1 — Satellite band view (right side, fully visible) */}
       {satelliteUrl && (
         <img
           src={satelliteUrl}
@@ -118,14 +106,13 @@ export function ImageCompare({
             objectFit: "fill",
             objectPosition: "center",
             ...(floodMode ? {
-              // Mock visual: tint the grayscale water index to blue
               filter: "sepia(1) hue-rotate(180deg) saturate(400%) brightness(1.2) contrast(1.5)"
             } : {})
           }}
         />
       )}
 
-      {/* Layer 2 — Drone side: basemap + drone, clipped together */}
+      {/* Layer 2 — Drone side: aerial satellite background + drone, clipped together */}
       <div
         style={{
           position: "absolute",
@@ -133,10 +120,10 @@ export function ImageCompare({
           clipPath: `inset(0 ${100 - sliderPos}% 0 0)`,
         }}
       >
-        {/* Basemap behind the drone on the left side too */}
-        {basemapSrc && (
+        {/* Aerial background under transparent parts of drone */}
+        {backgroundAerial && (
           <img
-            src={basemapSrc}
+            src={backgroundAerial}
             alt=""
             draggable={false}
             style={{
@@ -314,21 +301,7 @@ export function ImageCompare({
         </div>
       )}
 
-      {/* Basemap attribution */}
-      {basemapSrc && (
-        <div
-          style={{
-            position: "absolute",
-            bottom: 2,
-            right: 4,
-            fontSize: 9,
-            color: "rgba(255,255,255,0.5)",
-            pointerEvents: "none",
-          }}
-        >
-          Basemap © Esri
-        </div>
-      )}
+
     </div>
   );
 }

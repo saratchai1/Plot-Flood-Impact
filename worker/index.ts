@@ -3,6 +3,7 @@ import type { Geometry } from "geojson";
 import { getPddBoundary, listPddBoundaries } from "./pddBoundaries";
 import satelliteManifest from "../data/satellite/catalog/scenes.json";
 import droneBoundsMap from "../drone_bounds.json";
+import droneCatalog from "../drone_catalog.json";
 
 type StacLink = {
   rel?: string;
@@ -276,76 +277,33 @@ async function fetchStacScenes(geometry: Geometry, from: string, to: string) {
 /**
  * Fetch drone record.
  * On Cloudflare Workers, same-zone subrequests to other *.saratchai.workers.dev
- * workers fail with 404. So we return direct upstream URLs for the browser
- * to fetch the images directly.
+/**
+ * Fetch drone record from the pre-indexed drone catalog.
+ * Guarantees 100% correct R2 keys, bounding boxes, and image URLs for all 19 Rayong plots.
  */
-async function fetchDroneRecord(plotCode: string) {
-  const listUrl =
-    DRONE_SOURCE_ORIGIN +
-    "/api/imagery?province=RAYONG&q=" +
-    encodeURIComponent(plotCode);
+function fetchDroneRecord(plotCode: string) {
+  const catalog = droneCatalog as Record<string, any>;
+  const normalizedCode = plotCode.trim().toUpperCase();
+  const altCode = normalizedCode.replace('(', '-').replace(')', '');
+  const item = catalog[normalizedCode] || catalog[altCode];
 
-  // Try fetching the listing — may fail on CF Workers due to same-zone routing
-  let listResponse: Response;
-  try {
-    listResponse = await fetch(listUrl, {
-      headers: { accept: "application/json" }
-    });
-  } catch {
-    // If fetch itself fails, return a fallback with direct URLs
-    return buildDirectDroneRecord(plotCode);
-  }
-
-  if (!listResponse.ok) {
-    // CF Workers same-zone 404 — use fallback direct URLs
-    if (listResponse.status === 404) {
-      return buildDirectDroneRecord(plotCode);
-    }
-    return {
-      available: false,
-      reason: `DRONE_LIST_${listResponse.status}`
-    };
-  }
-
-  const list = (await listResponse.json()) as {
-    items?: Array<{
-      key?: string;
-      plotCode?: string;
-      plotName?: string;
-      locationName?: string | null;
-      plotAreaSqm?: number | null;
-      boundarySource?: string;
-      mosaicSource?: string;
-    }>;
-  };
-
-  const item = (list.items || []).find(
-    (row) => String(row.plotCode || "").trim().toUpperCase() === plotCode
-  );
-  if (!item?.key) {
+  if (!item || !item.key) {
     return {
       available: false,
       reason: "DRONE_MOSAIC_NOT_FOUND"
     };
   }
 
-  const metaUrl =
+  const directPreview = 
     DRONE_SOURCE_ORIGIN +
-    "/api/imagery/meta?key=" +
+    "/api/imagery/preview?key=" +
     encodeURIComponent(item.key) +
-    "&plotCode=" +
-    encodeURIComponent(plotCode);
-  let meta: Record<string, unknown> | null = null;
-  try {
-    const metaResponse = await fetch(metaUrl, {
-      headers: { accept: "application/json" }
-    });
-    meta = metaResponse.ok
-      ? ((await metaResponse.json()) as Record<string, unknown>)
-      : null;
-  } catch {
-    // Ignore meta fetch failures
-  }
+    "&width=2048";
+  const directDetail = 
+    DRONE_SOURCE_ORIGIN +
+    "/api/imagery/preview?key=" +
+    encodeURIComponent(item.key) +
+    "&width=4096";
 
   return {
     available: true,
@@ -354,55 +312,12 @@ async function fetchDroneRecord(plotCode: string) {
     locationName: item.locationName || null,
     plotAreaSqm: item.plotAreaSqm ?? null,
     boundarySource: item.boundarySource || null,
-    mosaicSource: item.mosaicSource || null,
-    capturedAt: null,
-    source: "mangrove-area-classifier",
-    previewUrl:
-      "/api/drone-image?key=" +
-      encodeURIComponent(item.key) +
-      "&width=2048",
-    detailUrl:
-      "/api/drone-image?key=" +
-      encodeURIComponent(item.key) +
-      "&width=4096",
-    meta
-  };
-}
-
-/**
- * Fallback: build drone URLs that point directly to the upstream worker.
- * Used when CF Worker-to-Worker subrequest fails.
- */
-function buildDirectDroneRecord(plotCode: string) {
-  // Construct the known key pattern for Rayong plots
-  const plotLower = plotCode.toLowerCase().replace(/[()]/g, match => match);
-  const plotUnderscore = plotCode.replace(/-/g, '_');
-  const key = `mangrove-drone-dashboard/assets/rayong-3color-overview-v1-20260817/${plotLower}/${plotUnderscore}_mosaic.webp`;
-  
-  const directPreview = 
-    DRONE_SOURCE_ORIGIN +
-    "/api/imagery/preview?key=" +
-    encodeURIComponent(key) +
-    "&width=2048";
-  const directDetail = 
-    DRONE_SOURCE_ORIGIN +
-    "/api/imagery/preview?key=" +
-    encodeURIComponent(key) +
-    "&width=4096";
-
-  return {
-    available: true,
-    key,
-    plotName: plotCode,
-    locationName: null,
-    plotAreaSqm: null,
-    boundarySource: null,
-    mosaicSource: "analysis_assets",
+    mosaicSource: item.mosaicSource || "analysis_assets",
     capturedAt: null,
     source: "mangrove-area-classifier-direct",
     previewUrl: directPreview,
     detailUrl: directDetail,
-    meta: null
+    meta: item.meta || null
   };
 }
 

@@ -145,3 +145,13 @@ No satellite or drone credential is required for the current public-read sources
 This first implementation is an **evidence comparison workspace**, not yet a hydraulic damage model.
 
 It does not label a plot damaged merely because water is visible. A later analysis layer should calculate flood-water anomaly against normal tidal inundation, persistence/duration, and tide/rain context before assigning an impact classification.
+
+## Shared environmental observation core (staged v0.1.0)
+
+The Worker STAC scene key and geometry bounds, and the page's Thai date-time display,
+now delegate to an immutable version-pinned snapshot of
+`carbon-drive-devteam/mangrove-drone-dashboard/packages/environmental-observation-core`
+(commit `715d13068974f8bc1241b01ffd0f8d30c8dcf336`, core blob `b51165d97d05756e6dca3ed7836b1bd5e6980dd3`). The exact core/ESM/type files are verified by `npm test`.
+No change to the MapLibre map, image comparison, satellite cache, flood scoring or source providers.
+This PR is based on `feat/local-satellite-cache` (source branch; `main` is README-only).
+The local branch still contains a **mock** flood-band selector; do not present it as measured flooding.

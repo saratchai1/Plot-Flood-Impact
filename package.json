@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "worker:dev": "wrangler dev",
     "deploy": "npm run build && wrangler deploy",
-    "test": "node --test tests/source-contract.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "start": "tsx server.ts",
     "satellite:sync": "source venv/bin/activate && python scripts/query_stac.py && python scripts/sync_satellite.py"
   },

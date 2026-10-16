@@ -1,4 +1,5 @@
 import { Hono } from "hono";
+import { geometryBounds, stacSceneKey } from "../src/shared/observation-core/index.mjs";
 import type { Geometry } from "geojson";
 import { getPddBoundary, listPddBoundaries } from "./pddBoundaries";
 import satelliteManifest from "../data/satellite/catalog/scenes.json";
@@ -72,47 +73,6 @@ function safeDate(value: string | null, fallback: string) {
   if (!value) return fallback;
   const date = new Date(value);
   return Number.isFinite(date.getTime()) ? date.toISOString() : fallback;
-}
-
-function geometryBounds(geometry: Geometry): [number, number, number, number] | null {
-  let west = Infinity;
-  let south = Infinity;
-  let east = -Infinity;
-  let north = -Infinity;
-
-  const visit = (value: unknown) => {
-    if (!Array.isArray(value)) return;
-    if (
-      value.length >= 2 &&
-      typeof value[0] === "number" &&
-      typeof value[1] === "number"
-    ) {
-      west = Math.min(west, value[0]);
-      south = Math.min(south, value[1]);
-      east = Math.max(east, value[0]);
-      north = Math.max(north, value[1]);
-      return;
-    }
-    for (const child of value) visit(child);
-  };
-
-  const record = geometry as unknown as {
-    coordinates?: unknown;
-    geometries?: Geometry[];
-  };
-  if (record.coordinates) visit(record.coordinates);
-  for (const child of record.geometries || []) {
-    const childBounds = geometryBounds(child);
-    if (!childBounds) continue;
-    west = Math.min(west, childBounds[0]);
-    south = Math.min(south, childBounds[1]);
-    east = Math.max(east, childBounds[2]);
-    north = Math.max(north, childBounds[3]);
-  }
-
-  return [west, south, east, north].every(Number.isFinite) && west <= east && south <= north
-    ? [west, south, east, north]
-    : null;
 }
 
 function centroidFromBounds(bounds: [number, number, number, number] | null) {
@@ -237,7 +197,7 @@ async function fetchStacScenes(geometry: Geometry, from: string, to: string) {
     const payload = (await response.json()) as StacFeatureCollection;
     const features = Array.isArray(payload.features) ? payload.features : [];
     for (const item of features) {
-      const key = `${item.collection || ""}:${item.id || ""}`;
+      const key = stacSceneKey(item.collection, item.id);
       if (!item.id || seen.has(key)) continue;
       seen.add(key);
       items.push(item);

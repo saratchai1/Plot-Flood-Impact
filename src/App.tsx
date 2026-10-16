@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { formatBangkok } from "./shared/observation-core/index.mjs";
 import { getDrone, getSatellite, listPlots } from "./api";
 import { PlotMap } from "./PlotMap";
 import { ImageCompare } from "./ImageCompare";
@@ -19,11 +20,7 @@ type SensorId = (typeof SENSOR_OPTIONS)[number]["id"];
 
 function formatDateTime(value: string) {
   if (!value) return "—";
-  return new Intl.DateTimeFormat("th-TH", {
-    timeZone: "Asia/Bangkok",
-    dateStyle: "medium",
-    timeStyle: "short"
-  }).format(new Date(value));
+  return formatBangkok(value, { dateStyle: "medium", timeStyle: "short" });
 }
 
 function formatDay(value: string) {
